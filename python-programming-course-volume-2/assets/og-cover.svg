@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">AI悦创与 Brclio 编程一对一辅导</title>
+  <desc id="desc">面向留学生与国内学生，覆盖编程、AI、数据分析和 Vibe Coding 的 Zoom 线上一对一辅导。</desc>
+  <defs>
+    <radialGradient id="warmGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(150 80) rotate(34) scale(540 410)">
+      <stop stop-color="#F4D758" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#F4D758" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="stripe" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="4" height="12" fill="#2B7FD8" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#FEFCF6"/>
+  <rect width="1200" height="630" fill="url(#warmGlow)"/>
+  <circle cx="1080" cy="84" r="198" fill="none" stroke="#F4D758" stroke-width="3" stroke-dasharray="10 12" opacity="0.72"/>
+  <circle cx="1134" cy="522" r="176" fill="#2B7FD8" opacity="0.08"/>
+  <path d="M0 574H1200V630H0Z" fill="url(#stripe)"/>
+
+  <rect x="72" y="64" width="72" height="72" rx="18" fill="#F4D758"/>
+  <text x="108" y="111" text-anchor="middle" fill="#1A1A2E" font-family="Georgia, 'Songti SC', serif" font-size="25" font-weight="700">PY</text>
+  <text x="168" y="92" fill="#1E5BA8" font-family="-apple-system, 'PingFang SC', sans-serif" font-size="16" font-weight="700" letter-spacing="4">ZOOM ONLINE · ONE TO ONE</text>
+  <text x="168" y="124" fill="#626272" font-family="-apple-system, 'PingFang SC', sans-serif" font-size="18" font-weight="600">留学生 · 国内学生 · 职场学习者</text>
+
+  <text x="72" y="264" fill="#1A1A2E" font-family="Georgia, 'Songti SC', serif" font-size="74" font-weight="700">AI悦创&amp;Brclio</text>
+  <text x="72" y="352" fill="#1E5BA8" font-family="Georgia, 'Songti SC', serif" font-size="78" font-weight="700">编程一对一辅导</text>
+  <rect x="72" y="378" width="346" height="19" rx="9.5" fill="#F4D758" opacity="0.88"/>
+
+  <g font-family="-apple-system, 'PingFang SC', sans-serif" font-size="20" font-weight="700">
+    <rect x="72" y="438" width="160" height="56" rx="28" fill="#EAF3FB"/>
+    <text x="152" y="474" text-anchor="middle" fill="#1E5BA8">编程私教</text>
+    <rect x="248" y="438" width="140" height="56" rx="28" fill="#FFF3CD"/>
+    <text x="318" y="474" text-anchor="middle" fill="#786300">AI 私教</text>
+    <rect x="404" y="438" width="160" height="56" rx="28" fill="#FBE8EB"/>
+    <text x="484" y="474" text-anchor="middle" fill="#AF3044">数据分析</text>
+    <rect x="580" y="438" width="190" height="56" rx="28" fill="#EAF3FB"/>
+    <text x="675" y="474" text-anchor="middle" fill="#1E5BA8">Vibe Coding</text>
+  </g>
+
+  <text x="72" y="555" fill="#4A4A5A" font-family="-apple-system, 'PingFang SC', sans-serif" font-size="20" font-weight="600">编程思维 × Python 双卷课程表 · 76 项课程内容</text>
+  <text x="1128" y="555" text-anchor="end" fill="#E84A5F" font-family="Georgia, 'Songti SC', serif" font-size="23" font-style="italic" font-weight="700">Think · Code · Build</text>
+</svg>
