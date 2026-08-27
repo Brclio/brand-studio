@@ -4,13 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#fefcf6">
-  <meta name="description" content="AI悦创《卷二：Python 小咖养成》课程安排展示页：11 个核心章节、10 轮测试、3 个实践项目与 44 个学习入口。">
+  <meta name="description" content="AI悦创 Python 双卷课程表：卷一建立编程思维，卷二进入 Python 基础实践，共 16 个核心章节与 76 项课程内容。">
   <meta name="author" content="AI悦创 / AndersonHJB">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="zh_CN">
-  <meta property="og:title" content="卷二：Python 小咖养成｜课程安排">
-  <meta property="og:description" content="从环境搭建到文件与异常，用完整的课程主线建立 Python 全局观与编程逻辑。">
-  <title>卷二：Python 小咖养成｜课程安排</title>
+  <meta property="og:title" content="编程思维到 Python｜双卷课程安排">
+  <meta property="og:description" content="从理解计算、算法与人工智能，到用 Python 表达数据、条件、循环、函数与类。">
+  <title>编程思维到 Python｜双卷课程安排</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -133,7 +133,7 @@
     .header-inner {
       min-height: 4.75rem;
       display: grid;
-      grid-template-columns: auto 1fr auto;
+      grid-template-columns: auto 1fr;
       align-items: center;
       gap: clamp(1rem, 3vw, 2.5rem);
     }
@@ -745,7 +745,21 @@
     .outline-rail {
       position: sticky;
       top: 6.3rem;
-      padding-top: 0.6rem;
+      max-height: calc(100dvh - 7.2rem);
+      overflow-y: auto;
+      overscroll-behavior: contain;
+      padding: 0.6rem 0.75rem 0.75rem 0;
+      scrollbar-color: var(--blue-deep) rgba(43, 127, 216, 0.08);
+      scrollbar-width: thin;
+    }
+
+    .outline-rail::-webkit-scrollbar {
+      width: 0.32rem;
+    }
+
+    .outline-rail::-webkit-scrollbar-thumb {
+      background: var(--blue-deep);
+      border-radius: 999px;
     }
 
     .rail-label {
@@ -761,6 +775,30 @@
     .rail-list {
       list-style: none;
       counter-reset: rail;
+    }
+
+    .rail-group + .rail-group {
+      margin-top: 1.5rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--line);
+    }
+
+    .rail-volume {
+      display: grid;
+      gap: 0.15rem;
+      margin-bottom: 0.65rem;
+    }
+
+    .rail-volume strong {
+      font-family: 'Noto Serif SC', serif;
+      font-size: 0.88rem;
+      font-weight: 900;
+    }
+
+    .rail-volume span {
+      color: var(--ink-faint);
+      font-size: 0.66rem;
+      line-height: 1.6;
     }
 
     .rail-list li {
@@ -816,6 +854,7 @@
 
     .module-card {
       --module-color: var(--blue-deep);
+      scroll-margin-top: 7rem;
       overflow: clip;
       background: var(--paper);
       border: 1px solid rgba(26, 26, 46, 0.08);
@@ -913,10 +952,6 @@
     }
 
     .module-overview {
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) auto;
-      align-items: start;
-      gap: 1.5rem;
       padding-block: 1.35rem;
     }
 
@@ -927,19 +962,6 @@
       line-height: 1.85;
     }
 
-    .module-time {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.45rem;
-      padding: 0.42rem 0.7rem;
-      color: var(--ink);
-      background: var(--yellow-soft);
-      border-radius: 0.45rem;
-      font-size: 0.67rem;
-      font-weight: 700;
-      white-space: nowrap;
-    }
-
     .lesson-list {
       list-style: none;
       border-top: 1px solid var(--line);
@@ -947,7 +969,7 @@
 
     .lesson-item {
       display: grid;
-      grid-template-columns: 2.5rem minmax(0, 1fr) auto auto;
+      grid-template-columns: 2.5rem minmax(11rem, 0.72fr) minmax(15rem, 1fr) auto;
       align-items: center;
       gap: 0.85rem;
       padding: 0.95rem 0;
@@ -967,36 +989,18 @@
       text-align: center;
     }
 
-    .lesson-link {
+    .lesson-title {
       min-width: 0;
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
-      width: fit-content;
       font-size: 0.84rem;
       font-weight: 650;
       line-height: 1.6;
-      text-decoration-color: transparent;
-      text-decoration-thickness: 0.3rem;
-      text-underline-offset: 0.18rem;
-      transition: text-decoration-color 0.2s ease-out;
     }
 
-    .lesson-link:hover {
-      text-decoration-color: var(--yellow);
-    }
-
-    .external-arrow {
-      color: var(--blue-deep);
-      font-size: 0.72rem;
-      flex-shrink: 0;
-    }
-
-    .lesson-meta {
+    .lesson-summary {
       color: var(--ink-faint);
-      font-size: 0.66rem;
-      font-weight: 600;
-      white-space: nowrap;
+      font-size: 0.72rem;
+      font-weight: 500;
+      line-height: 1.75;
     }
 
     .lesson-tag {
@@ -1399,25 +1403,53 @@
       }
 
       .outline-rail {
-        position: static;
+        position: sticky;
+        top: 6.8rem;
+        z-index: 40;
+        max-height: none;
         overflow: hidden;
-        padding: 1rem;
+        padding: 0.75rem 1rem;
         background: var(--paper);
         border: 1px solid var(--line);
         border-radius: 0.8rem;
+        box-shadow: 0 0.7rem 1.8rem rgba(26, 26, 46, 0.08);
       }
 
       .rail-label {
-        margin-bottom: 0.6rem;
+        margin-bottom: 0.35rem;
+      }
+
+      .rail-groups {
+        display: flex;
+        gap: 1.2rem;
+        overflow-x: auto;
+        padding-bottom: 0.45rem;
+        scroll-snap-type: x proximity;
+        scrollbar-width: thin;
+      }
+
+      .rail-group {
+        flex: 0 0 auto;
+        display: flex;
+        align-items: center;
+        gap: 0.65rem;
+        scroll-snap-align: start;
+      }
+
+      .rail-group + .rail-group {
+        margin-top: 0;
+        padding-top: 0;
+        border-top: 0;
+      }
+
+      .rail-volume {
+        min-width: max-content;
+        margin-bottom: 0;
       }
 
       .rail-list {
         display: flex;
         gap: 0.65rem;
-        overflow-x: auto;
-        padding-bottom: 0.55rem;
-        scroll-snap-type: x mandatory;
-        scrollbar-width: thin;
       }
 
       .rail-list li {
@@ -1439,8 +1471,8 @@
         transform: none;
       }
 
-      .rail-source-note {
-        margin-top: 0.7rem;
+      .module-card {
+        scroll-margin-top: 13rem;
       }
 
       .source-actions {
@@ -1538,16 +1570,11 @@
         gap: 0.75rem;
       }
 
-      .module-time {
-        justify-self: start;
-        white-space: normal;
-      }
-
       .lesson-item {
         grid-template-columns: 2rem minmax(0, 1fr) auto;
         grid-template-areas:
           'num title tag'
-          '. meta meta';
+          '. summary summary';
         gap: 0.45rem 0.65rem;
       }
 
@@ -1555,13 +1582,12 @@
         grid-area: num;
       }
 
-      .lesson-link {
+      .lesson-title {
         grid-area: title;
       }
 
-      .lesson-meta {
-        grid-area: meta;
-        white-space: normal;
+      .lesson-summary {
+        grid-area: summary;
       }
 
       .lesson-tag {
@@ -1606,51 +1632,48 @@
   <header class="site-header" aria-label="页面导航">
     <div class="container header-inner">
       <a class="brand" href="#top" aria-label="返回课程安排页顶部">
-        <span class="brand-mark" aria-hidden="true">II</span>
+        <span class="brand-mark" aria-hidden="true">PY</span>
         <span class="brand-copy">
           <strong>AI悦创 · Python</strong>
-          <span>STARTER JOURNEY</span>
+          <span>THINK · CODE · BUILD</span>
         </span>
       </a>
       <nav class="main-nav" aria-label="主要导航">
         <a href="#learning-map">学习地图</a>
         <a href="#course-outline">完整课纲</a>
         <a href="#how-to-use">使用建议</a>
-        <a href="#source">内容来源</a>
+        <a href="#course-note">课程说明</a>
       </nav>
-      <a class="source-link-small" href="https://bornforthis.cn/column/Python-Programming-Course/" target="_blank" rel="noopener noreferrer">
-        原课程目录 <span aria-hidden="true">↗</span>
-      </a>
     </div>
   </header>
 
   <main>
     <section class="container hero" id="top" aria-labelledby="hero-title">
       <div class="hero-copy reveal">
-        <span class="eyebrow">Python Course Schedule · 2025</span>
+        <span class="eyebrow">Python Course Schedule · Volumes I–II</span>
         <h1 id="hero-title">
-          <span class="volume">Volume II</span>
-          Python<br><span class="hl-yellow">小咖养成</span>
+          <span class="volume">Volumes I · II</span>
+          编程思维<br><span class="hl-yellow">到 Python</span>
         </h1>
         <p class="hero-lead">
-          从变量和数据类型出发，走过条件、循环、函数与类，再进入文件、异常和结业测试。这里把卷二的真实课程入口，整理成一条可以看懂、可以跟着走的学习路线。
+          先从生活故事、计算机历史与算法案例建立问题解决视角，再把这种思考方式落到变量、数据、条件、循环、函数与类。两卷课程共用一张清晰、可折叠的学习大纲。
         </p>
         <div class="hero-actions">
-          <a class="cta-button" href="#course-outline">查看 44 个课程入口 <span aria-hidden="true">↓</span></a>
-          <a class="secondary-button" href="https://bornforthis.cn/column/Python-Programming-Course/ClassSchedule.html" target="_blank" rel="noopener noreferrer">查看原课程表 <span aria-hidden="true">↗</span></a>
+          <a class="cta-button" href="#course-outline">打开双卷课程大纲 <span aria-hidden="true">↓</span></a>
+          <a class="secondary-button" href="#learning-map">先看学习路线 <span aria-hidden="true">→</span></a>
         </div>
         <dl class="hero-stats">
           <div class="hero-stat">
+            <dt>COURSE VOLUMES</dt>
+            <dd>2 卷</dd>
+          </div>
+          <div class="hero-stat">
             <dt>CORE CHAPTERS</dt>
-            <dd>11 章</dd>
+            <dd>16 章</dd>
           </div>
           <div class="hero-stat">
-            <dt>LEARNING LINKS</dt>
-            <dd>44 项</dd>
-          </div>
-          <div class="hero-stat">
-            <dt>TESTS + ANSWERS</dt>
-            <dd>10 + 10</dd>
+            <dt>SYLLABUS ITEMS</dt>
+            <dd>76 项</dd>
           </div>
           <div class="hero-stat">
             <dt>PROJECT PRACTICE</dt>
@@ -1661,11 +1684,11 @@
 
       <figure class="hero-visual reveal reveal-d1">
         <div class="map-frame">
-          <img src="assets/course-map.svg" alt="卷二学习路线：从环境搭建经过数据、逻辑、函数、类到工程基础与结业">
+          <img src="assets/course-map.svg" alt="双卷学习路线：从编程思维、算法与人工智能进入 Python 基础实践">
         </div>
         <figcaption class="map-caption">
-          <span>Start from here ✦</span>
-          00 环境搭建 &amp; 新建项目，是这条路线的第一站。
+          <span>Think first, then code ✦</span>
+          卷一先建立思考方式，卷二再把想法写成 Python。
         </figcaption>
       </figure>
     </section>
@@ -1674,46 +1697,46 @@
       <div class="container path-layout">
         <div class="path-intro reveal">
           <img class="path-ghost" src="assets/py-ghost.svg" alt="" aria-hidden="true">
-          <h2 id="map-title">五段路，搭起一张 Python 全局地图</h2>
-          <p>以下五段是对源课纲的编辑整理，不新增课时，也不改变官方章节顺序。</p>
-          <span class="path-note">order matters, speed doesn't.</span>
+          <h2 id="map-title">五段路，从理解计算到写出程序</h2>
+          <p>学习路线依照左侧课程目录的两卷顺序整理：卷一负责“怎样想”，卷二负责“怎样写”。</p>
+          <span class="path-note">think clearly, code deliberately.</span>
         </div>
 
         <ol class="phase-list" aria-label="五段学习路径">
           <li class="phase-item reveal reveal-d1">
             <div class="phase-name">
-              <span>GET READY</span>
-              <h3>先让工具就位</h3>
+              <span>WHY &amp; HISTORY</span>
+              <h3>先认识编程为何存在</h3>
             </div>
-            <p class="phase-copy"><strong>环境搭建与新建项目。</strong> 把运行 Python 所需的环境准备好，让后面的每一步都能真正动手。</p>
+            <p class="phase-copy"><strong>卷一第一、二章。</strong> 从学习编程的意义出发，沿着早期程序、计算机器与密码破译认识计算思想的来路。</p>
           </li>
           <li class="phase-item reveal">
             <div class="phase-name">
-              <span>DATA FOUNDATION</span>
-              <h3>认识数据的形状</h3>
+              <span>THINKING TOOLS</span>
+              <h3>学会抽象与推理</h3>
             </div>
-            <p class="phase-copy"><strong>第一至第四章。</strong> 变量、数值、字符串、列表、元组、字典与集合，逐步建立 Python 数据类型的全局观。</p>
+            <p class="phase-copy"><strong>卷一第三章。</strong> 从图像、二进制、归纳演绎到图灵测试，理解计算机如何表示、分析并判断问题。</p>
           </li>
           <li class="phase-item reveal">
             <div class="phase-name">
-              <span>CONTROL FLOW</span>
-              <h3>让程序开始做决定</h3>
+              <span>ALGORITHMS</span>
+              <h3>把方法用于生活难题</h3>
             </div>
-            <p class="phase-copy"><strong>第五至第七章。</strong> 从布尔与 if 进入“框架式语法”，再用 while 与 for 让逻辑重复、遍历与组合。</p>
+            <p class="phase-copy"><strong>卷一第四章。</strong> 用估算、并行、决策、灰度测试、寻路、搜索与推荐等案例建立算法意识。</p>
           </li>
           <li class="phase-item reveal">
             <div class="phase-name">
-              <span>ABSTRACTION</span>
-              <h3>把想法组织成结构</h3>
+              <span>AI BOUNDARIES</span>
+              <h3>看清智能的能力边界</h3>
             </div>
-            <p class="phase-copy"><strong>第八至第九章。</strong> 用函数封装重复逻辑，用类理解对象与职责，并通过对话式对战游戏完成综合实践。</p>
+            <p class="phase-copy"><strong>卷一第五章。</strong> 围绕知识机器、战争机器人、密码安全与自动驾驶，讨论人工智能的能力、风险与责任。</p>
           </li>
           <li class="phase-item reveal">
             <div class="phase-name">
-              <span>ENGINEERING</span>
-              <h3>收尾、排错与结业</h3>
+              <span>PYTHON PRACTICE</span>
+              <h3>进入 Python 基础实践</h3>
             </div>
-            <p class="phase-copy"><strong>第十、十一章与结业测试。</strong> 让程序能处理文件、面对异常，再用一次完整测试回看基础知识。</p>
+            <p class="phase-copy"><strong>卷二完整大纲。</strong> 从环境、数据类型进入条件与循环，再用函数、类、文件和异常把思考方式写成程序。</p>
           </li>
         </ol>
       </div>
@@ -1724,43 +1747,43 @@
         <div class="principle-grid">
           <div class="principle-copy reveal">
             <span class="eyebrow">Learning Principle</span>
-            <h2 id="principle-title">课程没有固定总时长，<em>掌握</em>才是刻度。</h2>
-            <p>源课程特别说明：一个知识单元不等于一堂课就能结束；页面标出的时长来自历史学员平均值，只用于理解内容量，不应被当作速度目标或结果承诺。</p>
+            <h2 id="principle-title">先学会怎样<em>想</em>，再学会怎样写。</h2>
+            <p>课程表不再把大纲做成文章跳转清单，而是用章节摘要解释学习内容。左侧目录始终是主要定位入口，展开正文时不会改变它的操作位置。</p>
           </div>
           <div class="principle-notes reveal reveal-d1">
             <article class="principle-note">
               <span>01</span>
               <div>
-                <h3>一节 ≠ 一次课</h3>
-                <p>理解能力、学习状态与具体需求不同，同一知识单元可能需要不同次数的讲解与练习。</p>
+                <h3>卷一建立问题视角</h3>
+                <p>先从历史、生活案例和人工智能问题中，练习抽象、分解、归纳与算法思考。</p>
               </div>
             </article>
             <article class="principle-note">
               <span>02</span>
               <div>
-                <h3>时长只是历史参考</h3>
-                <p>有明确来源的平均时长会标在课时旁；未标注的部分保持“待定”，不擅自补数字。</p>
+                <h3>卷二进入语言实践</h3>
+                <p>再把思考方式放进 Python 的数据、流程控制、函数、类与文件处理中。</p>
               </div>
             </article>
             <article class="principle-note">
               <span>03</span>
               <div>
-                <h3>逻辑训练重于背语法</h3>
-                <p>从 if 开始，数据知识会被装进条件、循环、函数与类这些结构中反复组合。</p>
+                <h3>摘要负责说明内容</h3>
+                <p>每个模块与课时都提供内容概括，帮助判断当前位置与下一步，而不是提供外部映射。</p>
               </div>
             </article>
           </div>
         </div>
-        <div class="learning-flow reveal" role="group" aria-label="主要章节学习闭环">
-          <span>知识讲解</span>
+        <div class="learning-flow reveal" role="group" aria-label="双卷课程学习主线">
+          <span>生活问题</span>
           <span class="flow-arrow" aria-hidden="true">→</span>
-          <span>动手练习 / 项目</span>
+          <span>抽象建模</span>
           <span class="flow-arrow" aria-hidden="true">→</span>
-          <span>章节测试</span>
+          <span>算法思路</span>
           <span class="flow-arrow" aria-hidden="true">→</span>
-          <span>答案复盘</span>
+          <span>Python 表达</span>
           <span class="flow-arrow" aria-hidden="true">→</span>
-          <span>进入下一章</span>
+          <span>练习复盘</span>
         </div>
       </div>
     </section>
@@ -1771,610 +1794,23 @@
           <div class="section-header reveal">
             <span class="section-number">02</span>
             <h2 class="section-title" id="outline-title">完整课程安排</h2>
-            <p class="section-intro">以源站卷二侧栏的 44 个真实入口为准；标题保持官方顺序，时长取自 2025 版课程表。点击任意课时，会在新窗口打开对应原文。</p>
+            <p class="section-intro">以 AI悦创 Python 课程的左侧目录为主要依据，保留卷一 5 章 32 课时、卷二 14 个大纲节点 44 项内容。所有模块默认折叠；课时只展示标题与内容摘要，不再映射外部文章。</p>
           </div>
           <div class="outline-tools reveal reveal-d1" role="group" aria-label="课纲展开控制">
             <button class="outline-control" id="expand-all" type="button">全部展开</button>
-            <button class="outline-control" id="collapse-all" type="button">全部收起</button>
+            <button class="outline-control" id="collapse-all" type="button">恢复折叠</button>
             <p class="outline-status" id="outline-status" aria-live="polite"></p>
           </div>
         </div>
 
         <div class="outline-grid">
-          <aside class="outline-rail reveal" aria-label="课程模块快速导航">
-            <span class="rail-label">Course Index · 14 Blocks</span>
-            <ol class="rail-list">
-              <li><a href="#module-00">课前准备</a></li>
-              <li><a href="#module-01">变量与类型</a></li>
-              <li><a href="#module-02">数据类型（上）</a></li>
-              <li><a href="#module-03">数据类型（中）</a></li>
-              <li><a href="#module-04">数据类型（下）</a></li>
-              <li><a href="#module-05">if 条件</a></li>
-              <li><a href="#module-06">while 循环</a></li>
-              <li><a href="#module-07">for 循环</a></li>
-              <li><a href="#module-08">函数</a></li>
-              <li><a href="#module-09">类</a></li>
-              <li><a href="#module-10">文件操作</a></li>
-              <li><a href="#module-11">错误与异常</a></li>
-              <li><a href="#module-final">结业测试</a></li>
-              <li><a href="#module-other">补充资源</a></li>
-            </ol>
-            <p class="rail-source-note">“结业测试”在源侧栏中写作“第十*章 结业测试”，本页按内容语义规范为“阶段结业测试”。</p>
+          <aside class="outline-rail reveal" aria-label="课程大纲目录">
+            <span class="rail-label">Course Index · 2 Volumes</span>
+            <div class="rail-groups" id="rail-groups"></div>
+            <p class="rail-source-note">目录按“卷 → 章 → 课时”组织。点击目录会展开目标模块；正文展开或收起时，目录保持在原有位置。</p>
           </aside>
 
-          <div class="module-stack">
-            <details class="module-card reveal" id="module-00" data-tone="red" open>
-              <summary class="module-summary">
-                <h3 class="module-summary-heading">
-                  <span class="module-index">00</span>
-                  <span class="module-heading">
-                    <span class="module-kicker">Warm Up</span>
-                    <span class="module-title">课前准备 · 环境搭建</span>
-                  </span>
-                  <span class="module-count">1 项内容</span>
-                  <span class="module-state" aria-hidden="true"></span>
-                </h3>
-              </summary>
-              <div class="module-body">
-                <div class="module-overview">
-                  <p>配置 Python 相关环境，并学会创建项目。原课程表安排在第一节或试听课处理。</p>
-                  <span class="module-time">历史参考 · 约 1h</span>
-                </div>
-                <ol class="lesson-list" aria-label="课前准备课程">
-                  <li class="lesson-item">
-                    <span class="lesson-num">01</span>
-                    <a class="lesson-link" href="https://bornforthis.cn/column/Python-Programming-Course/P02-1-Python-Starter-Journey/00-Newproject.html" target="_blank" rel="noopener noreferrer">00-环境搭建&amp;新建项目 <span class="external-arrow" aria-hidden="true">↗</span></a>
-                    <span class="lesson-meta">试听 / 第一节课 · 约 1h</span>
-                    <span class="lesson-tag">准备</span>
-                  </li>
-                </ol>
-              </div>
-            </details>
-
-            <details class="module-card reveal" id="module-01" data-tone="blue" open>
-              <summary class="module-summary">
-                <h3 class="module-summary-heading">
-                  <span class="module-index">01</span>
-                  <span class="module-heading">
-                    <span class="module-kicker">Variables &amp; Types</span>
-                    <span class="module-title">第一章 · 变量和数据类型</span>
-                  </span>
-                  <span class="module-count">4 项内容</span>
-                  <span class="module-state" aria-hidden="true"></span>
-                </h3>
-              </summary>
-              <div class="module-body">
-                <div class="module-overview">
-                  <p>理解变量的含义与创建方式，认识 Python 常见数据类型，为后续章节建立一张基础全局地图。</p>
-                  <span class="module-time">讲授参考 · 4–5h + 测试</span>
-                </div>
-                <ol class="lesson-list" aria-label="第一章课程">
-                  <li class="lesson-item">
-                    <span class="lesson-num">01</span>
-                    <a class="lesson-link" href="https://bornforthis.cn/column/Python-Programming-Course/P02-1-Python-Starter-Journey/01-Variable.html" target="_blank" rel="noopener noreferrer">第一节丨变量 <span class="external-arrow" aria-hidden="true">↗</span></a>
-                    <span class="lesson-meta">上课 · 2–3h</span>
-                    <span class="lesson-tag">讲授</span>
-                  </li>
-                  <li class="lesson-item">
-                    <span class="lesson-num">02</span>
-                    <a class="lesson-link" href="https://bornforthis.cn/column/Python-Programming-Course/P02-1-Python-Starter-Journey/02-Introduction-to-Data-Types.html" target="_blank" rel="noopener noreferrer">第二节丨初识数据类型 <span class="external-arrow" aria-hidden="true">↗</span></a>
-                    <span class="lesson-meta">上课 · 约 2h</span>
-                    <span class="lesson-tag">讲授</span>
-                  </li>
-                  <li class="lesson-item">
-                    <span class="lesson-num">03</span>
-                    <a class="lesson-link" href="https://bornforthis.cn/column/Python-Programming-Course/P02-2-basequestion/q1.html" target="_blank" rel="noopener noreferrer">第三节丨章节测试一 <span class="external-arrow" aria-hidden="true">↗</span></a>
-                    <span class="lesson-meta">课后 · 选择性讲解</span>
-                    <span class="lesson-tag" data-kind="test">测试</span>
-                  </li>
-                  <li class="lesson-item">
-                    <span class="lesson-num">04</span>
-                    <a class="lesson-link" href="https://bornforthis.cn/column/Python-Programming-Course/P02-2-basequestion/answer1.html" target="_blank" rel="noopener noreferrer">第四节丨答案 <span class="external-arrow" aria-hidden="true">↗</span></a>
-                    <span class="lesson-meta">对照 · 复盘</span>
-                    <span class="lesson-tag" data-kind="answer">答案</span>
-                  </li>
-                </ol>
-              </div>
-            </details>
-
-            <details class="module-card reveal" id="module-02" data-tone="yellow" open>
-              <summary class="module-summary">
-                <h3 class="module-summary-heading">
-                  <span class="module-index">02</span>
-                  <span class="module-heading">
-                    <span class="module-kicker">Data Types · Part I</span>
-                    <span class="module-title">第二章 · 数据类型（上）</span>
-                  </span>
-                  <span class="module-count">6 项内容</span>
-                  <span class="module-state" aria-hidden="true"></span>
-                </h3>
-              </summary>
-              <div class="module-body">
-                <div class="module-overview">
-                  <p>深入数值与字符串，完成第一个问答式简历小项目，并在进入序列类型前理解“迭代”这个关键概念。</p>
-                  <span class="module-time">讲授参考 · 6h+ + 作业 / 测试</span>
-                </div>
-                <ol class="lesson-list" aria-label="第二章课程">
-                  <li class="lesson-item">
-                    <span class="lesson-num">01</span>
-                    <a class="lesson-link" href="https://bornforthis.cn/column/Python-Programming-Course/P02-1-Python-Starter-Journey/03-Numeric-type.html" target="_blank" rel="noopener noreferrer">第一节丨数值 <span class="external-arrow" aria-hidden="true">↗</span></a>
-                    <span class="lesson-meta">上课 · 2–3h</span>
-                    <span class="lesson-tag">讲授</span>
-                  </li>
-                  <li class="lesson-item">
-                    <span class="lesson-num">02</span>
-                    <a class="lesson-link" href="https://bornforthis.cn/column/Python-Programming-Course/P02-1-Python-Starter-Journey/04-python-string.html" target="_blank" rel="noopener noreferrer">第二节丨字符串 <span class="external-arrow" aria-hidden="true">↗</span></a>
-                    <span class="lesson-meta">上课 · 4h+</span>
-                    <span class="lesson-tag">讲授</span>
-                  </li>
-                  <li class="lesson-item">
-                    <span class="lesson-num">03</span>
-                    <a class="lesson-link" href="https://bornforthis.cn/column/Python-Programming-Course/P02-2-basequestion/hw1.html" target="_blank" rel="noopener noreferrer">作业一丨问答式简历 <span class="external-arrow" aria-hidden="true">↗</span></a>
-                    <span class="lesson-meta">课后项目 · 讲解参考 0.5h</span>
-                    <span class="lesson-tag" data-kind="project">实践</span>
-                  </li>
-                  <li class="lesson-item">
-                    <span class="lesson-num">04</span>
-                    <a class="lesson-link" href="https://bornforthis.cn/column/Python-Programming-Course/P02-2-basequestion/q2.html" target="_blank" rel="noopener noreferrer">第三节丨章节测试二 <span class="external-arrow" aria-hidden="true">↗</span></a>
-                    <span class="lesson-meta">课后 · 选择性讲解</span>
-                    <span class="lesson-tag" data-kind="test">测试</span>
-                  </li>
-                  <li class="lesson-item">
-                    <span class="lesson-num">05</span>
-                    <a class="lesson-link" href="https://bornforthis.cn/column/Python-Programming-Course/P02-2-basequestion/answer2.html" target="_blank" rel="noopener noreferrer">第四节丨答案 <span class="external-arrow" aria-hidden="true">↗</span></a>
-                    <span class="lesson-meta">对照 · 复盘</span>
-                    <span class="lesson-tag" data-kind="answer">答案</span>
-                  </li>
-                  <li class="lesson-item">
-                    <span class="lesson-num">06</span>
-                    <a class="lesson-link" href="https://bornforthis.cn/column/Python-Programming-Course/P02-1-Python-Starter-Journey/05-0-iterable.html" target="_blank" rel="noopener noreferrer">第五节丨何为迭代？ <span class="external-arrow" aria-hidden="true">↗</span></a>
-                    <span class="lesson-meta">阅读 + 课堂快速讲解</span>
-                    <span class="lesson-tag">概念</span>
-                  </li>
-                </ol>
-              </div>
-            </details>
-
-            <details class="module-card reveal" id="module-03" data-tone="red" open>
-              <summary class="module-summary">
-                <h3 class="module-summary-heading">
-                  <span class="module-index">03</span>
-                  <span class="module-heading">
-                    <span class="module-kicker">Data Types · Part II</span>
-                    <span class="module-title">第三章 · 数据类型（中）</span>
-                  </span>
-                  <span class="module-count">4 项内容</span>
-                  <span class="module-state" aria-hidden="true"></span>
-                </h3>
-              </summary>
-              <div class="module-body">
-                <div class="module-overview">
-                  <p>学习列表与元组两类序列容器，理解常用操作、内置能力与二者在“可变性”上的差别。</p>
-                  <span class="module-time">讲授参考 · 4–6h + 测试</span>
-                </div>
-                <ol class="lesson-list" aria-label="第三章课程">
-                  <li class="lesson-item">
-                    <span class="lesson-num">01</span>
-                    <a class="lesson-link" href="https://bornforthis.cn/column/Python-Programming-Course/P02-1-Python-Starter-Journey/05-python-list.html" target="_blank" rel="noopener noreferrer">第一节丨列表 <span class="external-arrow" aria-hidden="true">↗</span></a>
-                    <span class="lesson-meta">上课 · 3–4h</span>
-                    <span class="lesson-tag">讲授</span>
-                  </li>
-                  <li class="lesson-item">
-                    <span class="lesson-num">02</span>
-                    <a class="lesson-link" href="https://bornforthis.cn/column/Python-Programming-Course/P02-1-Python-Starter-Journey/06-python-tuple.html" target="_blank" rel="noopener noreferrer">第二节丨元组 <span class="external-arrow" aria-hidden="true">↗</span></a>
-                    <span class="lesson-meta">上课 · 1–2h</span>
-                    <span class="lesson-tag">讲授</span>
-                  </li>
-                  <li class="lesson-item">
-                    <span class="lesson-num">03</span>
-                    <a class="lesson-link" href="https://bornforthis.cn/column/Python-Programming-Course/P02-2-basequestion/q3.html" target="_blank" rel="noopener noreferrer">第三节丨章节测试三 <span class="external-arrow" aria-hidden="true">↗</span></a>
-                    <span class="lesson-meta">课后 · 选择性讲解</span>
-                    <span class="lesson-tag" data-kind="test">测试</span>
-                  </li>
-                  <li class="lesson-item">
-                    <span class="lesson-num">04</span>
-                    <a class="lesson-link" href="https://bornforthis.cn/column/Python-Programming-Course/P02-2-basequestion/answer3.html" target="_blank" rel="noopener noreferrer">第四节丨答案 <span class="external-arrow" aria-hidden="true">↗</span></a>
-                    <span class="lesson-meta">对照 · 复盘</span>
-                    <span class="lesson-tag" data-kind="answer">答案</span>
-                  </li>
-                </ol>
-              </div>
-            </details>
-
-            <details class="module-card reveal" id="module-04" data-tone="blue" open>
-              <summary class="module-summary">
-                <h3 class="module-summary-heading">
-                  <span class="module-index">04</span>
-                  <span class="module-heading">
-                    <span class="module-kicker">Data Types · Part III</span>
-                    <span class="module-title">第四章 · 数据类型（下）</span>
-                  </span>
-                  <span class="module-count">4 项内容</span>
-                  <span class="module-state" aria-hidden="true"></span>
-                </h3>
-              </summary>
-              <div class="module-body">
-                <div class="module-overview">
-                  <p>用字典组织键值关系，用集合处理不重复的数据，完成 Python 基础容器部分的收束。</p>
-                  <span class="module-time">讲授参考 · 4–5.5h + 测试</span>
-                </div>
-                <ol class="lesson-list" aria-label="第四章课程">
-                  <li class="lesson-item">
-                    <span class="lesson-num">01</span>
-                    <a class="lesson-link" href="https://bornforthis.cn/column/Python-Programming-Course/P02-1-Python-Starter-Journey/07-python-dict.html" target="_blank" rel="noopener noreferrer">第一节丨字典 <span class="external-arrow" aria-hidden="true">↗</span></a>
-                    <span class="lesson-meta">上课 · 3–4h</span>
-                    <span class="lesson-tag">讲授</span>
-                  </li>
-                  <li class="lesson-item">
-                    <span class="lesson-num">02</span>
-                    <a class="lesson-link" href="https://bornforthis.cn/column/Python-Programming-Course/P02-1-Python-Starter-Journey/08-python-set.html" target="_blank" rel="noopener noreferrer">第二节丨集合 <span class="external-arrow" aria-hidden="true">↗</span></a>
-                    <span class="lesson-meta">上课 · 1–1.5h</span>
-                    <span class="lesson-tag">讲授</span>
-                  </li>
-                  <li class="lesson-item">
-                    <span class="lesson-num">03</span>
-                    <a class="lesson-link" href="https://bornforthis.cn/column/Python-Programming-Course/P02-2-basequestion/q4.html" target="_blank" rel="noopener noreferrer">第三节丨章节测试四 <span class="external-arrow" aria-hidden="true">↗</span></a>
-                    <span class="lesson-meta">课后 · 选择性讲解</span>
-                    <span class="lesson-tag" data-kind="test">测试</span>
-                  </li>
-                  <li class="lesson-item">
-                    <span class="lesson-num">04</span>
-                    <a class="lesson-link" href="https://bornforthis.cn/column/Python-Programming-Course/P02-2-basequestion/answer4.html" target="_blank" rel="noopener noreferrer">第四节丨答案 <span class="external-arrow" aria-hidden="true">↗</span></a>
-                    <span class="lesson-meta">对照 · 复盘</span>
-                    <span class="lesson-tag" data-kind="answer">答案</span>
-                  </li>
-                </ol>
-              </div>
-            </details>
-
-            <details class="module-card reveal" id="module-05" data-tone="yellow" open>
-              <summary class="module-summary">
-                <h3 class="module-summary-heading">
-                  <span class="module-index">05</span>
-                  <span class="module-heading">
-                    <span class="module-kicker">Decision Making</span>
-                    <span class="module-title">第五章 · if 条件判断</span>
-                  </span>
-                  <span class="module-count">4 项内容</span>
-                  <span class="module-state" aria-hidden="true"></span>
-                </h3>
-              </summary>
-              <div class="module-body">
-                <div class="module-overview">
-                  <p>先认识 True、False 与逻辑运算，再进入条件分支，让前面学过的数据真正参与程序决策。</p>
-                  <span class="module-time">讲授参考 · 5–6h + 测试</span>
-                </div>
-                <ol class="lesson-list" aria-label="第五章课程">
-                  <li class="lesson-item">
-                    <span class="lesson-num">01</span>
-                    <a class="lesson-link" href="https://bornforthis.cn/column/Python-Programming-Course/P02-1-Python-Starter-Journey/09-python-bool.html" target="_blank" rel="noopener noreferrer">第一节丨布尔表达式 <span class="external-arrow" aria-hidden="true">↗</span></a>
-                    <span class="lesson-meta">上课 · 约 2h</span>
-                    <span class="lesson-tag">讲授</span>
-                  </li>
-                  <li class="lesson-item">
-                    <span class="lesson-num">02</span>
-                    <a class="lesson-link" href="https://bornforthis.cn/column/Python-Programming-Course/P02-1-Python-Starter-Journey/10-python-if.html" target="_blank" rel="noopener noreferrer">第二节丨if 条件判断 <span class="external-arrow" aria-hidden="true">↗</span></a>
-                    <span class="lesson-meta">上课 · 3–4h</span>
-                    <span class="lesson-tag">讲授</span>
-                  </li>
-                  <li class="lesson-item">
-                    <span class="lesson-num">03</span>
-                    <a class="lesson-link" href="https://bornforthis.cn/column/Python-Programming-Course/P02-2-basequestion/q5.html" target="_blank" rel="noopener noreferrer">第三节丨章节测试五 <span class="external-arrow" aria-hidden="true">↗</span></a>
-                    <span class="lesson-meta">课后 · 选择性讲解</span>
-                    <span class="lesson-tag" data-kind="test">测试</span>
-                  </li>
-                  <li class="lesson-item">
-                    <span class="lesson-num">04</span>
-                    <a class="lesson-link" href="https://bornforthis.cn/column/Python-Programming-Course/P02-2-basequestion/answer5.html" target="_blank" rel="noopener noreferrer">第四节丨答案 <span class="external-arrow" aria-hidden="true">↗</span></a>
-                    <span class="lesson-meta">对照 · 复盘</span>
-                    <span class="lesson-tag" data-kind="answer">答案</span>
-                  </li>
-                </ol>
-              </div>
-            </details>
-
-            <details class="module-card reveal" id="module-06" data-tone="red" open>
-              <summary class="module-summary">
-                <h3 class="module-summary-heading">
-                  <span class="module-index">06</span>
-                  <span class="module-heading">
-                    <span class="module-kicker">Loop · While</span>
-                    <span class="module-title">第六章 · while 循环</span>
-                  </span>
-                  <span class="module-count">3 项内容</span>
-                  <span class="module-state" aria-hidden="true"></span>
-                </h3>
-              </summary>
-              <div class="module-body">
-                <div class="module-overview">
-                  <p>让只能执行一次的代码开始重复运行，训练循环条件、过程控制与退出逻辑。</p>
-                  <span class="module-time">讲授参考 · 3–4h + 测试</span>
-                </div>
-                <ol class="lesson-list" aria-label="第六章课程">
-                  <li class="lesson-item">
-                    <span class="lesson-num">01</span>
-                    <a class="lesson-link" href="https://bornforthis.cn/column/Python-Programming-Course/P02-1-Python-Starter-Journey/11-python-while.html" target="_blank" rel="noopener noreferrer">第一节丨while 循环 <span class="external-arrow" aria-hidden="true">↗</span></a>
-                    <span class="lesson-meta">上课 · 3–4h</span>
-                    <span class="lesson-tag">讲授</span>
-                  </li>
-                  <li class="lesson-item">
-                    <span class="lesson-num">02</span>
-                    <a class="lesson-link" href="https://bornforthis.cn/column/Python-Programming-Course/P02-2-basequestion/q6.html" target="_blank" rel="noopener noreferrer">第二节丨章节测试六 <span class="external-arrow" aria-hidden="true">↗</span></a>
-                    <span class="lesson-meta">课后 · 选择性讲解</span>
-                    <span class="lesson-tag" data-kind="test">测试</span>
-                  </li>
-                  <li class="lesson-item">
-                    <span class="lesson-num">03</span>
-                    <a class="lesson-link" href="https://bornforthis.cn/column/Python-Programming-Course/P02-2-basequestion/answer6.html" target="_blank" rel="noopener noreferrer">第三节丨答案 <span class="external-arrow" aria-hidden="true">↗</span></a>
-                    <span class="lesson-meta">对照 · 复盘</span>
-                    <span class="lesson-tag" data-kind="answer">答案</span>
-                  </li>
-                </ol>
-              </div>
-            </details>
-
-            <details class="module-card reveal" id="module-07" data-tone="blue" open>
-              <summary class="module-summary">
-                <h3 class="module-summary-heading">
-                  <span class="module-index">07</span>
-                  <span class="module-heading">
-                    <span class="module-kicker">Loop · For</span>
-                    <span class="module-title">第七章 · for 循环</span>
-                  </span>
-                  <span class="module-count">4 项内容</span>
-                  <span class="module-state" aria-hidden="true"></span>
-                </h3>
-              </summary>
-              <div class="module-body">
-                <div class="module-overview">
-                  <p>用 for、range 与循环嵌套遍历数据，并综合前面语法完成一个运势预测软件。</p>
-                  <span class="module-time">讲授 / 项目参考 · 4–5.5h + 测试</span>
-                </div>
-                <ol class="lesson-list" aria-label="第七章课程">
-                  <li class="lesson-item">
-                    <span class="lesson-num">01</span>
-                    <a class="lesson-link" href="https://bornforthis.cn/column/Python-Programming-Course/P02-1-Python-Starter-Journey/12-python-for.html" target="_blank" rel="noopener noreferrer">第一节丨for 循环 <span class="external-arrow" aria-hidden="true">↗</span></a>
-                    <span class="lesson-meta">上课 · 3–4h</span>
-                    <span class="lesson-tag">讲授</span>
-                  </li>
-                  <li class="lesson-item">
-                    <span class="lesson-num">02</span>
-                    <a class="lesson-link" href="https://bornforthis.cn/column/Python-Programming-Course/P02-2-basequestion/hw2.html" target="_blank" rel="noopener noreferrer">作业二丨运势预测软件 <span class="external-arrow" aria-hidden="true">↗</span></a>
-                    <span class="lesson-meta">课后 + 上课 · 1–1.5h</span>
-                    <span class="lesson-tag" data-kind="project">实践</span>
-                  </li>
-                  <li class="lesson-item">
-                    <span class="lesson-num">03</span>
-                    <a class="lesson-link" href="https://bornforthis.cn/column/Python-Programming-Course/P02-2-basequestion/q7.html" target="_blank" rel="noopener noreferrer">第二节丨章节测试七 <span class="external-arrow" aria-hidden="true">↗</span></a>
-                    <span class="lesson-meta">课后 · 选择性讲解</span>
-                    <span class="lesson-tag" data-kind="test">测试</span>
-                  </li>
-                  <li class="lesson-item">
-                    <span class="lesson-num">04</span>
-                    <a class="lesson-link" href="https://bornforthis.cn/column/Python-Programming-Course/P02-2-basequestion/answer7.html" target="_blank" rel="noopener noreferrer">第三节丨答案 <span class="external-arrow" aria-hidden="true">↗</span></a>
-                    <span class="lesson-meta">对照 · 复盘</span>
-                    <span class="lesson-tag" data-kind="answer">答案</span>
-                  </li>
-                </ol>
-              </div>
-            </details>
-
-            <details class="module-card reveal" id="module-08" data-tone="yellow" open>
-              <summary class="module-summary">
-                <h3 class="module-summary-heading">
-                  <span class="module-index">08</span>
-                  <span class="module-heading">
-                    <span class="module-kicker">Function</span>
-                    <span class="module-title">第八章 · 函数</span>
-                  </span>
-                  <span class="module-count">3 项内容</span>
-                  <span class="module-state" aria-hidden="true"></span>
-                </h3>
-              </summary>
-              <div class="module-body">
-                <div class="module-overview">
-                  <p>从数学函数过渡到程序函数，理解函数存在的价值，再学习定义、调用与参数传递。</p>
-                  <span class="module-time">课程表拆分参考 · 0.5–1h + 3–4h</span>
-                </div>
-                <ol class="lesson-list" aria-label="第八章课程">
-                  <li class="lesson-item">
-                    <span class="lesson-num">01</span>
-                    <a class="lesson-link" href="https://bornforthis.cn/column/Python-Programming-Course/P02-1-Python-Starter-Journey/13-function.html" target="_blank" rel="noopener noreferrer">第一节丨函数 <span class="external-arrow" aria-hidden="true">↗</span></a>
-                    <span class="lesson-meta">概念 + 定义与调用</span>
-                    <span class="lesson-tag">讲授</span>
-                  </li>
-                  <li class="lesson-item">
-                    <span class="lesson-num">02</span>
-                    <a class="lesson-link" href="https://bornforthis.cn/column/Python-Programming-Course/P02-2-basequestion/q8.html" target="_blank" rel="noopener noreferrer">第二节丨章节测试八 <span class="external-arrow" aria-hidden="true">↗</span></a>
-                    <span class="lesson-meta">课后 · 选择性讲解</span>
-                    <span class="lesson-tag" data-kind="test">测试</span>
-                  </li>
-                  <li class="lesson-item">
-                    <span class="lesson-num">03</span>
-                    <a class="lesson-link" href="https://bornforthis.cn/column/Python-Programming-Course/P02-2-basequestion/answer8.html" target="_blank" rel="noopener noreferrer">第三节丨答案 <span class="external-arrow" aria-hidden="true">↗</span></a>
-                    <span class="lesson-meta">对照 · 复盘</span>
-                    <span class="lesson-tag" data-kind="answer">答案</span>
-                  </li>
-                </ol>
-              </div>
-            </details>
-
-            <details class="module-card reveal" id="module-09" data-tone="red" open>
-              <summary class="module-summary">
-                <h3 class="module-summary-heading">
-                  <span class="module-index">09</span>
-                  <span class="module-heading">
-                    <span class="module-kicker">Object-Oriented</span>
-                    <span class="module-title">第九章 · 类</span>
-                  </span>
-                  <span class="module-count">4 项内容</span>
-                  <span class="module-state" aria-hidden="true"></span>
-                </h3>
-              </summary>
-              <div class="module-body">
-                <div class="module-overview">
-                  <p>用生活类比理解面向对象，学习类的创建与 self，并以对话式对战游戏完成基础语法的综合实践。</p>
-                  <span class="module-time">课程表拆分参考 · 6.5–10h</span>
-                </div>
-                <ol class="lesson-list" aria-label="第九章课程">
-                  <li class="lesson-item">
-                    <span class="lesson-num">01</span>
-                    <a class="lesson-link" href="https://bornforthis.cn/column/Python-Programming-Course/P02-1-Python-Starter-Journey/14-class.html" target="_blank" rel="noopener noreferrer">第一节丨面向对象 <span class="external-arrow" aria-hidden="true">↗</span></a>
-                    <span class="lesson-meta">概念 / 类使用 / self</span>
-                    <span class="lesson-tag">讲授</span>
-                  </li>
-                  <li class="lesson-item">
-                    <span class="lesson-num">02</span>
-                    <a class="lesson-link" href="https://bornforthis.cn/column/Python-Programming-Course/P02-2-basequestion/q9.html" target="_blank" rel="noopener noreferrer">第二节丨章节测试九 <span class="external-arrow" aria-hidden="true">↗</span></a>
-                    <span class="lesson-meta">课后 · 选择性讲解</span>
-                    <span class="lesson-tag" data-kind="test">测试</span>
-                  </li>
-                  <li class="lesson-item">
-                    <span class="lesson-num">03</span>
-                    <a class="lesson-link" href="https://bornforthis.cn/column/Python-Programming-Course/P02-2-basequestion/answer9.html" target="_blank" rel="noopener noreferrer">第三节丨答案 <span class="external-arrow" aria-hidden="true">↗</span></a>
-                    <span class="lesson-meta">对照 · 复盘</span>
-                    <span class="lesson-tag" data-kind="answer">答案</span>
-                  </li>
-                  <li class="lesson-item">
-                    <span class="lesson-num">04</span>
-                    <a class="lesson-link" href="https://bornforthis.cn/column/Python-Programming-Course/P02-2-basequestion/hw_word_game.html" target="_blank" rel="noopener noreferrer">项目作业丨对话式对战游戏设计 <span class="external-arrow" aria-hidden="true">↗</span></a>
-                    <span class="lesson-meta">上课 · 3–4h</span>
-                    <span class="lesson-tag" data-kind="project">项目</span>
-                  </li>
-                </ol>
-              </div>
-            </details>
-
-            <details class="module-card reveal" id="module-10" data-tone="blue" open>
-              <summary class="module-summary">
-                <h3 class="module-summary-heading">
-                  <span class="module-index">10</span>
-                  <span class="module-heading">
-                    <span class="module-kicker">File I/O</span>
-                    <span class="module-title">第十章 · 文件操作</span>
-                  </span>
-                  <span class="module-count">1 项内容</span>
-                  <span class="module-state" aria-hidden="true"></span>
-                </h3>
-              </summary>
-              <div class="module-body">
-                <div class="module-overview">
-                  <p>进入文件读取与写入的基础操作。课程表还规划了简易 NLP 与文件笔记搜索器，但源侧栏目前统一落在这一课程入口中。</p>
-                  <span class="module-time">原课程表 · 时长待定</span>
-                </div>
-                <ol class="lesson-list" aria-label="第十章课程">
-                  <li class="lesson-item">
-                    <span class="lesson-num">01</span>
-                    <a class="lesson-link" href="https://bornforthis.cn/column/Python-Programming-Course/P02-1-Python-Starter-Journey/15-python-file-operation.html" target="_blank" rel="noopener noreferrer">第一节丨文件操作 <span class="external-arrow" aria-hidden="true">↗</span></a>
-                    <span class="lesson-meta">安排 / 时长待定</span>
-                    <span class="lesson-tag">讲授</span>
-                  </li>
-                </ol>
-              </div>
-            </details>
-
-            <details class="module-card reveal" id="module-11" data-tone="yellow" open>
-              <summary class="module-summary">
-                <h3 class="module-summary-heading">
-                  <span class="module-index">11</span>
-                  <span class="module-heading">
-                    <span class="module-kicker">Errors &amp; Exceptions</span>
-                    <span class="module-title">第十一章 · 错误与异常</span>
-                  </span>
-                  <span class="module-count">1 项内容</span>
-                  <span class="module-state" aria-hidden="true"></span>
-                </h3>
-              </summary>
-              <div class="module-body">
-                <div class="module-overview">
-                  <p>认识 Python 中的错误与异常，为阅读报错、定位问题和让程序更稳定建立基础。</p>
-                  <span class="module-time">原课程表 · 时长待定</span>
-                </div>
-                <ol class="lesson-list" aria-label="第十一章课程">
-                  <li class="lesson-item">
-                    <span class="lesson-num">01</span>
-                    <a class="lesson-link" href="https://bornforthis.cn/column/Python-Programming-Course/P02-1-Python-Starter-Journey/16-python3-errors-and-exceptions.html" target="_blank" rel="noopener noreferrer">第一节丨错误与异常 <span class="external-arrow" aria-hidden="true">↗</span></a>
-                    <span class="lesson-meta">安排 / 时长待定</span>
-                    <span class="lesson-tag">讲授</span>
-                  </li>
-                </ol>
-              </div>
-            </details>
-
-            <details class="module-card reveal" id="module-final" data-tone="red" open>
-              <summary class="module-summary">
-                <h3 class="module-summary-heading">
-                  <span class="module-index">✓</span>
-                  <span class="module-heading">
-                    <span class="module-kicker">Final Check</span>
-                    <span class="module-title">阶段结业测试</span>
-                  </span>
-                  <span class="module-count">2 项内容</span>
-                  <span class="module-state" aria-hidden="true"></span>
-                </h3>
-              </summary>
-              <div class="module-body">
-                <div class="module-overview">
-                  <p>用基础课程结业测试回看整条路线，再通过答案页完成自查与复盘。</p>
-                  <span class="module-time">原课程表 · 时长待定</span>
-                </div>
-                <ol class="lesson-list" aria-label="结业测试课程">
-                  <li class="lesson-item">
-                    <span class="lesson-num">01</span>
-                    <a class="lesson-link" href="https://bornforthis.cn/column/Python-Programming-Course/P02-2-basequestion/q10.html" target="_blank" rel="noopener noreferrer">第一节丨结业测试 <span class="external-arrow" aria-hidden="true">↗</span></a>
-                    <span class="lesson-meta">阶段检测</span>
-                    <span class="lesson-tag" data-kind="test">测试</span>
-                  </li>
-                  <li class="lesson-item">
-                    <span class="lesson-num">02</span>
-                    <a class="lesson-link" href="https://bornforthis.cn/column/Python-Programming-Course/P02-2-basequestion/answer10.html" target="_blank" rel="noopener noreferrer">第二节丨答案 <span class="external-arrow" aria-hidden="true">↗</span></a>
-                    <span class="lesson-meta">对照 · 复盘</span>
-                    <span class="lesson-tag" data-kind="answer">答案</span>
-                  </li>
-                </ol>
-              </div>
-            </details>
-
-            <details class="module-card reveal" id="module-other" data-tone="blue" open>
-              <summary class="module-summary">
-                <h3 class="module-summary-heading">
-                  <span class="module-index">+</span>
-                  <span class="module-heading">
-                    <span class="module-kicker">Other Resources</span>
-                    <span class="module-title">补充资源</span>
-                  </span>
-                  <span class="module-count">3 项内容</span>
-                  <span class="module-state" aria-hidden="true"></span>
-                </h3>
-              </summary>
-              <div class="module-body">
-                <div class="module-overview">
-                  <p>保留源侧栏 Other 分组中的优化清单、杂物题与练习题入口；它们不计入 11 个核心章节。</p>
-                  <span class="module-time">加餐 · 按需使用</span>
-                </div>
-                <ol class="lesson-list" aria-label="补充资源">
-                  <li class="lesson-item">
-                    <span class="lesson-num">01</span>
-                    <a class="lesson-link" href="https://bornforthis.cn/column/Python-Programming-Course/P02-1-Python-Starter-Journey/00-TODO-LIST.html" target="_blank" rel="noopener noreferrer">Python 系统教程待做优化 <span class="external-arrow" aria-hidden="true">↗</span></a>
-                    <span class="lesson-meta">源目录原名</span>
-                    <span class="lesson-tag" data-kind="extra">规划</span>
-                  </li>
-                  <li class="lesson-item">
-                    <span class="lesson-num">02</span>
-                    <a class="lesson-link" href="https://bornforthis.cn/column/Python-Programming-Course/P02-1-Python-Starter-Journey/All.html" target="_blank" rel="noopener noreferrer">Python 杂物题 <span class="external-arrow" aria-hidden="true">↗</span></a>
-                    <span class="lesson-meta">按需查阅</span>
-                    <span class="lesson-tag" data-kind="extra">补充</span>
-                  </li>
-                  <li class="lesson-item">
-                    <span class="lesson-num">03</span>
-                    <a class="lesson-link" href="https://bornforthis.cn/column/Python-Programming-Course/P02-1-Python-Starter-Journey/Practice.html" target="_blank" rel="noopener noreferrer">Python 练习题 <span class="external-arrow" aria-hidden="true">↗</span></a>
-                    <span class="lesson-meta">自主练习</span>
-                    <span class="lesson-tag" data-kind="extra">练习</span>
-                  </li>
-                </ol>
-              </div>
-            </details>
-          </div>
+          <div class="module-stack" id="module-stack"></div>
         </div>
       </div>
     </section>
@@ -2383,51 +1819,52 @@
       <div class="container usage-heading">
         <div class="reveal">
           <span class="section-number">03</span>
-          <h2 id="usage-title">别把目录当清单，把它当成练习循环。</h2>
+          <h2 id="usage-title">先用卷一建坐标，再到卷二写程序。</h2>
         </div>
-        <p class="reveal reveal-d1">这四步是本展示页提供的使用建议：先看主课，再独立动手；测试后再打开答案；项目完成后，把卡住的地方带回对应章节复盘。</p>
+        <p class="reveal reveal-d1">左侧目录是这份课程表的主要定位方式。所有章节默认折叠，需要时只展开正在学习的部分，用摘要确认内容，再进入具体课时。</p>
       </div>
       <ul class="usage-track" tabindex="0" aria-label="课程安排使用建议，可使用方向键横向浏览">
         <li class="usage-card">
           <span class="usage-card-number" aria-hidden="true">01</span>
-          <span class="label">FOLLOW THE ORDER</span>
-          <h3>先按顺序走完主课</h3>
-          <p>数据类型是后续框架语法的材料。基础阶段先保持顺序，避免在概念没有连起来时过早跳章。</p>
+          <span class="label">THINKING FIRST</span>
+          <h3>卷一先建立思考坐标</h3>
+          <p>从编程意义、历史与生活算法案例入手，先理解计算机处理问题时使用的抽象、规则与边界。</p>
         </li>
         <li class="usage-card">
           <span class="usage-card-number" aria-hidden="true">02</span>
-          <span class="label">CODE BEFORE ANSWER</span>
-          <h3>先写，再看答案</h3>
-          <p>章节测试用于暴露理解缝隙。先保留自己的思路与错误，再对照答案复盘，学习痕迹才会留下来。</p>
+          <span class="label">USE THE INDEX</span>
+          <h3>用左侧目录定位章节</h3>
+          <p>目录按卷和章分组并保持粘性定位。点击目录项会展开目标模块，不需要在长页面里反复寻找。</p>
         </li>
         <li class="usage-card">
           <span class="usage-card-number" aria-hidden="true">03</span>
-          <span class="label">BUILD SOMETHING</span>
-          <h3>把语法装进项目里</h3>
-          <p>问答式简历、运势预测软件、对话式对战游戏，是三次从“知道”走向“能做”的实践节点。</p>
+          <span class="label">FOCUS ONE BLOCK</span>
+          <h3>按需展开正在学的一章</h3>
+          <p>默认折叠让整份课表保持清楚。先读章节摘要，再展开课时；完成后可以恢复折叠，继续下一章。</p>
         </li>
         <li class="usage-card">
           <span class="usage-card-number" aria-hidden="true">04</span>
-          <span class="label">REVIEW THE MAP</span>
-          <h3>回到全局图复盘</h3>
-          <p>卡在条件、循环、函数或类时，先判断缺的是数据知识、结构理解，还是把问题拆小的能力。</p>
+          <span class="label">PRACTICE &amp; REVIEW</span>
+          <h3>用测试和项目完成复盘</h3>
+          <p>卷二的章节测试、答案与三个项目是复盘节点；先保留自己的思路，再对照答案或返回摘要定位问题。</p>
         </li>
       </ul>
       <p class="scroll-hint">← 左右滑动，查看四种使用方式 →</p>
     </section>
 
-    <section class="section source-section" id="source" aria-labelledby="source-title">
+    <section class="section source-section" id="course-note" aria-labelledby="source-title">
       <div class="container source-grid">
         <div class="source-copy reveal">
-          <span class="eyebrow">Source &amp; Credits</span>
-          <h2 id="source-title">回到原文，开始你的第一站。</h2>
-          <p>本页是课程安排的视觉整理，不替代原课程内容。课程标题、章节顺序与入口核对于 2026-08-27；后续更新以 AI悦创原课程站为准。</p>
+          <span class="eyebrow">Course Note</span>
+          <h2 id="source-title">这是一份课程表，不是文章跳转页。</h2>
+          <p>两卷课程在本页形成独立大纲。章节与课时标题按照 AI悦创 Python 课程左侧目录整理；课时不映射外部文章，摘要只用于说明学习内容。</p>
         </div>
         <div class="source-actions reveal reveal-d1">
-          <a class="cta-button" href="https://bornforthis.cn/column/Python-Programming-Course/" target="_blank" rel="noopener noreferrer">打开 Python 原课程目录 <span aria-hidden="true">↗</span></a>
+          <a class="cta-button" href="#course-outline">从双卷大纲开始 <span aria-hidden="true">↑</span></a>
           <p class="source-meta">
             <strong>AI悦创 · AndersonHJB</strong>
-            课程形式：Zoom 线上一对一 · 课程表版本：2025
+            课程形式：Zoom 线上一对一<br>
+            课程范围：卷一 · 编程思维 / 卷二 · Python 小咖养成
           </p>
         </div>
       </div>
@@ -2437,7 +1874,7 @@
   <footer class="site-footer">
     <div class="container footer-grid">
       <p class="footer-copy">
-        课程目录与课程文案版权归 AI悦创 / AndersonHJB 所有。页面结合
+        课程结构与课程文案版权归 AI悦创 / AndersonHJB 所有；双卷顺序以其 Python 课程左侧目录为主要依据。页面结合
         <a href="https://github.com/esthersjw/esther-design-system" target="_blank" rel="noopener noreferrer">Esther Design System</a>
         设计，原作者 ESTHER不二（esthersjw），依据 CC BY-NC-SA 4.0 使用与署名；本设计适配按同协议分享，仅限非商业用途。
       </p>
@@ -2445,7 +1882,85 @@
     </div>
   </footer>
 
+  <script src="assets/course-data.js"></script>
   <script>
+    const railGroups = document.getElementById('rail-groups');
+    const moduleStack = document.getElementById('module-stack');
+    const courseVolumes = Array.isArray(window.courseVolumes) ? window.courseVolumes : [];
+
+    function createElement(tagName, className, text) {
+      const element = document.createElement(tagName);
+      if (className) element.className = className;
+      if (text !== undefined) element.textContent = text;
+      return element;
+    }
+
+    courseVolumes.forEach((volume) => {
+      const railGroup = createElement('div', 'rail-group');
+      const railVolume = createElement('div', 'rail-volume');
+      railVolume.append(
+        createElement('strong', '', `${volume.label} · ${volume.title}`),
+        createElement('span', '', `${volume.modules.length} 个大纲节点 · ${volume.modules.reduce((total, module) => total + module.items.length, 0)} 项内容`)
+      );
+
+      const railList = createElement('ol', 'rail-list');
+      volume.modules.forEach((module) => {
+        const item = createElement('li');
+        const link = createElement('a', '', module.railTitle);
+        link.href = `#${module.id}`;
+        item.append(link);
+        railList.append(item);
+      });
+      railGroup.append(railVolume, railList);
+      railGroups.append(railGroup);
+
+      volume.modules.forEach((module) => {
+        const details = createElement('details', 'module-card');
+        details.id = module.id;
+        details.dataset.tone = module.tone;
+
+        const summary = createElement('summary', 'module-summary');
+        const heading = createElement('h3', 'module-summary-heading');
+        const headingCopy = createElement('span', 'module-heading');
+        headingCopy.append(
+          createElement('span', 'module-kicker', module.kicker),
+          createElement('span', 'module-title', module.title)
+        );
+        const state = createElement('span', 'module-state');
+        state.setAttribute('aria-hidden', 'true');
+        heading.append(
+          createElement('span', 'module-index', module.index),
+          headingCopy,
+          createElement('span', 'module-count', `${module.items.length} 项内容`),
+          state
+        );
+        summary.append(heading);
+
+        const body = createElement('div', 'module-body');
+        const overview = createElement('div', 'module-overview');
+        overview.append(createElement('p', '', module.summary));
+
+        const lessonList = createElement('ol', 'lesson-list');
+        lessonList.setAttribute('aria-label', `${module.title}课程内容`);
+        module.items.forEach((lesson, index) => {
+          const lessonItem = createElement('li', 'lesson-item');
+          const tag = createElement('span', 'lesson-tag', lesson.tag);
+          if (lesson.kind) tag.dataset.kind = lesson.kind;
+          lessonItem.append(
+            createElement('span', 'lesson-num', String(index + 1).padStart(2, '0')),
+            createElement('span', 'lesson-title', lesson.title),
+            createElement('span', 'lesson-summary', lesson.summary),
+            tag
+          );
+          lessonList.append(lessonItem);
+        });
+
+        body.append(overview, lessonList);
+        details.append(summary, body);
+        moduleStack.append(details);
+      });
+    });
+
     const revealItems = document.querySelectorAll('.reveal');
     if ('IntersectionObserver' in window) {
       const revealObserver = new IntersectionObserver((entries) => {
@@ -2487,15 +2002,65 @@
     const railLinks = Array.from(document.querySelectorAll('.rail-list a'));
     const railById = new Map(railLinks.map((link) => [link.getAttribute('href').slice(1), link]));
 
+    function setActiveRail(activeLink) {
+      railLinks.forEach((link) => {
+        const isActive = link === activeLink;
+        link.classList.toggle('active', isActive);
+        if (isActive) {
+          link.setAttribute('aria-current', 'location');
+        } else {
+          link.removeAttribute('aria-current');
+        }
+      });
+    }
+
+    let manualRailLockUntil = 0;
+    railLinks.forEach((link) => {
+      link.addEventListener('click', (event) => {
+        const targetId = link.getAttribute('href').slice(1);
+        const target = document.getElementById(targetId);
+        if (!target) return;
+
+        event.preventDefault();
+        target.open = true;
+        manualRailLockUntil = Date.now() + 900;
+        setActiveRail(link);
+
+        try {
+          history.replaceState(null, '', `#${targetId}`);
+        } catch (error) {
+          window.location.hash = targetId;
+        }
+
+        requestAnimationFrame(() => {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          target.querySelector('summary')?.focus({ preventScroll: true });
+          if (window.matchMedia('(max-width: 900px)').matches) {
+            link.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+          }
+        });
+      });
+    });
+
+    function openHashedModule() {
+      const targetId = window.location.hash.slice(1);
+      const target = document.getElementById(targetId);
+      if (!target?.matches('.module-card')) return;
+      target.open = true;
+      setActiveRail(railById.get(targetId));
+    }
+
+    openHashedModule();
+    window.addEventListener('hashchange', openHashedModule);
+
     if ('IntersectionObserver' in window) {
       const moduleObserver = new IntersectionObserver((entries) => {
         const current = entries
           .filter((entry) => entry.isIntersecting)
           .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
 
-        if (!current) return;
-        railLinks.forEach((link) => link.classList.remove('active'));
-        railById.get(current.target.id)?.classList.add('active');
+        if (!current || Date.now() < manualRailLockUntil) return;
+        setActiveRail(railById.get(current.target.id));
       }, { rootMargin: '-18% 0px -68% 0px', threshold: [0, 0.15, 0.4] });
 
       modules.forEach((module) => moduleObserver.observe(module));

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 620" role="img" aria-labelledby="title desc">
-  <title id="title">Python 小咖养成学习路线</title>
-  <desc id="desc">从环境搭建出发，依次经过数据、逻辑、函数、类、工程实践与结业测试。</desc>
+  <title id="title">编程思维到 Python 双卷学习路线</title>
+  <desc id="desc">从编程思维、计算历史与算法出发，进入 Python 数据、流程控制与程序实践。</desc>
   <defs>
     <filter id="paper" x="-10%" y="-10%" width="120%" height="120%">
       <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="8" result="noise"/>
@@ -21,46 +21,46 @@
     <g transform="translate(75 470)">
       <circle cx="22" cy="22" r="22" fill="#e84a5f"/>
       <text x="22" y="28" text-anchor="middle" fill="#fefcf6" font-size="17" font-family="system-ui, sans-serif" font-weight="700">00</text>
-      <text x="58" y="17" fill="#1a1a2e" font-size="21" font-family="system-ui, sans-serif" font-weight="700">环境</text>
-      <text x="58" y="39" fill="#4a4a5a" font-size="13" font-family="system-ui, sans-serif">GET READY</text>
+      <text x="58" y="17" fill="#1a1a2e" font-size="21" font-family="system-ui, sans-serif" font-weight="700">思维</text>
+      <text x="58" y="39" fill="#4a4a5a" font-size="13" font-family="system-ui, sans-serif">WHY &amp; THINKING</text>
     </g>
 
     <g transform="translate(118 297)">
       <circle cx="22" cy="22" r="22" fill="#f4d758"/>
       <text x="22" y="28" text-anchor="middle" fill="#1a1a2e" font-size="17" font-family="system-ui, sans-serif" font-weight="700">01</text>
-      <text x="58" y="17" fill="#1a1a2e" font-size="21" font-family="system-ui, sans-serif" font-weight="700">数据</text>
-      <text x="58" y="39" fill="#4a4a5a" font-size="13" font-family="system-ui, sans-serif">DATA TYPES</text>
+      <text x="58" y="17" fill="#1a1a2e" font-size="21" font-family="system-ui, sans-serif" font-weight="700">历史</text>
+      <text x="58" y="39" fill="#4a4a5a" font-size="13" font-family="system-ui, sans-serif">HISTORY &amp; IDEAS</text>
     </g>
 
     <g transform="translate(276 248)">
       <circle cx="22" cy="22" r="22" fill="#2b7fd8"/>
       <text x="22" y="28" text-anchor="middle" fill="#fefcf6" font-size="17" font-family="system-ui, sans-serif" font-weight="700">02</text>
-      <text x="58" y="17" fill="#1a1a2e" font-size="21" font-family="system-ui, sans-serif" font-weight="700">逻辑</text>
-      <text x="58" y="39" fill="#4a4a5a" font-size="13" font-family="system-ui, sans-serif">CONTROL FLOW</text>
+      <text x="58" y="17" fill="#1a1a2e" font-size="21" font-family="system-ui, sans-serif" font-weight="700">算法</text>
+      <text x="58" y="39" fill="#4a4a5a" font-size="13" font-family="system-ui, sans-serif">ALGORITHMS</text>
     </g>
 
     <g transform="translate(420 248)">
       <circle cx="22" cy="22" r="22" fill="#e84a5f"/>
       <text x="22" y="28" text-anchor="middle" fill="#fefcf6" font-size="17" font-family="system-ui, sans-serif" font-weight="700">03</text>
-      <text x="58" y="17" fill="#1a1a2e" font-size="21" font-family="system-ui, sans-serif" font-weight="700">抽象</text>
-      <text x="58" y="39" fill="#4a4a5a" font-size="13" font-family="system-ui, sans-serif">FUNCTION &amp; CLASS</text>
+      <text x="58" y="17" fill="#1a1a2e" font-size="21" font-family="system-ui, sans-serif" font-weight="700">Python</text>
+      <text x="58" y="39" fill="#4a4a5a" font-size="13" font-family="system-ui, sans-serif">DATA &amp; CONTROL</text>
     </g>
 
     <g transform="translate(483 145)">
       <circle cx="22" cy="22" r="22" fill="#f4d758"/>
       <text x="22" y="28" text-anchor="middle" fill="#1a1a2e" font-size="17" font-family="system-ui, sans-serif" font-weight="700">04</text>
-      <text x="58" y="17" fill="#1a1a2e" font-size="21" font-family="system-ui, sans-serif" font-weight="700">工程</text>
-      <text x="58" y="39" fill="#4a4a5a" font-size="13" font-family="system-ui, sans-serif">FILE &amp; ERROR</text>
+      <text x="58" y="17" fill="#1a1a2e" font-size="21" font-family="system-ui, sans-serif" font-weight="700">实践</text>
+      <text x="58" y="39" fill="#4a4a5a" font-size="13" font-family="system-ui, sans-serif">FUNCTION &amp; CLASS</text>
     </g>
 
     <g transform="translate(536 65)">
       <circle cx="77" cy="45" r="42" fill="#2b7fd8"/>
       <path d="M61 45l11 11 23-26" fill="none" stroke="#fefcf6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
-      <text x="77" y="105" text-anchor="middle" fill="#1a1a2e" font-size="22" font-family="system-ui, sans-serif" font-weight="700">结业</text>
+      <text x="77" y="105" text-anchor="middle" fill="#1a1a2e" font-size="22" font-family="system-ui, sans-serif" font-weight="700">复盘</text>
     </g>
 
-    <text x="54" y="80" fill="#1e5ba8" font-size="114" font-family="Georgia, serif" font-style="italic" font-weight="700" opacity="0.12">VOL. II</text>
-    <text x="56" y="111" fill="#4a4a5a" font-size="14" font-family="system-ui, sans-serif" letter-spacing="3">PYTHON STARTER JOURNEY</text>
+    <text x="54" y="80" fill="#1e5ba8" font-size="102" font-family="Georgia, serif" font-style="italic" font-weight="700" opacity="0.12">VOL. I · II</text>
+    <text x="56" y="111" fill="#4a4a5a" font-size="14" font-family="system-ui, sans-serif" letter-spacing="3">THINKING TO PYTHON</text>
     <path d="M56 132h168" stroke="#e84a5f" stroke-width="7" stroke-linecap="round"/>
   </g>
 </svg>
