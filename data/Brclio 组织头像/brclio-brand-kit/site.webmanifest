@@ -1,0 +1,28 @@
+{
+  "name": "Brclio",
+  "short_name": "Brclio",
+  "description": "记录知识，让创作被看见。",
+  "icons": [
+    {
+      "src": "favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "brclio-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "theme_color": "#2B7FD8",
+  "background_color": "#FEFCF6",
+  "display": "standalone"
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Brclio favicon 16 pixel master">
+  <circle cx="32" cy="32" r="30" fill="#F4D758"/>
+  <path fill="#2B7FD8" d="M18.2 7.7c-1.6.2-2.6 1.3-2.6 2.9v42.8c0 1.9 1.2 3 3.1 3h21.8c9.8 0 16-4.5 16-12.3 0-6.1-4.1-11-10.8-13.1 4.1-2.4 6.6-6.3 6.6-11.1 0-7.8-5.7-12.5-15.1-12.5H22.8c-1.8 0-3.3.1-4.6.3Z"/>
+
+  <!-- One enlarged leaf replaces the two-leaf detail in the 16 px raster layer. -->
+  <path fill="#F4D758" d="M20 24h8v-4h4v-4h4v-4h-8v4h-4v4h-4Z"/>
+
+  <path fill="#FEFCF6" d="M37.6 17.4c-.3 5.4.8 9.7 3.8 13.7l2.1 2.8c.5.7.2 1.3-.6 1.5l-2.8.7c.2 1.6-.3 2.7-1.4 3.3-.1 1.1-.8 1.7-2 2-.7 3.3-3.1 5-6.4 5-3 0-5.3-2.2-7.3-1-1.9 1.2-3.1 4.4-3.6 7.8l-3.2.7V40.6c1.8-4.8 4.6-7.8 8.5-10 5.3-2.9 9.6-7.1 12.9-13.2Z"/>
+  <circle cx="45.7" cy="49.7" r="7.8" fill="#FEFCF6"/>
+  <circle cx="45.7" cy="49.7" r="5.9" fill="#E84A5F"/>
+  <circle cx="48.3" cy="49.9" r="3.7" fill="#F4D758"/>
+</svg>

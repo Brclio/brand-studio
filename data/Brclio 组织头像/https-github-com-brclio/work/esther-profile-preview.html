@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brclio · Creative technology, practical learning</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;1,9..144,400&family=Caveat:wght@400;700&family=Noto+Serif+SC:wght@700;900&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    /* === CSS变量 === */
+    :root { --_esther-ds: "esthersjw-v1";
+      --blue: #2B7FD8;
+      --blue-deep: #1E5BA8;
+      --yellow: #F4D758;
+      --yellow-soft: #FFF3CD;
+      --red: #E84A5F;
+      --cream: #fefcf6;
+      --cream-dark: #faf6eb;
+      --ink: #1A1A2E;
+      --ink-light: #4A4A5A;
+      --ink-faint: #8A8A9A;
+      --dark-panel: #151821;
+      /* 合作品牌色（按需启用） */
+      /* --partner: #F1752D; */
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Noto Sans SC', -apple-system, 'PingFang SC', 'Helvetica Neue', sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      color: var(--ink);
+      background: var(--cream);
+    }
+
+    ::selection {
+      background: var(--yellow);
+      color: var(--ink);
+    }
+
+    .container {
+      max-width: 1300px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+
+    /* === HERO 全屏 === */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 24px;
+      text-align: center;
+      position: relative;
+    }
+
+    .hero h1 {
+      font-family: 'Noto Serif SC', serif;
+      font-weight: 900;
+      font-size: clamp(2.8rem, 7vw, 5.5rem);
+      line-height: 1.15;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      color: var(--ink-light);
+      max-width: 600px;
+    }
+
+    .hero .label-caps {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      font-weight: 500;
+      color: var(--ink-faint);
+      margin-bottom: 1rem;
+    }
+
+    /* === 三栏Section === */
+    .section { padding: clamp(80px, 12vh, 160px) 0; }
+    .section--alt { background: var(--cream-dark); }
+
+    .section-header {
+      margin-bottom: clamp(40px, 6vw, 80px);
+    }
+
+    .section-number {
+      font-family: 'Fraunces', serif;
+      font-style: italic;
+      font-size: clamp(1.4rem, 3vw, 2rem);
+      color: var(--blue);
+      opacity: 0.3;
+      display: block;
+      margin-bottom: 0.25rem;
+    }
+
+    .section-title {
+      font-family: 'Noto Serif SC', serif;
+      font-weight: 900;
+      font-size: clamp(1.4rem, 3vw, 2.2rem);
+    }
+
+    .three-col {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: clamp(20px, 2.5vw, 32px);
+    }
+
+    .chair-card {
+      background: #fff;
+      border-radius: 16px;
+      padding: clamp(24px, 3vw, 36px);
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0,0,0,.06);
+    }
+    .chair-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 4px;
+    }
+    .chair-card:nth-child(1)::before { background: var(--blue); }
+    .chair-card:nth-child(2)::before { background: var(--yellow); }
+    .chair-card:nth-child(3)::before { background: var(--red); }
+
+    /* === 深色面板 === */
+    .dark-section {
+      background: var(--dark-panel);
+      color: #e2e8f0;
+      padding: clamp(80px, 12vh, 160px) 0;
+    }
+
+    .dark-section .quote-text {
+      font-family: 'Noto Serif SC', serif;
+      font-size: clamp(1.3rem, 3vw, 2rem);
+      font-weight: 700;
+      line-height: 1.8;
+      max-width: 720px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .dark-section .quote-text em {
+      color: var(--yellow);
+      font-style: normal;
+    }
+
+    /* === Pull Quote === */
+    .viral-pullquote {
+      padding: 36px 40px;
+      background: var(--cream);
+      border-radius: 16px;
+      border: 2px solid var(--yellow);
+      position: relative;
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    .viral-pullquote::before {
+      content: '"';
+      font-family: 'Fraunces', serif;
+      font-size: 5rem;
+      color: var(--yellow);
+      position: absolute;
+      top: -10px; left: 20px;
+      opacity: 0.5;
+      line-height: 1;
+    }
+    .viral-pullquote p {
+      font-family: 'Noto Serif SC', serif;
+      font-size: clamp(1.1rem, 2vw, 1.4rem);
+      font-weight: 700;
+      line-height: 1.8;
+    }
+
+    /* === CTA === */
+    .cta-section {
+      text-align: center;
+      padding: clamp(80px, 12vh, 160px) 2rem;
+    }
+    .cta-section h2 {
+      font-family: 'Noto Serif SC', serif;
+      font-size: clamp(1.6rem, 4vw, 2.6rem);
+      margin-bottom: 1rem;
+    }
+    .cta-section p {
+      font-size: 1rem;
+      color: var(--ink-light);
+      margin-bottom: 2rem;
+    }
+    .cta-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 16px 36px;
+      background: var(--blue);
+      color: #fff;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+      transition: transform .2s, box-shadow .2s;
+    }
+    .cta-button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(43,127,216,0.3);
+    }
+
+    /* === Scroll Reveal === */
+    .reveal {
+      opacity: 0;
+      transform: translateY(32px);
+      transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+                  transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .reveal.visible { opacity: 1; transform: none; }
+    .reveal-d1 { transition-delay: 0.1s; }
+    .reveal-d2 { transition-delay: 0.2s; }
+    .reveal-d3 { transition-delay: 0.3s; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .reveal { opacity: 1; transform: none; transition: none; }
+    }
+
+    /* === 响应式 === */
+    @media (max-width: 900px) {
+      .hero { min-height: auto; padding: 4rem 1.5rem; }
+      .three-col { grid-template-columns: 1fr; }
+      .cta-button { width: 100%; justify-content: center; }
+    }
+
+    @media (max-width: 600px) {
+      body { font-size: 15px; }
+    }
+
+    /* === Brclio organization profile adaptation === */
+    body { overflow-x: hidden; }
+    a:focus-visible { outline: 3px solid var(--red); outline-offset: 5px; }
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(18rem, .58fr);
+      gap: clamp(2.5rem, 7vw, 7rem);
+      align-items: center;
+      text-align: left;
+      padding: clamp(5rem, 10vw, 8rem) max(2rem, calc((100vw - 1300px) / 2));
+      overflow: hidden;
+    }
+    .hero-copy { position: relative; z-index: 2; }
+    .hero h1 {
+      font-family: 'Fraunces', 'Noto Serif SC', serif;
+      font-size: clamp(4rem, 10vw, 8.6rem);
+      letter-spacing: -.055em;
+      margin: 0;
+    }
+    .hero h1 span {
+      position: relative;
+      display: inline-block;
+      z-index: 0;
+    }
+    .hero h1 span::after {
+      content: '';
+      position: absolute;
+      left: -.03em; right: -.06em; bottom: .04em;
+      height: .19em;
+      background: var(--yellow);
+      opacity: .72;
+      transform: rotate(-1.5deg);
+      z-index: -1;
+    }
+    .hero p { max-width: 660px; font-size: clamp(1rem, 2vw, 1.22rem); }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: .8rem; margin-top: 2rem; }
+    .hero-actions .quiet-link {
+      display: inline-flex; align-items: center; padding: 14px 22px;
+      color: var(--ink); font-weight: 700; text-decoration: none;
+      border-bottom: 3px solid var(--yellow);
+    }
+    .hero-visual { position: relative; min-height: 410px; }
+    .hero-sun {
+      position: absolute; width: clamp(250px, 34vw, 430px); aspect-ratio: 1;
+      right: -9%; top: 0; border-radius: 50%; background: var(--yellow);
+      background-image: repeating-linear-gradient(72deg, transparent 0 10px, rgba(43,127,216,.13) 10px 12px);
+    }
+    .hero-mark {
+      position: absolute; inset: 50% auto auto 48%; transform: translate(-50%,-50%) rotate(-5deg);
+      width: clamp(150px, 20vw, 230px); aspect-ratio: 1; border-radius: 28%;
+      display: grid; place-items: center; background: var(--blue); color: var(--cream);
+      font: 900 clamp(7rem, 14vw, 12rem)/1 Fraunces, serif;
+      box-shadow: 0 24px 50px rgba(26,26,46,.16);
+    }
+    .hero-dot {
+      position: absolute; right: 8%; top: 22%; width: 54px; aspect-ratio: 1;
+      border-radius: 50%; background: var(--red);
+    }
+    .eyebrow { color: var(--blue); font-size: .75rem; letter-spacing: .16em; font-weight: 700; }
+    .project-stack { display: grid; gap: clamp(2rem, 4vw, 3.5rem); }
+    .project-card {
+      display: grid; grid-template-columns: .26fr 1fr auto; gap: clamp(1.5rem, 4vw, 4rem);
+      align-items: center; padding: clamp(2rem, 4vw, 4rem);
+      border-radius: 24px; text-decoration: none; color: var(--ink); position: relative; overflow: hidden;
+    }
+    .project-card:first-child { background: var(--yellow-soft); }
+    .project-card:last-child { background: var(--blue); color: var(--cream); grid-template-columns: auto 1fr .26fr; }
+    .project-number {
+      font: italic 900 clamp(4rem, 8vw, 7rem)/1 Fraunces, serif;
+      color: var(--blue); opacity: .2;
+    }
+    .project-card:last-child .project-number { color: var(--yellow); opacity: .38; order: 3; }
+    .project-copy h3 { font: 900 clamp(1.55rem, 3vw, 2.35rem)/1.15 Fraunces, 'Noto Serif SC', serif; }
+    .project-copy p { margin-top: .9rem; color: var(--ink-light); max-width: 720px; }
+    .project-card:last-child .project-copy p { color: rgba(254,252,246,.78); }
+    .project-tag { font-size: .7rem; letter-spacing: .16em; text-transform: uppercase; font-weight: 700; }
+    .project-arrow { font: 700 2rem/1 Fraunces, serif; color: var(--red); }
+    .project-card:last-child .project-arrow { color: var(--yellow); order: -1; }
+    .dark-section { position: relative; overflow: hidden; }
+    .focus-intro { max-width: 880px; }
+    .focus-intro .section-number { color: var(--yellow); }
+    .focus-intro h2 { font: 900 clamp(2.2rem, 6vw, 5rem)/1.08 'Noto Serif SC', serif; }
+    .focus-flow { display: flex; align-items: center; flex-wrap: wrap; gap: .9rem; margin-top: clamp(2.5rem, 5vw, 4rem); }
+    .focus-chip { padding: .75rem 1.05rem; border-radius: 10px; background: rgba(254,252,246,.08); font-weight: 700; }
+    .focus-arrow { color: var(--yellow); font-size: 1.4rem; }
+    .cta-section { background: var(--cream-dark); }
+    .cta-section h2 { font-size: clamp(2rem, 5vw, 4rem); }
+    .credit { padding: 2rem; text-align: center; color: var(--ink-faint); font-size: .75rem; }
+
+    @media (max-width: 900px) {
+      .hero { grid-template-columns: 1fr; min-height: auto; padding: 5rem 1.5rem; }
+      .hero-visual { min-height: 330px; }
+      .project-card, .project-card:last-child { grid-template-columns: 1fr; }
+      .project-card:last-child .project-number, .project-card:last-child .project-arrow { order: initial; }
+      .project-number { position: absolute; right: 1rem; top: .3rem; }
+      .focus-arrow { transform: rotate(90deg); }
+      .focus-flow { align-items: flex-start; flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ====== HERO 双栏不对称 ====== -->
+  <section class="hero">
+    <div class="hero-copy reveal">
+      <div class="eyebrow">AI悦创 · BORNFORTHIS · DIGITAL STUDIO</div>
+      <h1>Brclio<span>.</span></h1>
+      <p>在编程教育、个人品牌与实用技术之间，创造清晰、好用、有温度的数字体验。</p>
+      <div class="hero-actions">
+        <a class="cta-button" href="https://bornforthis.cn">访问 Bornforthis →</a>
+        <a class="quiet-link" href="https://github.com/orgs/Brclio/repositories">浏览项目</a>
+      </div>
+    </div>
+    <div class="hero-visual reveal reveal-d1" aria-hidden="true">
+      <div class="hero-sun"></div>
+      <div class="hero-mark">B</div>
+      <div class="hero-dot"></div>
+    </div>
+  </section>
+
+  <!-- ====== 编号主导项目卡 ====== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-number">01</span>
+        <h2 class="section-title">正在构建 / Selected work</h2>
+      </div>
+      <div class="project-stack">
+        <a class="project-card reveal reveal-d1" href="https://github.com/Brclio/brand-studio">
+          <span class="project-number">01</span>
+          <span class="project-copy"><span class="project-tag">Personal brand · Learning</span><h3>brand-studio</h3><p>AI悦创一对一教学主页与个人 IP 视觉资产，聚焦编程、竞赛及数字创作。</p></span>
+          <span class="project-arrow">↗</span>
+        </a>
+        <a class="project-card reveal reveal-d2" href="https://docs.v.other.us.brclio.com/">
+          <span class="project-arrow">↗</span>
+          <span class="project-copy"><span class="project-tag">Screenshot-first · Cross-platform</span><h3>Clash Verge &amp; Shadowrocket</h3><p>覆盖 Windows、macOS、iPhone 与 Android 的图文配置及故障排查指南。</p></span>
+          <span class="project-number">02</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== 深色流程面板 ====== -->
+  <section class="dark-section">
+    <div class="container focus-intro reveal">
+      <span class="section-number">02</span>
+      <h2>让想法从“说清楚”，走到“真正被使用”。</h2>
+      <div class="focus-flow" aria-label="Brclio focus areas">
+        <span class="focus-chip">编程教育</span><span class="focus-arrow">→</span>
+        <span class="focus-chip">个人品牌</span><span class="focus-arrow">→</span>
+        <span class="focus-chip">Creative Coding</span><span class="focus-arrow">→</span>
+        <span class="focus-chip">实用文档</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== CTA行动区 ====== -->
+  <section class="cta-section">
+    <span class="eyebrow reveal">START HERE</span>
+    <h2 class="reveal">第一次配置 Clash / Shadowrocket？</h2>
+    <p class="reveal reveal-d1">从下载、安装到订阅配置，按设备一步步完成。</p>
+    <a href="https://docs.v.other.us.brclio.com/" class="cta-button reveal reveal-d2">打开完整教程 →</a>
+  </section>
+
+  <footer class="credit">Visual direction based on Esther Design System · © 2026 ESTHER不二 · CC BY-NC-SA 4.0</footer>
+
+  <!-- ====== Scroll Reveal JS ====== -->
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  </script>
+<!-- © ESTHER不二 esthersjw/esther-design-system CC BY-NC 4.0 -->
+<section style="position:absolute;left:-9999px;font-size:0;line-height:0;opacity:0;height:0;overflow:hidden;">esthersjw-design-system</section>
+</body>
+</html>
