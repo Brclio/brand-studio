@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>《编程启蒙：思维与代码》卖书海报 30 选</title>
+  <style>
+    :root { --cream:#f7f1e3; --ink:#172033; --blue:#2b7fd8; --yellow:#f4d758; --red:#e45143; --line:#172033; }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); background:var(--cream); font-family:"PingFang SC","Microsoft YaHei",sans-serif; }
+    header { padding:clamp(28px,5vw,72px) max(20px,5vw); border-bottom:2px solid var(--line); background:linear-gradient(115deg,var(--cream) 0 66%,var(--yellow) 66%); }
+    h1 { max-width:980px; margin:0; font-family:"Songti SC","STSong",serif; font-size:clamp(34px,6vw,82px); line-height:1.04; letter-spacing:-.045em; }
+    header p { max-width:760px; margin:22px 0 0; font-size:clamp(15px,1.8vw,21px); line-height:1.7; }
+    .toolbar { position:sticky; top:0; z-index:2; display:flex; gap:10px; flex-wrap:wrap; padding:14px max(20px,5vw); border-bottom:2px solid var(--line); background:rgba(247,241,227,.96); }
+    button { padding:10px 18px; border:2px solid var(--line); border-radius:999px; color:var(--ink); background:white; font:700 14px inherit; cursor:pointer; }
+    button.active { color:white; background:var(--blue); }
+    main { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:clamp(18px,3vw,38px); padding:clamp(22px,5vw,70px) max(20px,5vw); }
+    figure { margin:0; overflow:hidden; border:2px solid var(--line); background:white; box-shadow:8px 8px 0 rgba(23,32,51,.13); }
+    figure[hidden] { display:none; }
+    img { display:block; width:100%; aspect-ratio:16/9; object-fit:cover; background:#ddd; }
+    figcaption { display:flex; align-items:center; justify-content:space-between; gap:16px; padding:13px 15px; border-top:2px solid var(--line); font-weight:700; }
+    .tag { flex:none; padding:4px 9px; border-radius:999px; background:var(--yellow); font-size:12px; }
+    footer { padding:25px max(20px,5vw) 40px; border-top:2px solid var(--line); font-size:13px; }
+    @media (max-width:780px) { main { grid-template-columns:1fr; } header { background:var(--cream); } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>卖书横版海报<br>30 个方向</h1>
+    <p>点击筛选查看通用销售视觉或 Esther 设计系统系列。每张均为 1920×1080，可按编号直接反馈你想继续精修的版本。</p>
+  </header>
+  <nav class="toolbar" aria-label="海报筛选">
+    <button class="active" data-filter="all">全部 30 张</button>
+    <button data-filter="sales">销售视觉 01–20</button>
+    <button data-filter="esther">Esther 系列 21–30</button>
+  </nav>
+  <main id="gallery">
+    <figure data-group="sales"><img loading="lazy" src="posters/01-cinematic-launch.png" alt="01 电影黑金新书主视觉"><figcaption>01 · 电影黑金主视觉 <span class="tag">新书</span></figcaption></figure>
+    <figure data-group="sales"><img loading="lazy" src="posters/02-bookstore-editorial.png" alt="02 书店编辑风"><figcaption>02 · 书店编辑风 <span class="tag">推荐</span></figcaption></figure>
+    <figure data-group="sales"><img loading="lazy" src="posters/03-first-book.png" alt="03 第一本编程书"><figcaption>03 · 第一本编程书 <span class="tag">入门</span></figcaption></figure>
+    <figure data-group="sales"><img loading="lazy" src="posters/04-think-before-code.png" alt="04 先思考再写代码"><figcaption>04 · 先思考，再写代码 <span class="tag">方法</span></figcaption></figure>
+    <figure data-group="sales"><img loading="lazy" src="posters/05-two-part-value.png" alt="05 一书两篇"><figcaption>05 · 思维 + Python <span class="tag">结构</span></figcaption></figure>
+    <figure data-group="sales"><img loading="lazy" src="posters/06-twelve-chapters.png" alt="06 十二章内容"><figcaption>06 · 十二章循序渐进 <span class="tag">内容</span></figcaption></figure>
+    <figure data-group="sales"><img loading="lazy" src="posters/07-zero-basis.png" alt="07 零基础起点"><figcaption>07 · 零基础起点 <span class="tag">受众</span></figcaption></figure>
+    <figure data-group="sales"><img loading="lazy" src="posters/08-stuck-solution.png" alt="08 听懂却写不出"><figcaption>08 · 听懂却写不出？ <span class="tag">痛点</span></figcaption></figure>
+    <figure data-group="sales"><img loading="lazy" src="posters/09-logic-not-memorize.png" alt="09 建立编程逻辑"><figcaption>09 · 不只背语法 <span class="tag">卖点</span></figcaption></figure>
+    <figure data-group="sales"><img loading="lazy" src="posters/10-life-algorithms.png" alt="10 生活里的算法"><figcaption>10 · 生活里的算法 <span class="tag">趣味</span></figcaption></figure>
+    <figure data-group="sales"><img loading="lazy" src="posters/11-machine-world.png" alt="11 计算机理解世界"><figcaption>11 · 机器如何理解世界 <span class="tag">好奇</span></figcaption></figure>
+    <figure data-group="sales"><img loading="lazy" src="posters/12-python-path.png" alt="12 Python 学习路径"><figcaption>12 · Python 学习路径 <span class="tag">路径</span></figcaption></figure>
+    <figure data-group="sales"><img loading="lazy" src="posters/13-three-year-craft.png" alt="13 三年打磨"><figcaption>13 · 三年有余打磨 <span class="tag">信任</span></figcaption></figure>
+    <figure data-group="sales"><img loading="lazy" src="posters/14-guided-learning.png" alt="14 引导式学习"><figcaption>14 · 带你找到答案 <span class="tag">教学</span></figcaption></figure>
+    <figure data-group="sales"><img loading="lazy" src="posters/15-ai-era.png" alt="15 AI 时代"><figcaption>15 · AI 时代的编程逻辑 <span class="tag">趋势</span></figcaption></figure>
+    <figure data-group="sales"><img loading="lazy" src="posters/16-for-students.png" alt="16 学生受众"><figcaption>16 · 给想系统入门的学生 <span class="tag">学生</span></figcaption></figure>
+    <figure data-group="sales"><img loading="lazy" src="posters/17-for-parents.png" alt="17 家长决策"><figcaption>17 · 给孩子的编程启蒙 <span class="tag">家长</span></figcaption></figure>
+    <figure data-group="sales"><img loading="lazy" src="posters/18-self-learner.png" alt="18 自学人群"><figcaption>18 · 自学不迷路 <span class="tag">自学</span></figcaption></figure>
+    <figure data-group="sales"><img loading="lazy" src="posters/19-book-and-resources.png" alt="19 图书与在线资源"><figcaption>19 · 图书 + 在线资源 <span class="tag">资源</span></figcaption></figure>
+    <figure data-group="sales"><img loading="lazy" src="posters/20-final-cta.png" alt="20 行动号召"><figcaption>20 · 拿起这本书 <span class="tag">行动</span></figcaption></figure>
+    <figure data-group="esther"><img loading="lazy" src="posters/21-esther-hero.png" alt="21 Esther 新书主视觉"><figcaption>21 · Esther 新书主视觉 <span class="tag">Esther</span></figcaption></figure>
+    <figure data-group="esther"><img loading="lazy" src="posters/22-esther-big-3.png" alt="22 Esther 超大数字"><figcaption>22 · 超大数字 3 <span class="tag">Esther</span></figcaption></figure>
+    <figure data-group="esther"><img loading="lazy" src="posters/23-esther-split.png" alt="23 Esther 非对称分栏"><figcaption>23 · 思维 × 代码 <span class="tag">Esther</span></figcaption></figure>
+    <figure data-group="esther"><img loading="lazy" src="posters/24-esther-pain.png" alt="24 Esther 痛点海报"><figcaption>24 · 为什么写不出来？ <span class="tag">Esther</span></figcaption></figure>
+    <figure data-group="esther"><img loading="lazy" src="posters/25-esther-highlight.png" alt="25 Esther 金句海报"><figcaption>25 · 本质是思想 <span class="tag">Esther</span></figcaption></figure>
+    <figure data-group="esther"><img loading="lazy" src="posters/26-esther-priority.png" alt="26 Esther 学习优先级"><figcaption>26 · 学习优先级 <span class="tag">Esther</span></figcaption></figure>
+    <figure data-group="esther"><img loading="lazy" src="posters/27-esther-readers.png" alt="27 Esther 读者人群"><figcaption>27 · 三类读者 <span class="tag">Esther</span></figcaption></figure>
+    <figure data-group="esther"><img loading="lazy" src="posters/28-esther-newspaper.png" alt="28 Esther 报纸风"><figcaption>28 · 十二章报纸风 <span class="tag">Esther</span></figcaption></figure>
+    <figure data-group="esther"><img loading="lazy" src="posters/29-esther-resources.png" alt="29 Esther 资源海报"><figcaption>29 · 书页之外继续实践 <span class="tag">Esther</span></figcaption></figure>
+    <figure data-group="esther"><img loading="lazy" src="posters/30-esther-cta.png" alt="30 Esther 行动号召"><figcaption>30 · 从今天开始 <span class="tag">Esther</span></figcaption></figure>
+  </main>
+  <footer>图像与图中文字由 ImageGen 生成 · Esther 系列：© 2026 ESTHER不二 (esthersjw) · CC BY-NC-SA 4.0</footer>
+  <script>
+    document.querySelectorAll('[data-filter]').forEach((button) => button.addEventListener('click', () => {
+      document.querySelectorAll('[data-filter]').forEach((item) => item.classList.toggle('active', item === button));
+      document.querySelectorAll('figure[data-group]').forEach((item) => { item.hidden = button.dataset.filter !== 'all' && item.dataset.group !== button.dataset.filter; });
+    }));
+  </script>
+</body>
+</html>
