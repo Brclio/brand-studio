@@ -92,27 +92,27 @@ Clio 的侧脸没有作为一个独立人物覆盖在 Logo 上，而是从 B 的
 
 ## 5. Logo、Avatar 与 Favicon 的关系
 
-它们属于同一识别系统，但承担不同任务，不应把完整版头像机械缩小成 favicon。
+它们使用**同一份 Logo 几何母版**。Favicon 不是另画一枚相似图标，也不改变人物、月桂或卷轴结构；它只减少外部空白，并从同一母版导出不同像素尺寸。
 
-| 版本 | 主要任务 | 保留内容 | 简化内容 | 推荐场景 |
+| 版本 | 主要任务 | 必须保留 | 允许调整 | 推荐场景 |
 | --- | --- | --- | --- | --- |
-| **完整 Logo／头像** | 讲清品牌故事并形成长期识别 | B、Clio 侧脸、月桂、卷轴 C、红色印章 | 仅压低细纹与装饰密度 | GitHub 组织头像、社交头像、文档封面、品牌介绍 |
-| **Favicon 微标识** | 在 16–32 px 中瞬时确认“这是 Brclio” | 黄底、蓝色 B 主轮廓、奶油色负形提示、红色卷尾／句点 | 省略面部微结构与大部分月桂细节，扩大色块间距 | 浏览器标签页、书签、PWA、快捷方式 |
+| **完整 Logo／头像** | 讲清品牌故事并形成长期识别 | B、完整 Clio 侧脸与闭眼、5 片月桂、白色分隔线、红黄卷轴 C | 平台需要时调整外部留白与文件压缩 | GitHub 组织头像、社交头像、文档封面、品牌介绍 |
+| **Favicon 忠实适配版** | 在 16–32 px 中确认“这是 Brclio” | 与完整 Logo 完全相同的构图、比例、元素数量和色彩关系 | 仅紧凑裁切、缩放算法、压缩与像素重采样 | 浏览器标签页、书签、PWA、快捷方式 |
 | **单色标** | 满足受限印刷工艺 | B 与 C 的外轮廓关系 | 取消所有色彩和内层肌理 | 印章、蚀刻、压印、单色周边 |
 
-Favicon 的设计原则是“**轮廓优先于故事完整度**”。在 16 px 下，用户不会阅读一张微缩插画；因此微标识保留 B/C 的骨架和红色落款，把 Clio 从具体侧脸降为一个可感知的奶油色缺口。它仍然来自完整版 Logo，却是一枚独立优化过的小尺寸字形。
+Favicon 的原则是“**同一母版，尺寸适配，不重画**”。16 px 下细节会自然合并，但这属于显示分辨率的结果，而不是设计师主动删减或替换结构。任何尺寸都不得把 5 片月桂改成 1–2 片，也不得重画 Clio 的额头、鼻、唇、下巴、肩颈或闭眼。
 
-### 5.1 Favicon 的微缩几何
+### 5.1 Favicon 的适配方法
 
-Favicon 以 `64 × 64` 的 SVG 画布为母版，并使用完全封闭的纯色路径：
+本套 favicon 以 `avatar/brclio-logo-master-1254.png` 为唯一视觉母版：
 
-- 外层是圆心 `(32, 32)`、半径 `30` 的金黄色圆，四周保留 `2` 个单位的透明安全边。
-- 蓝色 B 是唯一主轮廓；竖干和两段圆肚都比头像版更厚，优先保证 16–32 px 的字母识别。
-- Clio 只保留额头、鼻尖、唇、下巴与肩颈连成的一块奶油色剪影，不绘制眼睛、睫毛或发丝。
-- 32 px 及以上保留两片实心月桂；`favicon.ico` 的 16 px 图层改为一片手工像素提示的斜叶，避免抗锯齿产生灰绿色杂点。
-- 右下角以奶油色外圆、红色圆和偏移黄圆组成卷轴 C；在 16 px 下允许退化为清晰的红黄记忆点。
+- 从原图中央做正方形紧凑裁切，只减少约 9% 的外围空白；Logo 内部像素和各元素相对位置不变。
+- `512／192／64／48／32／16 px` 全部由同一个裁切母版向下重采样，不使用独立重绘的路径。
+- `favicon.svg` 是自包含的 SVG 容器，内部嵌入忠实的 512 px Logo 图像；这样既方便现代浏览器引用，也避免重新矢量化造成轮廓漂移。
+- `favicon.ico` 包含 16、32、48 px 三个同源图层，不替换月桂、不删除闭眼，也不改写卷轴 C。
+- Apple Touch Icon 与 maskable 图标使用完整画布，以保留系统圆角和蒙版所需的安全区。
 
-这套微缩标志的验收顺序是：**16 px 先读出“黄圆＋蓝 B＋红点”，32 px 开始读出 Clio 侧影与卷轴 C，64 px 完整呈现月桂和人物关系。**
+验收顺序为：**512／192 px 必须与母版视觉一致；64 px 能识别闭眼、5 片月桂与完整卷轴；32 px 保持整体剪影和色彩关系；16 px 允许细节自然合并，但不得出现另一套造型。**
 
 ---
 
@@ -122,10 +122,10 @@ Favicon 以 `64 × 64` 的 SVG 画布为母版，并使用完全封闭的纯色�
 
 - 完整彩色 Logo：数字端最小建议 **48 × 48 px**。
 - GitHub／社交头像：建议上传 **1024 × 1024 px**；低于 **64 × 64 px** 时不再评估细纹，只以轮廓识别为准。
-- Favicon SVG：首选浏览器资源，可无损适配高密度屏幕。
+- Favicon SVG：首选浏览器资源；为防止重绘漂移，使用自包含的高分辨率母版图像，而不是另造矢量路径。
 - Favicon PNG：至少提供 **16、32、48 px**；PWA 另提供 **192、512 px**。
 - Apple Touch Icon：使用 **180 × 180 px** 的不透明版本，图形四周约留 **10%** 安全边，交由系统完成圆角裁切。
-- 小于 48 px 的场景不要使用完整版头像，统一切换到 favicon 微标识。
+- 小于 48 px 的场景使用交付的 favicon 导出文件；它与完整头像同源，但裁切更紧、采样针对小尺寸。
 
 ### 6.2 安全区与外部留白
 
@@ -133,7 +133,7 @@ Favicon 以 `64 × 64` 的 SVG 画布为母版，并使用完全封闭的纯色�
 
 - Logo 四周至少保留 **1X** 的独立空间，不放文字、边框、图标或高对比纹理。
 - 用作圆形头像时，核心图形应落在画布中央约 **80%** 的安全区内；四角不放关键细节。
-- favicon 的关键轮廓距画布边缘建议不少于 **8%**，避免浏览器缩放或圆角蒙版造成视觉粘连。
+- favicon 采用紧凑构图，Logo 外沿保留约 **1.5%** 的技术边；不得继续裁切，也不得让蓝色 B、黄色圆或卷轴触碰画布边缘。
 - 与品牌名称横向组合时，图形与字标间距至少 **0.75X**。
 
 ### 6.3 裁切
@@ -152,7 +152,7 @@ Favicon 以 `64 × 64` 的 SVG 画布为母版，并使用完全封闭的纯色�
 - 使用原始配色、固定比例和完整安全区。
 - 在浅色与深色 GitHub 界面分别检查头像。
 - 在 16、32、48、64 px 四个关键尺寸进行肉眼测试。
-- 在高分辨率品牌展示中保留轻微手绘肌理；在 favicon 中使用纯色轮廓。
+- 高分辨率品牌展示保留原有轻微手绘肌理；小尺寸中让肌理自然随重采样减弱，不另画纯色替代标。
 - 将红色控制为“落款”，用一小处完成视觉收束。
 
 ### 禁止
@@ -161,7 +161,8 @@ Favicon 以 `64 × 64` 的 SVG 画布为母版，并使用完全封闭的纯色�
 - 不使用蓝紫渐变、青色霓虹、发光、玻璃拟态、3D 金属或厚重投影。
 - 不把 Clio 改成写实人像、全身女神或复杂古希腊雕像。
 - 不额外叠加神庙、羽毛笔、书堆、星星等说明性符号。
-- 不重新绘制过多月桂叶；小尺寸中宁可省略，也不要形成噪点。
+- 不增加、删除或重排月桂；标准 Logo 始终保留原图中的 **5 片**叶子。
+- 不删除 Clio 的闭眼，也不改变额头、鼻尖、嘴唇、下巴与肩颈轮廓。
 - 不将 Logo 旋转、倾斜、镜像、描边加粗或局部变色。
 - 不把 Logo 塞进另一层圆角卡片、盾牌或徽章中。
 - 不在复杂照片上直接使用透明版，也不依赖外发光保证可见。
@@ -176,19 +177,20 @@ Favicon 以 `64 × 64` 的 SVG 画布为母版，并使用完全封闭的纯色�
 
 | 文件 | 用途 |
 | --- | --- |
+| `avatar/brclio-logo-master-1254.png` | 用户确认的唯一视觉母版；后续所有尺寸应由此导出 |
 | `avatar/brclio-organization-avatar-1024-upload.png` | GitHub 组织头像首选上传文件，已做体积优化 |
 | `avatar/brclio-organization-avatar-1024.png` | 高保真归档与大尺寸展示 |
 | `avatar/brclio-organization-avatar-512.png` | 常规网页／社交平台备用版本 |
-| `avatar/brclio-organization-avatar-circle-512.png` | 透明圆形裁切复用版 |
+| `avatar/brclio-organization-avatar-circle-512.png` | 保留完整 Logo 构图的圆形头像预览版 |
 | `avatar/brclio-avatar-circular-preview-v2.png` | GitHub 浅色／深色界面预览 |
 
 ### 8.2 Favicon 资产
 
 | 文件 | 用途 |
 | --- | --- |
-| `favicon.svg` | 现代浏览器首选；矢量、自适应高分屏 |
+| `favicon.svg` | 现代浏览器首选；自包含 512 px 忠实母版，避免矢量重画漂移 |
 | `favicon.ico` | 兼容旧浏览器与部分桌面环境；包含 16／32／48 px |
-| `favicon-16x16.png` | 标签页基准测试与显式兼容资源 |
+| `favicon-16x16.png` | 从同一母版直接重采样的标签页兼容资源 |
 | `favicon-32x32.png` | 常规高密度浏览器标签页 |
 | `favicon-48x48.png` | Windows／桌面快捷方式备用 |
 | `favicon-64x64.png` | 文档、预览与高密度小图标备用 |
@@ -198,7 +200,7 @@ Favicon 以 `64 × 64` 的 SVG 画布为母版，并使用完全封闭的纯色�
 | `brclio-maskable-512x512.png` | Android／PWA 自适应蒙版图标，奶油色满版背景 |
 | `site.webmanifest` | 浏览器与 PWA 的图标、主题色声明 |
 | `favicon-preview.png` | 16／32／64 px 及明暗背景视觉验收图 |
-| `favicon-preview.svg` | 可无损缩放的验收版式源文件 |
+| `favicon-preview.svg` | 视觉验收版式源文件，引用同目录 favicon 资源 |
 
 源文件应长期保留；平台上传时使用对应导出文件，不要反复压缩或从聊天软件转存。
 
@@ -275,27 +277,27 @@ Avoid: gradients, lighting effects, glow, 3D, shadows, extra leaves, extra outli
 
 - **先锁定轮廓，再调整介质**：不得让新模型重新解释 B、侧脸和卷轴的位置。
 - **一次只改一个变量**：例如只做单色版、只去纹理、只更换背景。
-- **不以 AI 输出作为唯一母版**：定稿后应以 SVG／人工整理的路径作为长期品牌源文件。
+- **锁定已确认母版**：当前以 `avatar/brclio-logo-master-1254.png` 为唯一视觉依据；除非先完成逐路径人工校对，否则不要用 AI 重绘或自动矢量化替换它。
 - **所有变体都做小尺寸测试**：至少检查 16、32、48、64 px，并同时放在浅色与深色底上。
 
 ---
 
-## 12. Favicon 微标识提示词
+## 12. Favicon 忠实适配提示词
 
-以下提示词适合在需要重绘概念草图时使用。正式生产仍应以本交付中的 `favicon.svg` 路径为唯一母版，避免生成模型改变轮廓。
+严格来说，本 favicon 不需要生成模型：正式生产应直接从已确认母版裁切和缩放。以下提示词只适合交给必须执行适配工作的图像工具或设计师，重点是禁止重画。
 
 ```text
-Use case: icon-logo-system
-Asset type: compact 64 × 64 vector-friendly favicon for Brclio, optimized for 16, 32, and 64 px
-Brand meaning: Brclio is inspired by Clio, the Greek Muse of history, records, narrative, celebration, and making things known
-Primary request: create one original micro-mark that reads first as a bold capital B, contains a simplified right-facing Clio profile in cream negative space, and ends in one red scroll-shaped C / seal at the lower right
-Composition: centered golden circular field with a 3% transparent outer safety edge; blue B fills most of the circle; the cream profile uses one continuous solid shape; at most two large laurel leaves above the profile; the scroll C is a small red crescent with a cream separator
-Style: flat geometric vector icon with warm editorial character; friendly, refined, simple, and immediately recognizable
-Exact palette: blue #2B7FD8, golden yellow #F4D758, red #E84A5F, warm cream #FEFCF6, ink #1A1A2E only
-Small-size behavior: at 16 px the icon must still read as yellow circle + blue B + red accent; facial details may collapse into one cream notch; use one enlarged laurel leaf for the hand-hinted 16 px raster layer
-Constraints: closed fill paths only; no strokes; no text; no watermark; no texture below 64 px; transparent outside the golden circle; readable on #FEFCF6 and #0D1117 backgrounds
-Avoid: shrinking the full avatar, tiny facial features, many laurel leaves, thin lines, gradients, glow, shadow, 3D, glassmorphism, neon, cyan, realistic portrait, temple imagery, book piles, generic app-icon framing
-Deliverables: favicon.svg, multi-resolution favicon.ico with hand-optimized 16 px layer, 16/32/48 px PNGs, 180 px Apple Touch Icon, 192/512 px PWA icons, and a maskable 512 px icon
+Use case: faithful-logo-adaptation
+Asset type: favicon and app-icon export set for Brclio
+Input image: use the supplied approved Brclio logo as the only visual master
+Primary request: adapt the exact supplied logo to favicon sizes without redesigning, redrawing, simplifying, or replacing any internal element
+Must preserve exactly: the original blue capital B silhouette and proportions; the complete right-facing Clio profile including closed eye, forehead, nose, lips, chin, neck, and shoulder; all five golden laurel leaves in their original shapes and positions; the continuous cream separation line; the complete lower-right scroll C with cream outer ring, red inner curl, and golden center; the original blue/yellow/red/cream color relationship and subtle handcrafted texture
+Allowed operations only: square crop around the existing emblem, proportional resize, high-quality resampling, lossless or visually lossless compression, multi-resolution ICO packaging, and safe-area placement for Apple/PWA masks
+Small-size behavior: details may merge naturally because of pixel resolution, but do not manually delete leaves, remove the closed eye, widen the B, replace the face with a generic notch, or turn the scroll C into a dot
+Background: retain the approved warm cream background; do not introduce a new circle, rounded-square container, border, shadow, or transparent cutout that clips the original B
+Color reference: blue #2B7FD8, golden yellow #F4D758, red #E84A5F, warm cream #FEFCF6, ink #1A1A2E; preserve the actual source pixels when they vary slightly because of texture
+Avoid: reinterpretation, new vector geometry, fewer laurel leaves, abstract face, altered facial proportions, generic monogram, flat replacement icon, gradient changes, glow, 3D, glassmorphism, neon, watermark, text, or additional symbols
+Deliverables: self-contained favicon.svg using the approved artwork, favicon.ico with 16/32/48 px layers from the same master, 16/32/48/64 px PNGs, 180 px Apple Touch Icon, 192/512 px PWA icons, maskable 512 px icon, and a light/dark preview
 ```
 
 ---
