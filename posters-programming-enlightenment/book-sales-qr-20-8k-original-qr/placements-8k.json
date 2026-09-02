@@ -1,0 +1,209 @@
+{
+  "canvas": {
+    "width": 7680,
+    "height": 4320
+  },
+  "qrSource": "assets/purchase-qr-circle-original-270.png",
+  "placements": [
+    {
+      "id": "01",
+      "centerX": 6836,
+      "centerY": 3164,
+      "diameter": 1104,
+      "left": 6284,
+      "top": 2612,
+      "right": 7388,
+      "bottom": 3716
+    },
+    {
+      "id": "02",
+      "centerX": 1052,
+      "centerY": 3020,
+      "diameter": 1312,
+      "left": 396,
+      "top": 2364,
+      "right": 1708,
+      "bottom": 3676
+    },
+    {
+      "id": "03",
+      "centerX": 6836,
+      "centerY": 956,
+      "diameter": 1264,
+      "left": 6204,
+      "top": 324,
+      "right": 7468,
+      "bottom": 1588
+    },
+    {
+      "id": "04",
+      "centerX": 6660,
+      "centerY": 3504,
+      "diameter": 1296,
+      "left": 6012,
+      "top": 2856,
+      "right": 7308,
+      "bottom": 4152
+    },
+    {
+      "id": "05",
+      "centerX": 5872,
+      "centerY": 1612,
+      "diameter": 1656,
+      "left": 5044,
+      "top": 784,
+      "right": 6700,
+      "bottom": 2440
+    },
+    {
+      "id": "06",
+      "centerX": 6648,
+      "centerY": 3128,
+      "diameter": 1040,
+      "left": 6128,
+      "top": 2608,
+      "right": 7168,
+      "bottom": 3648
+    },
+    {
+      "id": "07",
+      "centerX": 6372,
+      "centerY": 916,
+      "diameter": 1520,
+      "left": 5612,
+      "top": 156,
+      "right": 7132,
+      "bottom": 1676
+    },
+    {
+      "id": "08",
+      "centerX": 6808,
+      "centerY": 3360,
+      "diameter": 1256,
+      "left": 6180,
+      "top": 2732,
+      "right": 7436,
+      "bottom": 3988
+    },
+    {
+      "id": "09",
+      "centerX": 6828,
+      "centerY": 3000,
+      "diameter": 1112,
+      "left": 6272,
+      "top": 2444,
+      "right": 7384,
+      "bottom": 3556
+    },
+    {
+      "id": "10",
+      "centerX": 6236,
+      "centerY": 2892,
+      "diameter": 1376,
+      "left": 5548,
+      "top": 2204,
+      "right": 6924,
+      "bottom": 3580
+    },
+    {
+      "id": "11",
+      "centerX": 6752,
+      "centerY": 1212,
+      "diameter": 1248,
+      "left": 6128,
+      "top": 588,
+      "right": 7376,
+      "bottom": 1836
+    },
+    {
+      "id": "12",
+      "centerX": 7024,
+      "centerY": 3576,
+      "diameter": 1000,
+      "left": 6524,
+      "top": 3076,
+      "right": 7524,
+      "bottom": 4076
+    },
+    {
+      "id": "13",
+      "centerX": 888,
+      "centerY": 864,
+      "diameter": 1400,
+      "left": 188,
+      "top": 164,
+      "right": 1588,
+      "bottom": 1564
+    },
+    {
+      "id": "14",
+      "centerX": 6712,
+      "centerY": 1180,
+      "diameter": 1288,
+      "left": 6068,
+      "top": 536,
+      "right": 7356,
+      "bottom": 1824
+    },
+    {
+      "id": "15",
+      "centerX": 900,
+      "centerY": 3416,
+      "diameter": 1220,
+      "left": 290,
+      "top": 2806,
+      "right": 1510,
+      "bottom": 4026
+    },
+    {
+      "id": "16",
+      "centerX": 6048,
+      "centerY": 1828,
+      "diameter": 1704,
+      "left": 5196,
+      "top": 976,
+      "right": 6900,
+      "bottom": 2680
+    },
+    {
+      "id": "17",
+      "centerX": 6716,
+      "centerY": 2284,
+      "diameter": 1120,
+      "left": 6156,
+      "top": 1724,
+      "right": 7276,
+      "bottom": 2844
+    },
+    {
+      "id": "18",
+      "centerX": 6888,
+      "centerY": 1860,
+      "diameter": 1376,
+      "left": 6200,
+      "top": 1172,
+      "right": 7576,
+      "bottom": 2548
+    },
+    {
+      "id": "19",
+      "centerX": 6780,
+      "centerY": 3552,
+      "diameter": 1060,
+      "left": 6250,
+      "top": 3022,
+      "right": 7310,
+      "bottom": 4082
+    },
+    {
+      "id": "20",
+      "centerX": 6732,
+      "centerY": 2884,
+      "diameter": 1388,
+      "left": 6038,
+      "top": 2190,
+      "right": 7426,
+      "bottom": 3578
+    }
+  ]
+}
