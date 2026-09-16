@@ -1,0 +1,58 @@
+[
+  {
+    "file": "material-series/10-variables.png",
+    "title": "给数据一个名字",
+    "prompt": "Use case: ads-marketing. 创作一张接近16:9的中文横版图书海报。以真实《编程启蒙：思维与代码》白底效果图为书籍参考，保留黑金书封、黄家宝作者名和封面身份。构图：暖奶油桌面，琥珀色透明数据容器，标注 age、name、score，书在右侧。主标题：给数据一个名字。副文案：从变量开始，理解代码里的信息。独立书名：《编程启蒙：思维与代码》。图片内全部文字直接由imagegen生成；配色使用暖金、墨黑、琥珀、奶油；文字清晰、留白充足。不得添加虚构销售数据、效果承诺、价格、二维码或无关内容。",
+    "prompt_record_status": "reconstructed_from_delegation_and_final_image; original per-call prompt was not persisted before interruption",
+    "generation_mode": "built-in imagegen",
+    "reference": "data/《编程启蒙：思维与代码》/白底-效果图.jpg"
+  },
+  {
+    "file": "material-series/11-data-types.png",
+    "title": "数据，也有不同模样",
+    "prompt": "Use case: ads-marketing. 创作一张接近16:9的中文横版图书海报。以真实《编程启蒙：思维与代码》白底效果图为书籍参考，保留黑金书封、黄家宝作者名和封面身份。构图：奶油金色陈列架，数字、字符串、列表、元组、字典和集合的物件隐喻，黑金书封主视觉。主标题：数据，也有不同模样。副文案：认识 Python 常用数据类型。独立书名：《编程启蒙：思维与代码》。图片内全部文字直接由imagegen生成；配色使用暖金、墨黑、琥珀、奶油；文字清晰、留白充足。不得添加虚构销售数据、效果承诺、价格、二维码或无关内容。",
+    "prompt_record_status": "reconstructed_from_delegation_and_final_image; original per-call prompt was not persisted before interruption",
+    "generation_mode": "built-in imagegen",
+    "reference": "data/《编程启蒙：思维与代码》/白底-效果图.jpg"
+  },
+  {
+    "file": "material-series/12-if-choice.png",
+    "title": "遇到选择，让逻辑带路",
+    "prompt": "Use case: ads-marketing. 创作一张接近16:9的中文横版图书海报。以真实《编程启蒙：思维与代码》白底效果图为书籍参考，保留黑金书封、黄家宝作者名和封面身份。构图：黑金书籍与暖金 if/else 分岔路径，非对称大字。主标题：遇到选择，让逻辑带路。副文案：理解 if，写出有判断的程序。独立书名：《编程启蒙：思维与代码》。图片内全部文字直接由imagegen生成；配色使用暖金、墨黑、琥珀、奶油；文字清晰、留白充足。不得添加虚构销售数据、效果承诺、价格、二维码或无关内容。",
+    "prompt_record_status": "reconstructed_from_delegation_and_final_image; original per-call prompt was not persisted before interruption",
+    "generation_mode": "built-in imagegen",
+    "reference": "data/《编程启蒙：思维与代码》/白底-效果图.jpg"
+  },
+  {
+    "file": "material-series/13-loops.png",
+    "title": "重复的事，交给循环",
+    "prompt": "Use case: ads-marketing. 创作一张接近16:9的中文横版图书海报。以真实《编程启蒙：思维与代码》白底效果图为书籍参考，保留黑金书封、黄家宝作者名和封面身份。构图：金色循环轨道，for、while 为标签，黑金书籍位于右侧。主标题：重复的事，交给循环。副文案：理解重复，写得更从容。独立书名：《编程启蒙：思维与代码》。图片内全部文字直接由imagegen生成；配色使用暖金、墨黑、琥珀、奶油；文字清晰、留白充足。不得添加虚构销售数据、效果承诺、价格、二维码或无关内容。",
+    "prompt_record_status": "reconstructed_from_delegation_and_final_image; original per-call prompt was not persisted before interruption",
+    "generation_mode": "built-in imagegen",
+    "reference": "data/《编程启蒙：思维与代码》/白底-效果图.jpg"
+  },
+  {
+    "file": "material-series/14-functions.png",
+    "title": "把常用步骤，写成函数",
+    "prompt": "Use case: ads-marketing. 创作一张接近16:9的中文横版图书海报。以真实《编程启蒙：思维与代码》白底效果图为书籍参考，保留黑金书封、黄家宝作者名和封面身份。构图：金色模块与 function 结构隐喻，暖纸色背景，书籍立体陈列。主标题：把常用步骤，写成函数。副文案：让代码有组织，让思路更清楚。独立书名：《编程启蒙：思维与代码》。图片内全部文字直接由imagegen生成；配色使用暖金、墨黑、琥珀、奶油；文字清晰、留白充足。不得添加虚构销售数据、效果承诺、价格、二维码或无关内容。",
+    "prompt_record_status": "reconstructed_from_delegation_and_final_image; original per-call prompt was not persisted before interruption",
+    "generation_mode": "built-in imagegen",
+    "reference": "data/《编程启蒙：思维与代码》/白底-效果图.jpg"
+  },
+  {
+    "file": "material-series/15-think-before-code.png",
+    "title": "先想清楚，再写代码",
+    "prompt": "Use case: ads-marketing. 创作一张接近16:9的中文横版图书海报。以真实《编程启蒙：思维与代码》白底效果图为书籍参考，保留黑金书封、黄家宝作者名和封面身份。构图：横向思维与代码两部分构图，书籍作为连接与核心。主标题：先想清楚，再写代码。副文案：上篇·思维；下篇·Python 入门。独立书名：《编程启蒙：思维与代码》。图片内全部文字直接由imagegen生成；配色使用暖金、墨黑、琥珀、奶油；文字清晰、留白充足。不得添加虚构销售数据、效果承诺、价格、二维码或无关内容。",
+    "prompt_record_status": "reconstructed_from_delegation_and_final_image; original per-call prompt was not persisted before interruption",
+    "generation_mode": "built-in imagegen",
+    "reference": "data/《编程启蒙：思维与代码》/白底-效果图.jpg"
+  },
+  {
+    "file": "material-series/16-guided-learning.png",
+    "title": "让每一步，都想明白",
+    "prompt": "Use case: ads-marketing. 创作一张接近16:9的中文横版图书海报。以真实《编程启蒙：思维与代码》白底效果图为书籍参考，保留黑金书封、黄家宝作者名和封面身份。构图：观察、思考、动手的阶梯路径，奶油金色空间与黑金书籍。主标题：让每一步，都想明白。副文案：引导式学习，从思维走向代码。独立书名：《编程启蒙：思维与代码》。图片内全部文字直接由imagegen生成；配色使用暖金、墨黑、琥珀、奶油；文字清晰、留白充足。不得添加虚构销售数据、效果承诺、价格、二维码或无关内容。",
+    "prompt_record_status": "reconstructed_from_delegation_and_final_image; original per-call prompt was not persisted before interruption",
+    "generation_mode": "built-in imagegen",
+    "reference": "data/《编程启蒙：思维与代码》/白底-效果图.jpg"
+  }
+]

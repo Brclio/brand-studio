@@ -1,0 +1,20 @@
+[
+  {
+    "id": "17",
+    "file": "17-another-way.png",
+    "title": "多一种思路，多一种可能",
+    "prompt": "Use case: ads-marketing. Create one polished landscape Chinese book poster, request 16:9 1672x941 format. Input image 1 is an exact reference for the real book, faithfully reproduce black and gold cover, title 编程启蒙：思维与代码, author 黄家宝 and recognizable original cover artwork. Refined publishing art direction. A warm cream editorial scene with several wide folded-paper roads in muted gold and ivory leading from a small warm brown circle toward a large standing book on far left, symbolize new possibilities in solving problems. Realistic paper shadows, premium quiet tactile materials. Main immense Chinese serif headline on right in espresso, separate into '多一种思路' and '多一种可能'. Subtitle in smaller readable clean Chinese type '为解决问题，储备新的方法'. Footer exact book title '《编程启蒙：思维与代码》' and small 'AI悦创 · 黄家宝'. Use harmonious black-gold book, cream, amber, muted brown, no cyan/purple/neon. All Chinese lettering must be image-generated accurately, no additional copy, no claims or price or QR. Ensure generous margin and typography optical balance. Book remains prominent but does not overlap text.",
+    "generated_source": "/Users/bornforthis/.codex/generated_images/01a0a507-043d-7802-a2f0-a36446958b7e/exec-6533ddb3-80a4-4bbb-8a77-3714fe46a13c.png",
+    "status": "visually_reviewed",
+    "review": "书名、主副标题、作者/网址肉眼检查正确，未裁切。18的场景书脊额外生成了“思考 / 创造 / 更大的可能”，无事实性承诺。"
+  },
+  {
+    "id": "18",
+    "file": "18-open-the-book.png",
+    "title": "翻开书，让想法开始运行",
+    "prompt": "Use case: ads-marketing. Create one final 16:9 landscape Chinese book campaign poster 1672x941 request. Reference image is the authentic black-gold book 编程启蒙：思维与代码 by 黄家宝, preserve exact recognizable cover and readable title without redesign. Warm golden-hour desk scene, a single large faithful book upright near left center on an understated brass rectangular pedestal, cream wall, real gentle paper texture, broad calm negative space right. Elegant mature premium publication style with amber and warm black, no generic blue tech graphics. Immense dark espresso Chinese serif title at right, on two lines '翻开书' and '让想法开始运行'. Small legible warm-brown subtitle '从思维到代码，从理解到实践'. Underneath the title a restrained gold printed line and '《编程启蒙：思维与代码》'. Bottom-right small exact URL 'bornforthis.cn'. All pictured lettering must be generated directly, accurate Simplified Chinese and Latin. No QR, no sales figures, no price, no made-up endorsement, no extra logo, no fake publisher design. High clarity, generous margins, clean elegant framing and realistic book geometry.",
+    "generated_source": "/Users/bornforthis/.codex/generated_images/01a0a507-043d-7802-a2f0-a36446958b7e/exec-c11393b1-79fd-4da0-86b3-5e9379438238.png",
+    "status": "visually_reviewed",
+    "review": "书名、主副标题、作者/网址肉眼检查正确，未裁切。18的场景书脊额外生成了“思考 / 创造 / 更大的可能”，无事实性承诺。"
+  }
+]

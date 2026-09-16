@@ -1,0 +1,99 @@
+{
+  "review_date": "2026-09-16",
+  "method": "使用 view_image 逐张查看 17 张原始海报，并比对 data/我的 IP 角色相关/Brclio-IP.png 与 data/《编程启蒙：思维与代码》/白底-效果图.jpg；OCR 疑点另外以 original 模式复看。",
+  "scope": "素材系列 10–16 与 Esther 系列 01–10；根代理另验收其余海报、原生尺寸和 OCR。",
+  "pass_definition": "主标题和独立书名无明显错字，横版构图可用，配色与黑金书封协调；Esther 系列另核对署名及 IP 特征。微小封面字的生成近似与非阻断美术备注单独记录，不表示逐像素复刻封面。",
+  "summary": {
+    "reviewed": 17,
+    "passed": 17,
+    "blocking_defects": 0,
+    "common_caveat": "生成书封上的极小作者、出版社手写字和细小宣传语局部存在近似或细节模糊，不能视为原始封面的逐像素复刻；各张核心书名均正确。"
+  },
+  "items": [
+    {
+      "file": "material-series/10-variables.png",
+      "pass": true,
+      "details": "「给数据一个名字」「从变量开始，理解代码里的信息」及独立书名正确；name、age、score 可读。横版暖金玻璃罐与黑金书封协调，无人物。"
+    },
+    {
+      "file": "material-series/11-data-types.png",
+      "pass": true,
+      "details": "「数据，也有不同模样」「认识 Python 常用数据类型」及书名正确；数字、字符串、列表、元组、字典、集合六个标签可读。缎带上为 Python，y 有下伸笔画，OCR 的 Prthon 为误识。黑金展柜与书封协调，无人物。"
+    },
+    {
+      "file": "material-series/12-if-choice.png",
+      "pass": true,
+      "details": "「遇到选择，让逻辑带路」「理解 if，写出有判断的程序」及独立书名正确；if、else 标牌可读。奶油白金色岔路与书封协调，横版无裁切问题。"
+    },
+    {
+      "file": "material-series/13-loops.png",
+      "pass": true,
+      "details": "「重复的事，交给循环」「理解重复，写得更从容」和书名正确；for、while 可读。金色环路与黑金书封统一，横版主体清楚。"
+    },
+    {
+      "file": "material-series/14-functions.png",
+      "pass": true,
+      "details": "「把常用步骤，写成函数」「让代码有组织，让思路更清楚」与书名正确；function 可读。暖金拼图与书籍封面协调，横版构图无明显缺陷。"
+    },
+    {
+      "file": "material-series/15-think-before-code.png",
+      "pass": true,
+      "details": "「先想清楚，再写代码」、思维、代码、上篇·思维、下篇·Python 入门及独立书名均正确。桥梁构图完整，黑金色与书封一致。"
+    },
+    {
+      "file": "material-series/16-guided-learning.png",
+      "pass": true,
+      "details": "「让每一步，都想明白」「引导式学习，从思维走向代码」及书名正确；观察、思考、动手标签可读。奶油白地图与暖金路径协调，横版构图完整。"
+    },
+    {
+      "file": "esther-series/01-esther-thinking.png",
+      "pass": true,
+      "details": "「把思考，写成代码」及书名正确；AI悦创·黄家宝与设计系统 ESTHER不二·CC BY-NC-SA 4.0 可读。人物保留短发、耳机、黄衣、圆形黄色腮红，暖棕线稿为一致风格转译。米白棕金与书封协调。"
+    },
+    {
+      "file": "esther-series/02-esther-two-parts.png",
+      "pass": true,
+      "details": "「从思维，到代码」「上篇·思维」「下篇·代码」及书名正确，作者与设计系统署名可读。角色与既有 IP 特征相符；巨大手绘 2、暖棕文字和金色强调在横版中清晰。"
+    },
+    {
+      "file": "esther-series/03-esther-question-process.png",
+      "pass": true,
+      "details": "「让想法，一步步落地」及书名正确；「落」顶部艹部清楚，OCR 的「洛地」为误识。提问、拆解、实践与 AI悦创可读；底部 ESTHER不二 和许可署名正确。IP 与配色协调。"
+    },
+    {
+      "file": "esther-series/04-esther-understand-first.png",
+      "pass": true,
+      "details": "「先理解，再动手」「思维与代码，从这里开始」及书名正确。作者和 Esther 许可署名可读；方格纸、胶带、铅笔与暖棕 IP 构成统一手作风格，横版完整。"
+    },
+    {
+      "file": "esther-series/05-esther-new-perspective.png",
+      "pass": true,
+      "details": "「为解决问题，多一种思路」、书名及 AI悦创·黄家宝正确；设计系统 ESTHER不二·CC BY-NC-SA 4.0 可读。角色形象保留原素材辨识特征，手绘金色高亮与书封协调。"
+    },
+    {
+      "file": "esther-series/06-esther-roadmap.png",
+      "pass": true,
+      "details": "「把知识，连成路线」与书名正确；变量、数据类型、条件、循环、函数五步标签顺序清楚。作者和 Esther 许可署名可读，行走 IP 保留发型、耳机、黄色衣服及腮红，横版路径完整。"
+    },
+    {
+      "file": "esther-series/07-esther-everyday.png",
+      "pass": true,
+      "details": "「从生活中，发现算法」「观察·拆解·表达」与书名正确；买牛奶、做饭、读书、运动和手写结语可读。作者与 Esther 许可署名可读；角色和暖纸色、棕金配色协调。"
+    },
+    {
+      "file": "esther-series/08-esther-python.png",
+      "pass": true,
+      "details": "「一步一步，读懂 Python」和书名正确；Python 后没有 f，右侧为独立的手绘向上箭头，OCR 的 Pythonf 为误识。理解概念、动手练习、反复思考正确；作者及 Esther 许可署名可读，角色特征一致。"
+    },
+    {
+      "file": "esther-series/09-esther-curiosity.png",
+      "pass": true,
+      "details": "「给好奇心，一个起点」「从一个问题，到一段代码」及独立书名正确；作者及 Esther 许可署名可读。阅读 IP 与既有短发、耳机、黄衣、腮红特征一致，米白棕金配色协调。非阻断美术备注：打开的书左外缘另有一条书脊式标题，物理装帧略不真实。"
+    },
+    {
+      "file": "esther-series/10-esther-start.png",
+      "pass": true,
+      "details": "「翻开书，让想法开始运行」及书名正确；AI悦创·黄家宝、bornforthis.cn 与设计系统 ESTHER不二·CC BY-NC-SA 4.0 可读。探头点赞角色保留 IP 特征，底部棕金砖红色条与整体协调，横版完整。"
+    }
+  ]
+}

@@ -1,0 +1,1718 @@
+[
+  {
+    "file" : "material-series/01-golden-opening.png",
+    "lines" : [
+      {
+        "confidence" : 0.5,
+        "text" : "编程启蒙"
+      },
+      {
+        "confidence" : 1,
+        "text" : "从思维出发"
+      },
+      {
+        "confidence" : 1,
+        "text" : "让代码发光"
+      },
+      {
+        "confidence" : 1,
+        "text" : "《编程启蒙：思维与代码》"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "黄家宝 编著"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "编程启蒙："
+      },
+      {
+        "confidence" : 1,
+        "text" : "思维与代码"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "競家"
+      },
+      {
+        "confidence" : 1,
+        "text" : "重塑思维逻辑，驾取代码力量，"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "探索縮程世界的无限可能"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "北京航坐航天大学出版社"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "BEIHANG UNIVERSITY PRESS"
+      }
+    ]
+  },
+  {
+    "file" : "material-series/02-cream-editorial.png",
+    "lines" : [
+      {
+        "confidence" : 1,
+        "text" : "编程启蒙"
+      },
+      {
+        "confidence" : 1,
+        "text" : "思维与代码"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "黄家宝编善"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "重塑思维逻辑，驾驭代码力量，"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "探素編程世界无限可能"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "北京航堂新，天大学出服社"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "BEIHANG UNIVERSITY PRESS"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "think first"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "学会编程"
+      },
+      {
+        "confidence" : 1,
+        "text" : "从理解开始"
+      },
+      {
+        "confidence" : 1,
+        "text" : "在思维与代码之间，建立自己的逻辑"
+      },
+      {
+        "confidence" : 1,
+        "text" : "《编程启蒙：思维与代码》"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "AI悦创・黄家宝"
+      }
+    ]
+  },
+  {
+    "file" : "material-series/03-ideas-to-code.png",
+    "lines" : [
+      {
+        "confidence" : 0.5,
+        "text" : "让想法"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "一步步成为程序"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "理解问题•拆解思路•编写代码"
+      },
+      {
+        "confidence" : 1,
+        "text" : "《编程启蒙：思维与代码》"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "编程启蒙："
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "思维与代码"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "黄家宝"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "编萎"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "重望患维逻辑，驾取代码力量；"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "探编程世界无限可能"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "北京舰堂杭天大学水胀社"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "BEIHANG UNIVERSITY PRESS"
+      }
+    ]
+  },
+  {
+    "file" : "material-series/04-two-parts.png",
+    "lines" : [
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "-从理解到实践——"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "一半思维"
+      },
+      {
+        "confidence" : 1,
+        "text" : "一半代码"
+      },
+      {
+        "confidence" : 1,
+        "text" : "《编程启蒙：思维与代码》"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "编程启蒙："
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "思维与代码"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "黄家宝编著"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "重塑思维逻辑，驾取代码力量，"
+      },
+      {
+        "confidence" : 1,
+        "text" : "探索编程世界无限可能"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "*京航空航天大学出版社"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "BEIHANG UNIVERSITY PRESS"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "上篇：思维"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "下篇：Python入门"
+      }
+    ]
+  },
+  {
+    "file" : "material-series/05-logic-steps.png",
+    "lines" : [
+      {
+        "confidence" : 0.5,
+        "text" : "把复杂问题"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "拆成清晰步骤"
+      },
+      {
+        "confidence" : 1,
+        "text" : "编程思维，从拆解开始"
+      },
+      {
+        "confidence" : 1,
+        "text" : "《编程启蒙：思维与代码》"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "编程启蒙："
+      },
+      {
+        "confidence" : 1,
+        "text" : "思维与代码"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "冀家宝编業"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "重望思维逻猾，驾取代码力量，"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "操炎编程世界的无眼可能"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "北京報空就天大学火服社"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "BEIHANO UNIVERSITY PRESS"
+      }
+    ]
+  },
+  {
+    "file" : "material-series/06-everyday-algorithms.png",
+    "lines" : [
+      {
+        "confidence" : 0.5,
+        "text" : "生活里难题"
+      },
+      {
+        "confidence" : 1,
+        "text" : "也有算法"
+      },
+      {
+        "confidence" : 1,
+        "text" : "《编程启蒙：思维与代码》"
+      },
+      {
+        "confidence" : 1,
+        "text" : "观察"
+      },
+      {
+        "confidence" : 1,
+        "text" : "选择"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "编程启蒙："
+      },
+      {
+        "confidence" : 1,
+        "text" : "思维与代码"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "黄家宝编著"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "重塑思维逻辑，驾驭代码力量，"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "探索编程世界无限可能"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "北京航空航天大学出版社"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "BEIHANG UNIVERSITY PRESS"
+      }
+    ]
+  },
+  {
+    "file" : "material-series/07-pixels-world.png",
+    "lines" : [
+      {
+        "confidence" : 0.5,
+        "text" : "从一个像素"
+      },
+      {
+        "confidence" : 1,
+        "text" : "看懂数字世界"
+      },
+      {
+        "confidence" : 1,
+        "text" : "把日常现象，变成理解计算机的入口"
+      },
+      {
+        "confidence" : 1,
+        "text" : "《编程启蒙：思维与代码》"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "编程启蒙："
+      },
+      {
+        "confidence" : 1,
+        "text" : "思维与代码"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "重塑患维逻辑，驾驭代码力量，"
+      },
+      {
+        "confidence" : 1,
+        "text" : "探索编程世界无限可能"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "北京舱空就天大学出版社"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "BEIHANG UNIVERSITY PRESS"
+      }
+    ]
+  },
+  {
+    "file" : "material-series/08-binary-language.png",
+    "lines" : [
+      {
+        "confidence" : 0.5,
+        "text" : "两个数字"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "◆"
+      },
+      {
+        "confidence" : 1,
+        "text" : "打开新的世界"
+      },
+      {
+        "confidence" : 1,
+        "text" : "从二进制，理解计算机的语言"
+      },
+      {
+        "confidence" : 1,
+        "text" : "《编程启蒙：思维与代码》"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "编程启蒙："
+      },
+      {
+        "confidence" : 1,
+        "text" : "思维与代码"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "重塑思维逻辑，驾取代码力量"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "探索编程世界无限可能"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "北京就堂机天大学出旅社"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "BEIHANG UNIVERSITY PRESS"
+      }
+    ]
+  },
+  {
+    "file" : "material-series/09-python-first-page.png",
+    "lines" : [
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "编程启蒙："
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "思维与代码"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "黄家宝"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "重塑思维逻辑，驾驭代码力量，"
+      },
+      {
+        "confidence" : 1,
+        "text" : "探索编程世界的无限可能"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "北京航堂統天大蓉出版社"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "BEIHANG UNIVERSITY PRESS"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "你的Python"
+      },
+      {
+        "confidence" : 1,
+        "text" : "从这一页开始"
+      },
+      {
+        "confidence" : 1,
+        "text" : "从变量到函数，循序渐进地理解代码"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "《编程启蒙：思维与代码》"
+      },
+      {
+        "confidence" : 1,
+        "text" : "bornforthis.cn"
+      }
+    ]
+  },
+  {
+    "file" : "material-series/10-variables.png",
+    "lines" : [
+      {
+        "confidence" : 0.5,
+        "text" : "给数据一个名字"
+      },
+      {
+        "confidence" : 1,
+        "text" : "从变量开始，理解代码里信息"
+      },
+      {
+        "confidence" : 1,
+        "text" : "《编程启蒙：思维与代码》"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "Python 入门"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "age"
+      },
+      {
+        "confidence" : 1,
+        "text" : "name"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "Score"
+      },
+      {
+        "confidence" : 1,
+        "text" : "1"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "编程启蒙："
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "思维与代码"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "黄家宝编芸"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "重塑患维逻输，鸳驭代码力量，"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "探棄缩程世界无限可能"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "达京航堂航天大拳出版社"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "BEIHANG UNIVERSITY PRESS"
+      }
+    ]
+  },
+  {
+    "file" : "material-series/11-data-types.png",
+    "lines" : [
+      {
+        "confidence" : 0.5,
+        "text" : "数据，"
+      },
+      {
+        "confidence" : 1,
+        "text" : "也有不同模样"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "认识 Python 常用数据类型"
+      },
+      {
+        "confidence" : 1,
+        "text" : "《编程启蒙：思维与代码》"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "123"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "数字"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "Prthon"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "字符串"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "列表"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "编程启蒙："
+      },
+      {
+        "confidence" : 1,
+        "text" : "思维与代码"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "编琴"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "重塑思维遷辑，驾取代码力量，"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "探素编程世界无限可能"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "「达术私空林天人学成服站"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "IEHUANG UMIVERSIT"
+      },
+      {
+        "confidence" : 1,
+        "text" : "元组"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "字典"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "集合"
+      }
+    ]
+  },
+  {
+    "file" : "material-series/12-if-choice.png",
+    "lines" : [
+      {
+        "confidence" : 0.5,
+        "text" : "编程启蒙："
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "思维与代码"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "黃家："
+      },
+      {
+        "confidence" : 1,
+        "text" : "重塑思维逻辑，驾取代码力量，"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "探寮編程世界无限可能"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "北式航空統天大誉出版社"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "BEIHANG UNIVERSITY PRESS"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "遇到选择，"
+      },
+      {
+        "confidence" : 1,
+        "text" : "让逻辑带路"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "理解 if，写出有判断的程序"
+      },
+      {
+        "confidence" : 1,
+        "text" : "《编程启蒙：思维与代码》"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "if"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "else"
+      }
+    ]
+  },
+  {
+    "file" : "material-series/13-loops.png",
+    "lines" : [
+      {
+        "confidence" : 1,
+        "text" : "重复的事，交给循环"
+      },
+      {
+        "confidence" : 1,
+        "text" : "理解重复，"
+      },
+      {
+        "confidence" : 1,
+        "text" : "写得更从容"
+      },
+      {
+        "confidence" : 1,
+        "text" : "《编程启蒙：思维与代码》"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "编程启蒙："
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "思维与代码"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "黄家金"
+      },
+      {
+        "confidence" : 1,
+        "text" : "for"
+      },
+      {
+        "confidence" : 1,
+        "text" : "while"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "重望思维逻着，驾取代码力量"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "探索编程世界的无限可能"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "北京北堂城天大学玄旅让"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "BEIHANG UNIVERSITY PRESS"
+      }
+    ]
+  },
+  {
+    "file" : "material-series/14-functions.png",
+    "lines" : [
+      {
+        "confidence" : 0.5,
+        "text" : "把常用步骤，"
+      },
+      {
+        "confidence" : 1,
+        "text" : "写成函数"
+      },
+      {
+        "confidence" : 1,
+        "text" : "让代码有组织，让思路更清楚"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "《编程启蒙：思维与代码》"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "function"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "编程启蒙："
+      },
+      {
+        "confidence" : 1,
+        "text" : "思维与代码"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "黄家宝 编著"
+      },
+      {
+        "confidence" : 1,
+        "text" : "重塑思维逻辑，驾驭代码力量，"
+      },
+      {
+        "confidence" : 1,
+        "text" : "探索编程世界的无限可能"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "北京航宣统天大学出版社"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "BEIHANG UNIVERSITY PRESS"
+      }
+    ]
+  },
+  {
+    "file" : "material-series/15-think-before-code.png",
+    "lines" : [
+      {
+        "confidence" : 1,
+        "text" : "先想清楚，再写代码"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "编程启蒙："
+      },
+      {
+        "confidence" : 1,
+        "text" : "思维与代码"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "賀家空"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "思维"
+      },
+      {
+        "confidence" : 1,
+        "text" : "代码"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "重塑思维湿铜，骂取代码力量，"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "操盛输型世界鸽无限可能"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "《术永堂解之大学化版款"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "上篇•思维"
+      },
+      {
+        "confidence" : 1,
+        "text" : "《编程启蒙：思维与代码》"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "下篇•Python 入门"
+      }
+    ]
+  },
+  {
+    "file" : "material-series/16-guided-learning.png",
+    "lines" : [
+      {
+        "confidence" : 0.5,
+        "text" : "让每一步，"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "都想明白"
+      },
+      {
+        "confidence" : 1,
+        "text" : "引导式学习，从思维走向代码"
+      },
+      {
+        "confidence" : 1,
+        "text" : "《编程启蒙：思维与代码》"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "编程启蒙："
+      },
+      {
+        "confidence" : 1,
+        "text" : "思维与代码"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "编藝"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "重塑思维逻编，驾取代码力量，"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "探卖编程世界的无限可能"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "上式紅空紙文大学PIRCS"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "INANG UNIVERS"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "动手"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "思考"
+      },
+      {
+        "confidence" : 1,
+        "text" : "观察"
+      }
+    ]
+  },
+  {
+    "file" : "material-series/17-another-way.png",
+    "lines" : [
+      {
+        "confidence" : 0.5,
+        "text" : "编程启蒙："
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "思维与代码"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "黄家宝"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "编著"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "重塑思维逻辑；鸳取代码力量，"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "探囊编程世界的无限可能"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "上六煎堂就美大爹水旅社"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "BEIHANG UNIVERSII"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "多一种思路"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "多一种可能"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "为解决问题，储备新方法"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "《编程启蒙：思维与代码》"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "AI悦创•黄家宝"
+      }
+    ]
+  },
+  {
+    "file" : "material-series/18-open-the-book.png",
+    "lines" : [
+      {
+        "confidence" : 0.5,
+        "text" : "思考"
+      },
+      {
+        "confidence" : 1,
+        "text" : "创造"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "更大可能"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "编程启蒙："
+      },
+      {
+        "confidence" : 1,
+        "text" : "思维与代码"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "黄家宝"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "重塑思维逻辑，驾驭代码力量，"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "探豪编程世界的无限可能"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "上京能笠核文大学出服社"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "JEIHANG UNIVERSIY PRESS"
+      },
+      {
+        "confidence" : 1,
+        "text" : "翻开书"
+      },
+      {
+        "confidence" : 1,
+        "text" : "让想法开始运行"
+      },
+      {
+        "confidence" : 1,
+        "text" : "从思维到代码，从理解到实践"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "•《编程启蒙：思维与代码》"
+      },
+      {
+        "confidence" : 1,
+        "text" : "bornforthis.cn"
+      }
+    ]
+  },
+  {
+    "file" : "esther-series/01-esther-thinking.png",
+    "lines" : [
+      {
+        "confidence" : 0.5,
+        "text" : "THINK & CODE"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "把思考，"
+      },
+      {
+        "confidence" : 1,
+        "text" : "写成代码"
+      },
+      {
+        "confidence" : 1,
+        "text" : "《编程启蒙：思维与代码》"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "AI悦创•黄家宝"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "编程启蒙："
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "思维与代码"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "英家宝"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "重塑思维逻辑，驾驭代码力量，"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "探索编程世界的无限可能"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "北京航堂就无大学出旅社"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "BEIHANG UNIVERSITY PRESS"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "设计系统：ESTHER不二•CC BY-NC-SA 4.0"
+      }
+    ]
+  },
+  {
+    "file" : "esther-series/02-esther-two-parts.png",
+    "lines" : [
+      {
+        "confidence" : 0.5,
+        "text" : "从思维，到代码"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "上篇・思维"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "编程启蒙："
+      },
+      {
+        "confidence" : 1,
+        "text" : "思维与代码"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "資家宝 编著"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "下篇・代码"
+      },
+      {
+        "confidence" : 1,
+        "text" : "《编程启蒙：思维与代码》"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "AI悦创・黄家宝"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "重塑思维逻将，驾驭代码力量，"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "探棄编程世界无限可能"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "止式丝也状天大学成嚴社"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "EIHLANG UNNVERSFIY PRESS"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "设计系统：ESTHER不二•CC BY-NC-SA 4.0"
+      }
+    ]
+  },
+  {
+    "file" : "esther-series/03-esther-question-process.png",
+    "lines" : [
+      {
+        "confidence" : 0.5,
+        "text" : "让想法，一步步洛地"
+      },
+      {
+        "confidence" : 1,
+        "text" : "《编程启蒙：思维与代码》"
+      },
+      {
+        "confidence" : 1,
+        "text" : "提问"
+      },
+      {
+        "confidence" : 1,
+        "text" : "拆解"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "实践"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "编程启蒙："
+      },
+      {
+        "confidence" : 1,
+        "text" : "思维与代码"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "预次"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "编苔"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "重塑思维逻辑，驾取代码力量"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "探索编程世界肭无限可能"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "北术航世板关大發永妝社"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "SIHANO UNIVERSIN"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "AI悦创"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "设计系统：ESTHER不二•CC BY-NC-SA 4.0"
+      }
+    ]
+  },
+  {
+    "file" : "esther-series/04-esther-understand-first.png",
+    "lines" : [
+      {
+        "confidence" : 1,
+        "text" : "Tdeas"
+      },
+      {
+        "confidence" : 1,
+        "text" : "Code"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "A"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "Better"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "You"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "编程启蒙："
+      },
+      {
+        "confidence" : 1,
+        "text" : "思维与代码"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "黄安宝编著"
+      },
+      {
+        "confidence" : 1,
+        "text" : "重塑思维逻辑，驾驭代码力量，"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "探素编程世界的无限可能"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "北京航空枫天大華出服社"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "BEIHANG UNIVERSITY PRESS"
+      },
+      {
+        "confidence" : 1,
+        "text" : "先理解"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "再动手"
+      },
+      {
+        "confidence" : 1,
+        "text" : "思维与代码，从这里开始"
+      },
+      {
+        "confidence" : 1,
+        "text" : "《编程启蒙：思维与代码》"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "A1悦创・黄家宝"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "设计系鱿：ESTHER不二•CC BY-NC-SA 4.0"
+      }
+    ]
+  },
+  {
+    "file" : "esther-series/05-esther-new-perspective.png",
+    "lines" : [
+      {
+        "confidence" : 0.5,
+        "text" : "为解决问题，"
+      },
+      {
+        "confidence" : 1,
+        "text" : "多一种思路"
+      },
+      {
+        "confidence" : 1,
+        "text" : "《编程启蒙：思维与代码》"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "AI悦创•黃家宝"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "编程启蒙："
+      },
+      {
+        "confidence" : 1,
+        "text" : "思维与代码"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "重塑思维逻辑，驾驭代码力量"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "探素编程世界的无限可能"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "让文服迎松天大还文服社"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "EHIANG UNIVERSIY PRESS"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "黄家宝"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "—设计系统：ESTHER不二•CC BY-NC-SA 4.0"
+      }
+    ]
+  },
+  {
+    "file" : "esther-series/06-esther-roadmap.png",
+    "lines" : [
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "PYTHON• LEARNING MAP"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "把知识，"
+      },
+      {
+        "confidence" : 1,
+        "text" : "连成路线"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "0目"
+      },
+      {
+        "confidence" : 1,
+        "text" : "变量"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "22目"
+      },
+      {
+        "confidence" : 1,
+        "text" : "数据类型"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "口"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "03"
+      },
+      {
+        "confidence" : 1,
+        "text" : "条件"
+      },
+      {
+        "confidence" : 1,
+        "text" : "04"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "循环"
+      },
+      {
+        "confidence" : 1,
+        "text" : "《编程启蒙：思维与代码》"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "AI悦创•黄家宝"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "Keep"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "Learning"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "Keep"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "Going"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "编程启蒙："
+      },
+      {
+        "confidence" : 1,
+        "text" : "思维与代码"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "65（12"
+      },
+      {
+        "confidence" : 1,
+        "text" : "函数"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "重塑思维逻觸，驾取代码力量，"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "探粪綸程世界无哏可能"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "水文北花新天大準成版社"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "SERHANG UNIVERSTTY PRESS"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "设计系统：ESTHER不二。CC BY-NC-SA 4.0"
+      }
+    ]
+  },
+  {
+    "file" : "esther-series/07-esther-everyday.png",
+    "lines" : [
+      {
+        "confidence" : 1,
+        "text" : "Everyday"
+      },
+      {
+        "confidence" : 1,
+        "text" : "thinking"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "从生活中，"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "发现算法"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "观察 •拆解·表达"
+      },
+      {
+        "confidence" : 1,
+        "text" : "买牛奶"
+      },
+      {
+        "confidence" : 1,
+        "text" : "《编程启蒙：思维与代码》"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "AI悦创•黄家宝"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "口运动"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "一步一步，"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "更靠近更好的自己。"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "07"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "编程启蒙："
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "思维与代码"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "資家！"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "重塑思維逻辑，驾驭代码力量"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "採爽编程世界的无限可能"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "北京航空机天大学文版社"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "BEHHANO UNVERSIIY PRESS"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "设计系统：ESTHER不二•CC BY-NC-SA 4.0"
+      }
+    ]
+  },
+  {
+    "file" : "esther-series/08-esther-python.png",
+    "lines" : [
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "编程启蒙："
+      },
+      {
+        "confidence" : 1,
+        "text" : "思维与代码"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "重塑思维逻锅，驾取代码力量，"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "探编程世界的无限可能"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "*京航堂紙卉大哲此旅社"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "BEIHANG UNIVERSIY PRESS"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "THINK • WRITE •UNDERSTAND"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "一步步，"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "读懂"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "Pythonf"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "动手练习"
+      },
+      {
+        "confidence" : 1,
+        "text" : "反复思考"
+      },
+      {
+        "confidence" : 1,
+        "text" : "理解概念"
+      },
+      {
+        "confidence" : 1,
+        "text" : "《编程启蒙：思维与代码》"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "AI悦创•黄家宝"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "设计系统：ESTHER不二。CC BY-NC-SA 4.0"
+      }
+    ]
+  },
+  {
+    "file" : "esther-series/09-esther-curiosity.png",
+    "lines" : [
+      {
+        "confidence" : 1,
+        "text" : "09"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "编程启蒙："
+      },
+      {
+        "confidence" : 1,
+        "text" : "思维与代码"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "所就照能设价，帮败代形力爱"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "妈有能世発所新用可能"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "A PLACE TO BEGIN"
+      },
+      {
+        "confidence" : 1,
+        "text" : "给好奇心，"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "•个起点"
+      },
+      {
+        "confidence" : 1,
+        "text" : "从一个问题，到一段代码"
+      },
+      {
+        "confidence" : 1,
+        "text" : "《编程启蒙：思维与代码》"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "AI悦创・黄家宝"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "设计系统：ESTHER不二•CC BY-NC-SA 4.0"
+      }
+    ]
+  },
+  {
+    "file" : "esther-series/10-esther-start.png",
+    "lines" : [
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "START WITH A PAGE"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "翻开书"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "9"
+      },
+      {
+        "confidence" : 1,
+        "text" : "让想法"
+      },
+      {
+        "confidence" : 1,
+        "text" : "开始运行"
+      },
+      {
+        "confidence" : 1,
+        "text" : "《编程启蒙：思维与代码》"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "AI悦创•黄家宝"
+      },
+      {
+        "confidence" : 1,
+        "text" : "bornforthis.cn"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "编程启蒙："
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "思维与代码"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "黄家宝"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "重塑惠维逻辑，驾驭代码力量，"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "探素編程世界的无限可能"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "上古紹堂殺美朵茶也版社"
+      },
+      {
+        "confidence" : 0.30000001192092896,
+        "text" : "SEPANG UNIVERSIIY PRESS"
+      },
+      {
+        "confidence" : 0.5,
+        "text" : "设计系统：ESTHER不二•CC BY-NC-SA 4.0"
+      }
+    ]
+  }
+]

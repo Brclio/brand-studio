@@ -1,0 +1,226 @@
+[
+  {
+    "file": "material-series/01-golden-opening.png",
+    "title": "从思维出发，让代码发光",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2167181,
+    "sha256": "f6c7ceee19ea1de902435a69937c29141403473800b5261d7a232c50736fe90e"
+  },
+  {
+    "file": "material-series/02-cream-editorial.png",
+    "title": "学会编程，从理解开始",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2083168,
+    "sha256": "29fe343f5ec6ee7ad568e86a9dd209bfb95cb732304dba03023537d6cd26b38e"
+  },
+  {
+    "file": "material-series/03-ideas-to-code.png",
+    "title": "让想法，一步步成为程序",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2199452,
+    "sha256": "1acb95ce7443b9dd2420526de1b036b6347209e9d458e0ab0b444e9d63956f36"
+  },
+  {
+    "file": "material-series/04-two-parts.png",
+    "title": "一半思维，一半代码",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2178325,
+    "sha256": "cd3536b7760d264ab49d67804a63651de66acd40f93719eab2c9d51fd09bbbcd"
+  },
+  {
+    "file": "material-series/05-logic-steps.png",
+    "title": "把复杂问题，拆成清晰步骤",
+    "width": 1672,
+    "height": 941,
+    "bytes": 1985117,
+    "sha256": "59ba8bf53a7e22df93296ae14dcb35d38800a0baf17a8084b14c19421fdd97ee"
+  },
+  {
+    "file": "material-series/06-everyday-algorithms.png",
+    "title": "生活里的难题，也有算法",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2622495,
+    "sha256": "3f3fc4c57fa7adb038441be636f3af7148ac93c21a8f82c38cd9723c4638d7a0"
+  },
+  {
+    "file": "material-series/07-pixels-world.png",
+    "title": "从一个像素，看懂数字世界",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2026989,
+    "sha256": "4191b97f4b7f9caae991c83f37bc8cddd00aa054d4fc3b75cd6333dcf285af5b"
+  },
+  {
+    "file": "material-series/08-binary-language.png",
+    "title": "两个数字，打开新的世界",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2329527,
+    "sha256": "e55d3640b068e14326e64c8a7505029108fbe465c88561a43de30106571b6f1a"
+  },
+  {
+    "file": "material-series/09-python-first-page.png",
+    "title": "你的 Python，从这一页开始",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2355138,
+    "sha256": "31b66a6cce91f4d380272e8d57e272d872b5bf43f2a2f243d45568acb0c546b2"
+  },
+  {
+    "file": "material-series/10-variables.png",
+    "title": "变量与数据命名",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2079237,
+    "sha256": "31c66c2f9a7aa3c224c773bf0a9e41ecd4613684ac413272e4def712838885d2"
+  },
+  {
+    "file": "material-series/11-data-types.png",
+    "title": "认识数据类型",
+    "width": 1672,
+    "height": 941,
+    "bytes": 1985534,
+    "sha256": "98dbf37623ad91d0d477099cd87c2dcade0e612aa4d9fd8b4c2b723fd101b3dc"
+  },
+  {
+    "file": "material-series/12-if-choice.png",
+    "title": "if：让程序懂得选择",
+    "width": 1672,
+    "height": 941,
+    "bytes": 1997525,
+    "sha256": "4a86d3be4276cf8f23c6587f1c8364f5eb4fa0e8cde12edac6e78d8c072c1625"
+  },
+  {
+    "file": "material-series/13-loops.png",
+    "title": "把重复交给循环",
+    "width": 1672,
+    "height": 941,
+    "bytes": 1798105,
+    "sha256": "ce872af39dfef9f58db8b68f972045b21907a42a569aecdc11f950dcf2f63b1b"
+  },
+  {
+    "file": "material-series/14-functions.png",
+    "title": "用函数组织过程",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2162859,
+    "sha256": "1a1719d6795795dd13eb20ab9dc892c14b963470985f213652aaca9cecb00662"
+  },
+  {
+    "file": "material-series/15-think-before-code.png",
+    "title": "先建立逻辑，再编程",
+    "width": 1672,
+    "height": 941,
+    "bytes": 1816733,
+    "sha256": "556478c3328a5967b5153e5d0c8a78dc2e3b57e3b958fca82bfdfc5dfd01543d"
+  },
+  {
+    "file": "material-series/16-guided-learning.png",
+    "title": "引导式学习",
+    "width": 1672,
+    "height": 941,
+    "bytes": 1951638,
+    "sha256": "44487b44c1b6c7d12911f7cde4402034fe10fc485723ebdfaa5d96e07211abfd"
+  },
+  {
+    "file": "material-series/17-another-way.png",
+    "title": "为解决问题，多一种思路",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2001527,
+    "sha256": "01c82dfe3c94ed1c2b51303cfe343a55a1e1ebb79d862937c110230437ce3498"
+  },
+  {
+    "file": "material-series/18-open-the-book.png",
+    "title": "翻开书，开始编程",
+    "width": 1672,
+    "height": 941,
+    "bytes": 1988150,
+    "sha256": "01d67977d125a13ce5348f39d4d588540344d1edaa064da47eeffe16ad0ba9fb"
+  },
+  {
+    "file": "esther-series/01-esther-thinking.png",
+    "title": "把思考，写成代码",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2422559,
+    "sha256": "cdd16c556d366c9f30174782473b84c0e3dcdf400b20732113f5f77ec501acda"
+  },
+  {
+    "file": "esther-series/02-esther-two-parts.png",
+    "title": "两篇内容，从思维到代码",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2421008,
+    "sha256": "d24acbeb357131dcf71477caa33de01fe20ed49747928309cf5d5b76b6a02d80"
+  },
+  {
+    "file": "esther-series/03-esther-question-process.png",
+    "title": "提问、拆解、实践",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2372336,
+    "sha256": "655cef64767f5939583d59585c39815803e9d44f79070e4284f8373128d3053c"
+  },
+  {
+    "file": "esther-series/04-esther-understand-first.png",
+    "title": "先理解，再动手",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2645626,
+    "sha256": "d85981b0443f7e28ad9ec188bd6aa3839e4971525c8df51b046ad23a587e83a7"
+  },
+  {
+    "file": "esther-series/05-esther-new-perspective.png",
+    "title": "为解决问题，多一种思路",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2372410,
+    "sha256": "367d8aa2ac4dc1dc318d60c92b475edb1fbe9338bf3ac4f2c89b88e9c1b6dc29"
+  },
+  {
+    "file": "esther-series/06-esther-roadmap.png",
+    "title": "Python 学习路线",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2448976,
+    "sha256": "302a0d1056182498185b377338b84702cc05743446debb19e025c2cd69068afe"
+  },
+  {
+    "file": "esther-series/07-esther-everyday.png",
+    "title": "从生活中，发现算法",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2598968,
+    "sha256": "3b29369e620d1644574e9394f707f604284e17efe4419a30fb3e6a8771525c83"
+  },
+  {
+    "file": "esther-series/08-esther-python.png",
+    "title": "一步一步，读懂 Python",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2635685,
+    "sha256": "da3c934f0845194a02e5e6fd7096e0d8cc71adb14ce28e04627bbfca3eb17da1"
+  },
+  {
+    "file": "esther-series/09-esther-curiosity.png",
+    "title": "给好奇心，一个起点",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2554057,
+    "sha256": "9d794729559b43954471fe7edcdf91c08b9cbb920d8acf96a47365e7b0e7e15a"
+  },
+  {
+    "file": "esther-series/10-esther-start.png",
+    "title": "翻开书，让想法开始运行",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2167844,
+    "sha256": "af274c899e2a2521f69429730af82a78fed8539222dc9e5d2fa8ded22c78ff8e"
+  }
+]

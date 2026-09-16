@@ -1,0 +1,122 @@
+{
+  "group": "esther-series-01-05",
+  "created": "2026-09-15",
+  "generator": "built-in image_gen",
+  "format": "PNG",
+  "nativeDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "aspectRatio": "approximately 16:9; preserved original generation dimensions",
+  "imageEditingPolicy": "All artwork and in-image typography generated using built-in image_gen. No HTML screenshot, programmatic overlay, resizing, or postprocessing.",
+  "references": [
+    "/Users/bornforthis/Github/WebSite/brand-studio/data/《编程启蒙：思维与代码》/白底-效果图.jpg",
+    "/Users/bornforthis/Github/WebSite/brand-studio/data/我的 IP 角色相关/Brclio-IP.png"
+  ],
+  "designSystem": {
+    "name": "ESTHER不二",
+    "source": "https://github.com/esthersjw/esther-design-system",
+    "license": "CC BY-NC-SA 4.0",
+    "palette": {
+      "background": "#FEFCF6",
+      "main": "#3B3025",
+      "emphasis": "#D7AF52",
+      "accent": "#AB5142"
+    },
+    "templateRead": "/Users/bornforthis/.codex/skills/esther-design-system/assets/template-cards.html",
+    "adaptation": "User requested horizontal raster posters. Design vocabulary adapted from template; root agent supplies HTML viewing companion. Original black/gold book cover takes precedence over default card palette."
+  },
+  "checks": {
+    "method": "Each saved PNG individually inspected with view_image.",
+    "result": "Pass: legible main Chinese headlines, full book title, correct campaign author names and Esther attribution; source cover recognizable; warm paper background; serif headline and sans-serif secondary typography; nonrepeating layouts; no QR code or quantitative sales claims.",
+    "limitations": "AI-generated cover microtext is not pixel-identical to source; main cover title and independently typeset full book title checked visually. Font family and 60/30/10 ink balance are visual art direction, not machine typesetting guarantees.",
+    "htmlOnlyChecklist": "Responsive breakpoints, clamp(), reduced motion and export controls are not applicable to raster PNGs and are handled by the root agent for the HTML companion."
+  },
+  "images": [
+    {
+      "id": "01",
+      "filename": "01-esther-thinking.png",
+      "layout": "非对称大标题与书籍主视觉",
+      "prompt": "Use case: ads-marketing\nAsset type: landscape book campaign poster, a finished raster PNG including all Chinese typography, horizontal 16:9, ideally 1536×864.\nInput images: Image 1 is the actual book product reference; accurately preserve its recognizable black and gold original cover, large exact Chinese title 编程启蒙：思维与代码 and author 黄家宝. Image 2 is the author brand's crayon illustration reference; optional small friendly portrait detail, keep face/hair/headphones identity recognizable, interpret its blue crayon strokes in dark brown to fit campaign.\nStyle: Esther design-system editorial art direction, adapted from template-cards: premium warm paper, Noto Serif SC-style heavy serif Chinese headlines and clean Noto Sans SC-style sans serif supporting text; huge typographic scale contrast, hand-drawn wax-pencil annotations, asymmetric magazine composition, carefully judged generous negative space. It must feel designed, warm, thoughtful, literary and inviting.\nColor palette: warm ivory paper #FEFCF6 background, deep chocolate brown #3B3025 dominant graphic color, ochre gold #D7AF52 emphasis, tiny muted vermilion #AB5142 accent. Approximate 60/30/10 colored-ink balance. The source book's real black-gold cover remains unchanged. Subtle paper fibers and pencil grain.\nConstraints: all requested text must be rendered by image generation with clear correct simplified Chinese characters. Main book title also as a legible separate text line, not only on the book cover. Footer credit in clean tiny but readable type, exact: “设计系统：ESTHER不二 · CC BY-NC-SA 4.0”. No other invented copy, claims, sales numbers, badges, publishers or endorsements. No QR code. No website/app frame, no grids of cards, no cyan/neon, no blue-purple gradient, no glass effects, no large black background, no synthetic light bloom outside the actual book cover. No added watermarks. Keep every text inside generous safe margins.\n\nComposition: Bold headline fills left half in three naturally grouped lines with extreme size contrast; right half features a tall realistic actual book from Image 1, slightly angled, sitting on a small irregular ochre crayon pedestal shape. A hand-drawn muted red underline runs below the key Chinese word, one elegant brown pencil swoosh connects headline to book. A tiny author portrait from Image 2 and name at lower left. Small editorial English word in italic serif at upper left. The cover is the visual hero and must stay faithful.\nText (verbatim), only these besides faithful original cover:\n“THINK & CODE”\n“把思考，\n写成代码”\n“《编程启蒙：思维与代码》”\n“AI悦创 · 黄家宝”\n“设计系统：ESTHER不二 · CC BY-NC-SA 4.0”\n",
+      "nativePath": "/Users/bornforthis/.codex/generated_images/01a0a511-5954-7fe0-8072-2ac9b5cf7ff7/exec-97bf477c-33f1-421e-aab6-d250b7fcac1b.png",
+      "savedPath": "/Users/bornforthis/Github/WebSite/brand-studio/programming-posters-2026-09-15/esther-series/01-esther-thinking.png",
+      "status": "final",
+      "checks": {
+        "viewImageReviewed": true,
+        "mainChineseText": "correct",
+        "bookTitle": "《编程启蒙：思维与代码》 correct",
+        "attribution": "设计系统：ESTHER不二 · CC BY-NC-SA 4.0 present",
+        "composition": "非对称大标题与书籍主视觉"
+      },
+      "generationAttempts": 1
+    },
+    {
+      "id": "02",
+      "filename": "02-esther-two-parts.png",
+      "layout": "巨数字2与上下篇",
+      "prompt": "Use case: ads-marketing\nAsset type: landscape book campaign poster, a finished raster PNG including all Chinese typography, horizontal 16:9, ideally 1536×864.\nInput images: Image 1 is the actual book product reference; accurately preserve its recognizable black and gold original cover, large exact Chinese title 编程启蒙：思维与代码 and author 黄家宝. Image 2 is the author brand's crayon illustration reference; optional small friendly portrait detail, keep face/hair/headphones identity recognizable, interpret its blue crayon strokes in dark brown to fit campaign.\nStyle: Esther design-system editorial art direction, adapted from template-cards: premium warm paper, Noto Serif SC-style heavy serif Chinese headlines and clean Noto Sans SC-style sans serif supporting text; huge typographic scale contrast, hand-drawn wax-pencil annotations, asymmetric magazine composition, carefully judged generous negative space. It must feel designed, warm, thoughtful, literary and inviting.\nColor palette: warm ivory paper #FEFCF6 background, deep chocolate brown #3B3025 dominant graphic color, ochre gold #D7AF52 emphasis, tiny muted vermilion #AB5142 accent. Approximate 60/30/10 colored-ink balance. The source book's real black-gold cover remains unchanged. Subtle paper fibers and pencil grain.\nConstraints: all requested text must be rendered by image generation with clear correct simplified Chinese characters. Main book title also as a legible separate text line, not only on the book cover. Footer credit in clean tiny but readable type, exact: “设计系统：ESTHER不二 · CC BY-NC-SA 4.0”. No other invented copy, claims, sales numbers, badges, publishers or endorsements. No QR code. No website/app frame, no grids of cards, no cyan/neon, no blue-purple gradient, no glass effects, no large black background, no synthetic light bloom outside the actual book cover. No added watermarks. Keep every text inside generous safe margins.\n\nComposition: A gigantic elegant pale ochre serif numeral “2” spans the left third, integrated into the paper, not a badge. On the middle column, two large editorial headings aligned to separate thin hand-drawn horizontal dividers describe the book's two parts. A medium actual black-gold book stands at far right with subdued natural contact shadow. The composition should read as an artfully typeset book prospectus with sparse pencil brackets and exactly one muted red crayon dot at the tip of a short arrow; no repeated cards. No person required.\nText (verbatim), only these besides faithful original cover:\n“2”\n“从思维，到代码”\n“上篇 · 思维”\n“下篇 · 代码”\n“《编程启蒙：思维与代码》”\n“AI悦创 · 黄家宝”\n“设计系统：ESTHER不二 · CC BY-NC-SA 4.0”\n",
+      "nativePath": "/Users/bornforthis/.codex/generated_images/01a0a511-5954-7fe0-8072-2ac9b5cf7ff7/exec-fb1877a3-b300-4563-80f9-e115ec18e3ea.png",
+      "savedPath": "/Users/bornforthis/Github/WebSite/brand-studio/programming-posters-2026-09-15/esther-series/02-esther-two-parts.png",
+      "status": "final",
+      "checks": {
+        "viewImageReviewed": true,
+        "mainChineseText": "correct",
+        "bookTitle": "《编程启蒙：思维与代码》 correct",
+        "attribution": "设计系统：ESTHER不二 · CC BY-NC-SA 4.0 present",
+        "composition": "巨数字2与上下篇"
+      },
+      "generationAttempts": 1
+    },
+    {
+      "id": "03",
+      "filename": "03-esther-question-process.png",
+      "layout": "手绘流程长箭头",
+      "prompt": "Use case: ads-marketing\nAsset type: landscape book campaign poster, a finished raster PNG including all Chinese typography, horizontal 16:9, ideally 1536×864.\nInput images: Image 1 is the actual book product reference; accurately preserve its recognizable black and gold original cover, large exact Chinese title 编程启蒙：思维与代码 and author 黄家宝. Image 2 is the author brand's crayon illustration reference; optional small friendly portrait detail, keep face/hair/headphones identity recognizable, interpret its blue crayon strokes in dark brown to fit campaign.\nStyle: Esther design-system editorial art direction, adapted from template-cards: premium warm paper, Noto Serif SC-style heavy serif Chinese headlines and clean Noto Sans SC-style sans serif supporting text; huge typographic scale contrast, hand-drawn wax-pencil annotations, asymmetric magazine composition, carefully judged generous negative space. It must feel designed, warm, thoughtful, literary and inviting.\nColor palette: warm ivory paper #FEFCF6 background, deep chocolate brown #3B3025 dominant graphic color, ochre gold #D7AF52 emphasis, tiny muted vermilion #AB5142 accent. Approximate 60/30/10 colored-ink balance. The source book's real black-gold cover remains unchanged. Subtle paper fibers and pencil grain.\nConstraints: all requested text must be rendered by image generation with clear correct simplified Chinese characters. Main book title also as a legible separate text line, not only on the book cover. Footer credit in clean tiny but readable type, exact: “设计系统：ESTHER不二 · CC BY-NC-SA 4.0”. No other invented copy, claims, sales numbers, badges, publishers or endorsements. No QR code. No website/app frame, no grids of cards, no cyan/neon, no blue-purple gradient, no glass effects, no large black background, no synthetic light bloom outside the actual book cover. No added watermarks. Keep every text inside generous safe margins.\n\nComposition: A long confident ochre hand-drawn arrow runs across the landscape from lower left to upper right, connecting three large serif Chinese action words “提问”, “拆解”, “实践” as a flowing learning path. Each word has a small simple graphite sketch (a question mark, modular puzzle pieces, a pencil writing) below it. Headline is compact at top left. The actual black-gold book from Image 1 is positioned at the endpoint of the arrow, far right, tilted slightly outward. Keep the three action words and book visually separated and balanced without card containers. A tiny portrait based on Image 2 in lower left. Irregular muted-red hand-drawn circle around the middle word for focus. Large empty paper gaps allow this arrow-driven composition to breathe.\nText (verbatim), only these besides faithful original cover:\n“让想法，一步步落地”\n“提问”\n“拆解”\n“实践”\n“《编程启蒙：思维与代码》”\n“AI悦创”\n“设计系统：ESTHER不二 · CC BY-NC-SA 4.0”\n",
+      "nativePath": "/Users/bornforthis/.codex/generated_images/01a0a511-5954-7fe0-8072-2ac9b5cf7ff7/exec-71e648ec-0e83-4835-bffd-e3c571f6c737.png",
+      "savedPath": "/Users/bornforthis/Github/WebSite/brand-studio/programming-posters-2026-09-15/esther-series/03-esther-question-process.png",
+      "status": "final",
+      "checks": {
+        "viewImageReviewed": true,
+        "mainChineseText": "correct",
+        "bookTitle": "《编程启蒙：思维与代码》 correct",
+        "attribution": "设计系统：ESTHER不二 · CC BY-NC-SA 4.0 present",
+        "composition": "手绘流程长箭头"
+      },
+      "generationAttempts": 1
+    },
+    {
+      "id": "04",
+      "filename": "04-esther-understand-first.png",
+      "layout": "手绘笔记批注",
+      "prompt": "Use case: ads-marketing\nAsset type: landscape book campaign poster, a finished raster PNG including all Chinese typography, horizontal 16:9, ideally 1536×864.\nInput images: Image 1 is the actual book product reference; accurately preserve its recognizable black and gold original cover, large exact Chinese title 编程启蒙：思维与代码 and author 黄家宝. Image 2 is the author brand's crayon illustration reference; optional small friendly portrait detail, keep face/hair/headphones identity recognizable, interpret its blue crayon strokes in dark brown to fit campaign.\nStyle: Esther design-system editorial art direction, adapted from template-cards: premium warm paper, Noto Serif SC-style heavy serif Chinese headlines and clean Noto Sans SC-style sans serif supporting text; huge typographic scale contrast, hand-drawn wax-pencil annotations, asymmetric magazine composition, carefully judged generous negative space. It must feel designed, warm, thoughtful, literary and inviting.\nColor palette: warm ivory paper #FEFCF6 background, deep chocolate brown #3B3025 dominant graphic color, ochre gold #D7AF52 emphasis, tiny muted vermilion #AB5142 accent. Approximate 60/30/10 colored-ink balance. The source book's real black-gold cover remains unchanged. Subtle paper fibers and pencil grain.\nConstraints: all requested text must be rendered by image generation with clear correct simplified Chinese characters. Main book title also as a legible separate text line, not only on the book cover. Footer credit in clean tiny but readable type, exact: “设计系统：ESTHER不二 · CC BY-NC-SA 4.0”. No other invented copy, claims, sales numbers, badges, publishers or endorsements. No QR code. No website/app frame, no grids of cards, no cyan/neon, no blue-purple gradient, no glass effects, no large black background, no synthetic light bloom outside the actual book cover. No added watermarks. Keep every text inside generous safe margins.\n\nComposition: An elegant desk-note editorial collage seen straight-on, on a cream lightly squared notebook-paper background with no dark border. A very large two-line serif heading at the top right “先理解， / 再动手” fills more than half the width. At left, the actual black-gold book cover is rendered as a large physical book leaning against the paper with authentic natural shadow; one small ochre torn paper tab above its edge. Delicate hand-drawn dark brown pencil annotation marks, a vermilion underline under “理解”, tiny crayon stars, one callout connected to an empty rough sketched speech-cloud shape (keep it empty). A small paper swatch along bottom right carries the full book title. Include a very small portrait from Image 2 near the author signature. Premium tactile stationery, asymmetry, not a UI or generic cards.\nText (verbatim), only these besides faithful original cover:\n“先理解，\n再动手”\n“思维与代码，从这里开始”\n“《编程启蒙：思维与代码》”\n“AI悦创 · 黄家宝”\n“设计系统：ESTHER不二 · CC BY-NC-SA 4.0”\n",
+      "nativePath": "/Users/bornforthis/.codex/generated_images/01a0a511-5954-7fe0-8072-2ac9b5cf7ff7/exec-624316eb-e49e-4e20-8dd0-a535e5c9cf06.png",
+      "savedPath": "/Users/bornforthis/Github/WebSite/brand-studio/programming-posters-2026-09-15/esther-series/04-esther-understand-first.png",
+      "status": "final",
+      "checks": {
+        "viewImageReviewed": true,
+        "mainChineseText": "correct",
+        "bookTitle": "《编程启蒙：思维与代码》 correct",
+        "attribution": "设计系统：ESTHER不二 · CC BY-NC-SA 4.0 present",
+        "composition": "手绘笔记批注"
+      },
+      "generationAttempts": 1
+    },
+    {
+      "id": "05",
+      "filename": "05-esther-new-perspective.png",
+      "layout": "巨大引号与书籍",
+      "prompt": "Use case: ads-marketing\nAsset type: landscape book campaign poster, a finished raster PNG including all Chinese typography, horizontal 16:9, ideally 1536×864.\nInput images: Image 1 is the actual book product reference; accurately preserve its recognizable black and gold original cover, large exact Chinese title 编程启蒙：思维与代码 and author 黄家宝. Image 2 is the author brand's crayon illustration reference; optional small friendly portrait detail, keep face/hair/headphones identity recognizable, interpret its blue crayon strokes in dark brown to fit campaign.\nStyle: Esther design-system editorial art direction, adapted from template-cards: premium warm paper, Noto Serif SC-style heavy serif Chinese headlines and clean Noto Sans SC-style sans serif supporting text; huge typographic scale contrast, hand-drawn wax-pencil annotations, asymmetric magazine composition, carefully judged generous negative space. It must feel designed, warm, thoughtful, literary and inviting.\nColor palette: warm ivory paper #FEFCF6 background, deep chocolate brown #3B3025 dominant graphic color, ochre gold #D7AF52 emphasis, tiny muted vermilion #AB5142 accent. Approximate 60/30/10 colored-ink balance. The source book's real black-gold cover remains unchanged. Subtle paper fibers and pencil grain.\nConstraints: all requested text must be rendered by image generation with clear correct simplified Chinese characters. Main book title also as a legible separate text line, not only on the book cover. Footer credit in clean tiny but readable type, exact: “设计系统：ESTHER不二 · CC BY-NC-SA 4.0”. No other invented copy, claims, sales numbers, badges, publishers or endorsements. No QR code. No website/app frame, no grids of cards, no cyan/neon, no blue-purple gradient, no glass effects, no large black background, no synthetic light bloom outside the actual book cover. No added watermarks. Keep every text inside generous safe margins.\n\nComposition: Oversized elegant golden opening quotation marks in the upper left bleed partly beyond the top crop, then a huge generous left-aligned serif quote fills left and center, occupying 60% of the canvas. The key phrase “多一种思路” is lightly highlighted by a rough gold wax-pencil horizontal swash behind it with a short muted-red pencil underline. Right third shows the actual black and gold book at a subtle angle; warm ivory background, naturally cast contact shadow, one gentle hand drawn pencil arc echoing the quotation marks. Very small author portrait based on Image 2 at lower center with signature. Footer is a fine bottom-aligned line with much whitespace above; avoid a border frame.\nText (verbatim), only these besides faithful original cover:\n“为解决问题，\n多一种思路”\n“《编程启蒙：思维与代码》”\n“AI悦创 · 黄家宝”\n“设计系统：ESTHER不二 · CC BY-NC-SA 4.0”\n",
+      "nativePath": "/Users/bornforthis/.codex/generated_images/01a0a511-5954-7fe0-8072-2ac9b5cf7ff7/exec-b9bcbab3-6ecf-4ac6-a14f-c0f4d0e286cb.png",
+      "savedPath": "/Users/bornforthis/Github/WebSite/brand-studio/programming-posters-2026-09-15/esther-series/05-esther-new-perspective.png",
+      "status": "final",
+      "checks": {
+        "viewImageReviewed": true,
+        "mainChineseText": "correct",
+        "bookTitle": "《编程启蒙：思维与代码》 correct",
+        "attribution": "设计系统：ESTHER不二 · CC BY-NC-SA 4.0 present",
+        "composition": "巨大引号与书籍"
+      },
+      "generationAttempts": 1
+    }
+  ]
+}

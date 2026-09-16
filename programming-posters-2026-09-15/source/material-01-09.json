@@ -1,0 +1,201 @@
+[
+  {
+    "id": "01",
+    "file": "01-golden-opening.png",
+    "title": "从思维出发，让代码发光",
+    "design": "A powerful restrained luxury book-publishing hero. Espresso-black wide backdrop, narrow architectural amber light slit behind the upright book on right, satin brass low platform and long soft shadow. Left 55 percent reserved for immense elegant gold Chinese serif heading across two purposeful lines. Very sparse fine gold dust only near the book matching original cover; premium book photograph, no cheesy sci-fi. Small top-left label '编程启蒙'. Main title '从思维出发' then '让代码发光'. Small bottom-left text '《编程启蒙：思维与代码》' and '黄家宝 编著'.",
+    "text": [
+      "编程启蒙",
+      "从思维出发",
+      "让代码发光",
+      "《编程启蒙：思维与代码》",
+      "黄家宝 编著"
+    ],
+    "prompt": "Use case: ads-marketing. Create ONE finished landscape Chinese book campaign poster, exact 16:9 composition, request 1536x864 pixels, edge-to-edge image. Input image 1 is the real book cover/product reference, not the whole background. Reproduce this book faithfully including its black cover, golden vertical beam, title 编程启蒙：思维与代码 and author 黄家宝. Make book prominent and readable with correct rectangular hardcover geometry. Generate all visible Chinese and English typography directly in this image. Refined professional publication art direction, deliberate optical alignment, generous margins, minimal copy, clear readable large Chinese characters, faithful punctuation. Use warm gold, amber, near-black espresso and cream colors which complement the actual cover. No blue/purple, no neon, no invented price, endorsements, badges, QR, fake logos, or decorative pseudo-code. All text verbatim, no extra marketing copy. Book's tiny publisher details should be faithful to reference.\nArt direction: A powerful restrained luxury book-publishing hero. Espresso-black wide backdrop, narrow architectural amber light slit behind the upright book on right, satin brass low platform and long soft shadow. Left 55 percent reserved for immense elegant gold Chinese serif heading across two purposeful lines. Very sparse fine gold dust only near the book matching original cover; premium book photograph, no cheesy sci-fi. Small top-left label '编程启蒙'. Main title '从思维出发' then '让代码发光'. Small bottom-left text '《编程启蒙：思维与代码》' and '黄家宝 编著'.\nText (verbatim): \"编程启蒙\"; \"从思维出发\"; \"让代码发光\"; \"《编程启蒙：思维与代码》\"; \"黄家宝 编著\"",
+    "reference_images": [
+      "/Users/bornforthis/Github/WebSite/brand-studio/data/《编程启蒙：思维与代码》/白底-效果图.jpg"
+    ],
+    "status": "visually_reviewed",
+    "generated_source": "/Users/bornforthis/.codex/generated_images/01a0a507-043d-7802-a2f0-a36446958b7e/exec-61e79bff-ee09-4529-b510-32252f7503b0.png",
+    "review": "主标题、副标题、书名和整体排版已肉眼检查。保留原生图片；封面微小印字为生成近似。",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": "02",
+    "file": "02-cream-editorial.png",
+    "title": "学会编程，从理解开始",
+    "design": "Warm ivory editorial museum publication, quiet crisp daylight. A large real book positioned slightly angled on left casts an elegant long shadow. Oversized espresso Chinese serif headline on upper right, tiny gold uppercase italic 'think first' above it; a single gold rectangular annotation under subtitle, spacious editorial layout, no frames or rounded cards. Exact headline lines '学会编程' / '从理解开始'. Subtitle '在思维与代码之间，建立自己的逻辑'. Bottom '《编程启蒙：思维与代码》' and 'AI悦创 · 黄家宝'.",
+    "text": [
+      "think first",
+      "学会编程",
+      "从理解开始",
+      "在思维与代码之间，建立自己的逻辑",
+      "《编程启蒙：思维与代码》",
+      "AI悦创 · 黄家宝"
+    ],
+    "prompt": "Use case: ads-marketing. Create ONE finished landscape Chinese book campaign poster, exact 16:9 composition, request 1536x864 pixels, edge-to-edge image. Input image 1 is the real book cover/product reference, not the whole background. Reproduce this book faithfully including its black cover, golden vertical beam, title 编程启蒙：思维与代码 and author 黄家宝. Make book prominent and readable with correct rectangular hardcover geometry. Generate all visible Chinese and English typography directly in this image. Refined professional publication art direction, deliberate optical alignment, generous margins, minimal copy, clear readable large Chinese characters, faithful punctuation. Use warm gold, amber, near-black espresso and cream colors which complement the actual cover. No blue/purple, no neon, no invented price, endorsements, badges, QR, fake logos, or decorative pseudo-code. All text verbatim, no extra marketing copy. Book's tiny publisher details should be faithful to reference.\nArt direction: Warm ivory editorial museum publication, quiet crisp daylight. A large real book positioned slightly angled on left casts an elegant long shadow. Oversized espresso Chinese serif headline on upper right, tiny gold uppercase italic 'think first' above it; a single gold rectangular annotation under subtitle, spacious editorial layout, no frames or rounded cards. Exact headline lines '学会编程' / '从理解开始'. Subtitle '在思维与代码之间，建立自己的逻辑'. Bottom '《编程启蒙：思维与代码》' and 'AI悦创 · 黄家宝'.\nText (verbatim): \"think first\"; \"学会编程\"; \"从理解开始\"; \"在思维与代码之间，建立自己的逻辑\"; \"《编程启蒙：思维与代码》\"; \"AI悦创 · 黄家宝\"",
+    "reference_images": [
+      "/Users/bornforthis/Github/WebSite/brand-studio/data/《编程启蒙：思维与代码》/白底-效果图.jpg"
+    ],
+    "status": "visually_reviewed",
+    "generated_source": "/Users/bornforthis/.codex/generated_images/01a0a507-043d-7802-a2f0-a36446958b7e/exec-ea7132f1-6030-4eaf-87db-6fc69bb518ce.png",
+    "review": "主标题、副标题、书名和整体排版已肉眼检查。保留原生图片；封面微小印字为生成近似。",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": "03",
+    "file": "03-ideas-to-code.png",
+    "title": "让想法，一步步成为程序",
+    "design": "Sculptural warm golden paper ribbon folds into an elegant meandering path across bottom of landscape, ending at a standing black-gold real book in center-right. Background warm stone cream, tactile paper and matte brass, realistic studio product illustration. Large clean warm-charcoal headline in upper-left, gold small restrained three-word footer separated with spacious dots. Headline '让想法' / '一步步成为程序'. Subtitle '理解问题 · 拆解思路 · 编写代码'. Small book title '《编程启蒙：思维与代码》'. Avoid other text or lists.",
+    "text": [
+      "让想法",
+      "一步步成为程序",
+      "理解问题 · 拆解思路 · 编写代码",
+      "《编程启蒙：思维与代码》"
+    ],
+    "prompt": "Use case: ads-marketing. Create ONE finished landscape Chinese book campaign poster, exact 16:9 composition, request 1536x864 pixels, edge-to-edge image. Input image 1 is the real book cover/product reference, not the whole background. Reproduce this book faithfully including its black cover, golden vertical beam, title 编程启蒙：思维与代码 and author 黄家宝. Make book prominent and readable with correct rectangular hardcover geometry. Generate all visible Chinese and English typography directly in this image. Refined professional publication art direction, deliberate optical alignment, generous margins, minimal copy, clear readable large Chinese characters, faithful punctuation. Use warm gold, amber, near-black espresso and cream colors which complement the actual cover. No blue/purple, no neon, no invented price, endorsements, badges, QR, fake logos, or decorative pseudo-code. All text verbatim, no extra marketing copy. Book's tiny publisher details should be faithful to reference.\nArt direction: Sculptural warm golden paper ribbon folds into an elegant meandering path across bottom of landscape, ending at a standing black-gold real book in center-right. Background warm stone cream, tactile paper and matte brass, realistic studio product illustration. Large clean warm-charcoal headline in upper-left, gold small restrained three-word footer separated with spacious dots. Headline '让想法' / '一步步成为程序'. Subtitle '理解问题 · 拆解思路 · 编写代码'. Small book title '《编程启蒙：思维与代码》'. Avoid other text or lists.\nText (verbatim): \"让想法\"; \"一步步成为程序\"; \"理解问题 · 拆解思路 · 编写代码\"; \"《编程启蒙：思维与代码》\"",
+    "reference_images": [
+      "/Users/bornforthis/Github/WebSite/brand-studio/data/《编程启蒙：思维与代码》/白底-效果图.jpg"
+    ],
+    "status": "visually_reviewed",
+    "generated_source": "/Users/bornforthis/.codex/generated_images/01a0a507-043d-7802-a2f0-a36446958b7e/exec-7bcc601a-2bd4-4ec0-9a5f-2d547acdbf85.png",
+    "review": "主标题、副标题、书名和整体排版已肉眼检查。保留原生图片；封面微小印字为生成近似。",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": "04",
+    "file": "04-two-parts.png",
+    "title": "一半思维，一半代码",
+    "design": "Bold editorial asymmetrical diptych. Left 62% warm ivory, right38% dark coffee. Real black-gold book crosses the dividing edge low in the composition at an angle, clear cover. Large Chinese typography on left in espresso '一半思维' then below in muted gold '一半代码'. On right small ivory labels stacked vertically with ample space: '上篇：思维' and '下篇：Python入门'. Small top label '从理解到实践', small bottom-left book title '《编程启蒙：思维与代码》'. No card grid, no arrows. Strong confident publication poster.",
+    "text": [
+      "从理解到实践",
+      "一半思维",
+      "一半代码",
+      "上篇：思维",
+      "下篇：Python入门",
+      "《编程启蒙：思维与代码》"
+    ],
+    "prompt": "Use case: ads-marketing. Create ONE finished landscape Chinese book campaign poster, exact 16:9 composition, request 1536x864 pixels, edge-to-edge image. Input image 1 is the real book cover/product reference, not the whole background. Reproduce this book faithfully including its black cover, golden vertical beam, title 编程启蒙：思维与代码 and author 黄家宝. Make book prominent and readable with correct rectangular hardcover geometry. Generate all visible Chinese and English typography directly in this image. Refined professional publication art direction, deliberate optical alignment, generous margins, minimal copy, clear readable large Chinese characters, faithful punctuation. Use warm gold, amber, near-black espresso and cream colors which complement the actual cover. No blue/purple, no neon, no invented price, endorsements, badges, QR, fake logos, or decorative pseudo-code. All text verbatim, no extra marketing copy. Book's tiny publisher details should be faithful to reference.\nArt direction: Bold editorial asymmetrical diptych. Left 62% warm ivory, right38% dark coffee. Real black-gold book crosses the dividing edge low in the composition at an angle, clear cover. Large Chinese typography on left in espresso '一半思维' then below in muted gold '一半代码'. On right small ivory labels stacked vertically with ample space: '上篇：思维' and '下篇：Python入门'. Small top label '从理解到实践', small bottom-left book title '《编程启蒙：思维与代码》'. No card grid, no arrows. Strong confident publication poster.\nText (verbatim): \"从理解到实践\"; \"一半思维\"; \"一半代码\"; \"上篇：思维\"; \"下篇：Python入门\"; \"《编程启蒙：思维与代码》\"",
+    "reference_images": [
+      "/Users/bornforthis/Github/WebSite/brand-studio/data/《编程启蒙：思维与代码》/白底-效果图.jpg"
+    ],
+    "status": "visually_reviewed",
+    "generated_source": "/Users/bornforthis/.codex/generated_images/01a0a507-043d-7802-a2f0-a36446958b7e/exec-eb97a560-2750-443f-bb08-f2108b91d4a9.png",
+    "review": "主标题、副标题、书名和整体排版已肉眼检查。保留原生图片；封面微小印字为生成近似。",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": "05",
+    "file": "05-logic-steps.png",
+    "title": "把复杂问题，拆成清晰步骤",
+    "design": "Espresso-black architectural still life: 4 broad matte warm-gold steps ascend from lower-left toward upper-right, culminating in the real black-gold book on highest step. Golden side lighting, no extraneous objects. Header at upper-left huge warm ivory Chinese serif, occupy clear dark negative space '把复杂问题' / '拆成清晰步骤'. Small gold subheading '编程思维，从拆解开始'. Small book title near lower-left '《编程启蒙：思维与代码》'. Distinct diagonal composition. Crisp physically believable book, all cover design faithful.",
+    "text": [
+      "把复杂问题",
+      "拆成清晰步骤",
+      "编程思维，从拆解开始",
+      "《编程启蒙：思维与代码》"
+    ],
+    "prompt": "Use case: ads-marketing. Create ONE finished landscape Chinese book campaign poster, exact 16:9 composition, request 1536x864 pixels, edge-to-edge image. Input image 1 is the real book cover/product reference, not the whole background. Reproduce this book faithfully including its black cover, golden vertical beam, title 编程启蒙：思维与代码 and author 黄家宝. Make book prominent and readable with correct rectangular hardcover geometry. Generate all visible Chinese and English typography directly in this image. Refined professional publication art direction, deliberate optical alignment, generous margins, minimal copy, clear readable large Chinese characters, faithful punctuation. Use warm gold, amber, near-black espresso and cream colors which complement the actual cover. No blue/purple, no neon, no invented price, endorsements, badges, QR, fake logos, or decorative pseudo-code. All text verbatim, no extra marketing copy. Book's tiny publisher details should be faithful to reference.\nArt direction: Espresso-black architectural still life: 4 broad matte warm-gold steps ascend from lower-left toward upper-right, culminating in the real black-gold book on highest step. Golden side lighting, no extraneous objects. Header at upper-left huge warm ivory Chinese serif, occupy clear dark negative space '把复杂问题' / '拆成清晰步骤'. Small gold subheading '编程思维，从拆解开始'. Small book title near lower-left '《编程启蒙：思维与代码》'. Distinct diagonal composition. Crisp physically believable book, all cover design faithful.\nText (verbatim): \"把复杂问题\"; \"拆成清晰步骤\"; \"编程思维，从拆解开始\"; \"《编程启蒙：思维与代码》\"",
+    "reference_images": [
+      "/Users/bornforthis/Github/WebSite/brand-studio/data/《编程启蒙：思维与代码》/白底-效果图.jpg"
+    ],
+    "status": "visually_reviewed",
+    "generated_source": "/Users/bornforthis/.codex/generated_images/01a0a507-043d-7802-a2f0-a36446958b7e/exec-6dcaa58e-c7a6-4bf2-b101-f15fb2e1fbdf.png",
+    "review": "主标题、副标题、书名和整体排版已肉眼检查。保留原生图片；封面微小印字为生成近似。",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": "06",
+    "file": "06-everyday-algorithms.png",
+    "title": "生活里的难题，也有算法",
+    "design": "Top-down designed tabletop collage on warm parchment. Real black-gold book lies on right with complete readable cover. Left below typography, minimal paper-cut branching path in brass brown drawn from a simple forked route, use 3 tiny labels '观察' '比较' '选择' at relevant stops, calm organized composition with no complex charts. Top-left giant elegant Chinese title '生活里的难题' / '也有算法'. Small title below '《编程启蒙：思维与代码》'. Warm honey sunlight and subtle paper shadows. Refined intellectual educational tone.",
+    "text": [
+      "生活里的难题",
+      "也有算法",
+      "观察",
+      "比较",
+      "选择",
+      "《编程启蒙：思维与代码》"
+    ],
+    "prompt": "Use case: ads-marketing. Create ONE finished landscape Chinese book campaign poster, exact 16:9 composition, request 1536x864 pixels, edge-to-edge image. Input image 1 is the real book cover/product reference, not the whole background. Reproduce this book faithfully including its black cover, golden vertical beam, title 编程启蒙：思维与代码 and author 黄家宝. Make book prominent and readable with correct rectangular hardcover geometry. Generate all visible Chinese and English typography directly in this image. Refined professional publication art direction, deliberate optical alignment, generous margins, minimal copy, clear readable large Chinese characters, faithful punctuation. Use warm gold, amber, near-black espresso and cream colors which complement the actual cover. No blue/purple, no neon, no invented price, endorsements, badges, QR, fake logos, or decorative pseudo-code. All text verbatim, no extra marketing copy. Book's tiny publisher details should be faithful to reference.\nArt direction: Top-down designed tabletop collage on warm parchment. Real black-gold book lies on right with complete readable cover. Left below typography, minimal paper-cut branching path in brass brown drawn from a simple forked route, use 3 tiny labels '观察' '比较' '选择' at relevant stops, calm organized composition with no complex charts. Top-left giant elegant Chinese title '生活里的难题' / '也有算法'. Small title below '《编程启蒙：思维与代码》'. Warm honey sunlight and subtle paper shadows. Refined intellectual educational tone.\nText (verbatim): \"生活里的难题\"; \"也有算法\"; \"观察\"; \"比较\"; \"选择\"; \"《编程启蒙：思维与代码》\"",
+    "reference_images": [
+      "/Users/bornforthis/Github/WebSite/brand-studio/data/《编程启蒙：思维与代码》/白底-效果图.jpg"
+    ],
+    "status": "visually_reviewed",
+    "generated_source": "/Users/bornforthis/.codex/generated_images/01a0a507-043d-7802-a2f0-a36446958b7e/exec-03cc05f7-b914-494c-b1c9-017897902bc5.png",
+    "review": "主标题、副标题、书名和整体排版已肉眼检查。保留原生图片；封面微小印字为生成近似。",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": "07",
+    "file": "07-pixels-world.png",
+    "title": "从一个像素，看懂数字世界",
+    "design": "Elegant editorial abstract pixel study in gold and cream. A large orderly wall of small amber and dark-brown square pixels on left gradually resolves toward center into tiny detailed golden image texture, material texture resembles foil mosaic. On right a large faithful real book rests on a warm ivory plinth. Huge espresso headline spans upper-left '从一个像素' / '看懂数字世界'. Small subtitle bottom-left '把日常现象，变成理解计算机的入口'. Lower small title '《编程启蒙：思维与代码》'. No random letters or technical labels, image remains spacious.",
+    "text": [
+      "从一个像素",
+      "看懂数字世界",
+      "把日常现象，变成理解计算机的入口",
+      "《编程启蒙：思维与代码》"
+    ],
+    "prompt": "Use case: ads-marketing. Create ONE finished landscape Chinese book campaign poster, exact 16:9 composition, request 1536x864 pixels, edge-to-edge image. Input image 1 is the real book cover/product reference, not the whole background. Reproduce this book faithfully including its black cover, golden vertical beam, title 编程启蒙：思维与代码 and author 黄家宝. Make book prominent and readable with correct rectangular hardcover geometry. Generate all visible Chinese and English typography directly in this image. Refined professional publication art direction, deliberate optical alignment, generous margins, minimal copy, clear readable large Chinese characters, faithful punctuation. Use warm gold, amber, near-black espresso and cream colors which complement the actual cover. No blue/purple, no neon, no invented price, endorsements, badges, QR, fake logos, or decorative pseudo-code. All text verbatim, no extra marketing copy. Book's tiny publisher details should be faithful to reference.\nArt direction: Elegant editorial abstract pixel study in gold and cream. A large orderly wall of small amber and dark-brown square pixels on left gradually resolves toward center into tiny detailed golden image texture, material texture resembles foil mosaic. On right a large faithful real book rests on a warm ivory plinth. Huge espresso headline spans upper-left '从一个像素' / '看懂数字世界'. Small subtitle bottom-left '把日常现象，变成理解计算机的入口'. Lower small title '《编程启蒙：思维与代码》'. No random letters or technical labels, image remains spacious.\nText (verbatim): \"从一个像素\"; \"看懂数字世界\"; \"把日常现象，变成理解计算机的入口\"; \"《编程启蒙：思维与代码》\"",
+    "reference_images": [
+      "/Users/bornforthis/Github/WebSite/brand-studio/data/《编程启蒙：思维与代码》/白底-效果图.jpg"
+    ],
+    "status": "visually_reviewed",
+    "generated_source": "/Users/bornforthis/.codex/generated_images/01a0a507-043d-7802-a2f0-a36446958b7e/exec-65f17a11-58a0-4677-af2f-81d86bfb89ab.png",
+    "review": "主标题、副标题、书名和整体排版已肉眼检查。保留原生图片；封面微小印字为生成近似。",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": "08",
+    "file": "08-binary-language.png",
+    "title": "两个数字，打开新的世界",
+    "design": "Restrained black and old-gold typographic campaign. Enormous matte embossed digits '0' and '1' partially bleed off the left background, low contrast espresso on charcoal with thin warm gold rim, not glowing. The actual black-gold book appears substantial center-right, front cover clear and warmly illuminated. Large cream Chinese headline in foreground left '两个数字' / '打开新的世界'. Small gold subtitle '从二进制，理解计算机的语言'. Small lower title '《编程启蒙：思维与代码》'. Luxurious bookshop poster, no cyberpunk or invented syntax.",
+    "text": [
+      "0",
+      "1",
+      "两个数字",
+      "打开新的世界",
+      "从二进制，理解计算机的语言",
+      "《编程启蒙：思维与代码》"
+    ],
+    "prompt": "Use case: ads-marketing. Create ONE finished landscape Chinese book campaign poster, exact 16:9 composition, request 1536x864 pixels, edge-to-edge image. Input image 1 is the real book cover/product reference, not the whole background. Reproduce this book faithfully including its black cover, golden vertical beam, title 编程启蒙：思维与代码 and author 黄家宝. Make book prominent and readable with correct rectangular hardcover geometry. Generate all visible Chinese and English typography directly in this image. Refined professional publication art direction, deliberate optical alignment, generous margins, minimal copy, clear readable large Chinese characters, faithful punctuation. Use warm gold, amber, near-black espresso and cream colors which complement the actual cover. No blue/purple, no neon, no invented price, endorsements, badges, QR, fake logos, or decorative pseudo-code. All text verbatim, no extra marketing copy. Book's tiny publisher details should be faithful to reference.\nArt direction: Restrained black and old-gold typographic campaign. Enormous matte embossed digits '0' and '1' partially bleed off the left background, low contrast espresso on charcoal with thin warm gold rim, not glowing. The actual black-gold book appears substantial center-right, front cover clear and warmly illuminated. Large cream Chinese headline in foreground left '两个数字' / '打开新的世界'. Small gold subtitle '从二进制，理解计算机的语言'. Small lower title '《编程启蒙：思维与代码》'. Luxurious bookshop poster, no cyberpunk or invented syntax.\nText (verbatim): \"0\"; \"1\"; \"两个数字\"; \"打开新的世界\"; \"从二进制，理解计算机的语言\"; \"《编程启蒙：思维与代码》\"",
+    "reference_images": [
+      "/Users/bornforthis/Github/WebSite/brand-studio/data/《编程启蒙：思维与代码》/白底-效果图.jpg"
+    ],
+    "status": "visually_reviewed",
+    "generated_source": "/Users/bornforthis/.codex/generated_images/01a0a507-043d-7802-a2f0-a36446958b7e/exec-28a918b0-cf1c-4b04-8484-525048a1f0a3.png",
+    "review": "主标题、副标题、书名和整体排版已肉眼检查。保留原生图片；封面微小印字为生成近似。",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": "09",
+    "file": "09-python-first-page.png",
+    "title": "你的 Python，从这一页开始",
+    "design": "Warm naturally lit writing desk editorial product photograph. Faithful closed black-gold book on left-front beside an open blank cream notebook and simple brass pencil; no person. Overhead-to-oblique view, amber afternoon diagonal window shadow. Keep broad uncluttered warm ivory desk area on right for large Chinese serif headline '你的 Python' / '从这一页开始'. Small subtitle '从变量到函数，循序渐进地理解代码'. Footer '《编程启蒙：思维与代码》' and 'bornforthis.cn'. Sophisticated warm real book photograph, no coffee, plants, extra distracting props or text.",
+    "text": [
+      "你的 Python",
+      "从这一页开始",
+      "从变量到函数，循序渐进地理解代码",
+      "《编程启蒙：思维与代码》",
+      "bornforthis.cn"
+    ],
+    "prompt": "Use case: ads-marketing. Create ONE finished landscape Chinese book campaign poster, exact 16:9 composition, request 1536x864 pixels, edge-to-edge image. Input image 1 is the real book cover/product reference, not the whole background. Reproduce this book faithfully including its black cover, golden vertical beam, title 编程启蒙：思维与代码 and author 黄家宝. Make book prominent and readable with correct rectangular hardcover geometry. Generate all visible Chinese and English typography directly in this image. Refined professional publication art direction, deliberate optical alignment, generous margins, minimal copy, clear readable large Chinese characters, faithful punctuation. Use warm gold, amber, near-black espresso and cream colors which complement the actual cover. No blue/purple, no neon, no invented price, endorsements, badges, QR, fake logos, or decorative pseudo-code. All text verbatim, no extra marketing copy. Book's tiny publisher details should be faithful to reference.\nArt direction: Warm naturally lit writing desk editorial product photograph. Faithful closed black-gold book on left-front beside an open blank cream notebook and simple brass pencil; no person. Overhead-to-oblique view, amber afternoon diagonal window shadow. Keep broad uncluttered warm ivory desk area on right for large Chinese serif headline '你的 Python' / '从这一页开始'. Small subtitle '从变量到函数，循序渐进地理解代码'. Footer '《编程启蒙：思维与代码》' and 'bornforthis.cn'. Sophisticated warm real book photograph, no coffee, plants, extra distracting props or text.\nText (verbatim): \"你的 Python\"; \"从这一页开始\"; \"从变量到函数，循序渐进地理解代码\"; \"《编程启蒙：思维与代码》\"; \"bornforthis.cn\"",
+    "reference_images": [
+      "/Users/bornforthis/Github/WebSite/brand-studio/data/《编程启蒙：思维与代码》/白底-效果图.jpg"
+    ],
+    "status": "visually_reviewed",
+    "generated_source": "/Users/bornforthis/.codex/generated_images/01a0a507-043d-7802-a2f0-a36446958b7e/exec-d38e5973-f617-4ebb-88ce-584bb7a3ab7f.png",
+    "review": "主标题、副标题、书名和整体排版已肉眼检查。保留原生图片；封面微小印字为生成近似。",
+    "width": 1672,
+    "height": 941
+  }
+]

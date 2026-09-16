@@ -1,0 +1,179 @@
+{
+  "created": "2026-09-15",
+  "license_note": "Design-system adaptation credit: ESTHER不二 (esthersjw), CC BY-NC-SA 4.0. Underlying book and IP materials retain their original rights.",
+  "skill": "/Users/bornforthis/.codex/skills/esther-design-system/SKILL.md",
+  "template_reference": "/Users/bornforthis/.codex/skills/esther-design-system/assets/template-cards.html",
+  "adaptation": "User requests landscape raster posters and all in-image text via imagegen; imagegen generated all pixels, no programmatic image creation or text overlays. HTML gallery handled separately by root agent.",
+  "posters": [
+    {
+      "id": 6,
+      "series": "esther-series",
+      "title": "把知识，连成路线",
+      "file": "esther-series/06-esther-roadmap.png",
+      "generation_mode": "built-in image_gen",
+      "use_case": "ads-marketing",
+      "attempts": 1,
+      "prompt": "Use case: ads-marketing.\nAsset type: finished landscape book poster, exactly 16:9, 1536×864 px if supported. Generate the entire poster including ALL Chinese typography in the image, sharp enough to read.\nInput image 1: source photograph of the actual book, supporting compositing input. Retain the book's original black-and-gold cover design, golden beam, Chinese title “编程启蒙：思维与代码”, author 黄家宝, and publisher marking faithfully; the existing glow is only on the printed book cover.\nInput image 2: source of the Brclio personal-brand character, supporting identity input. Preserve the young male character's short spiky hair, headphones, friendly face and crayon line quality, but reinterpret blue strokes as dark brown and bright yellow as muted gold to harmonize with the book. Do not copy its square yellow background.\nArt direction adapted from the ESTHER不二 design system: warm cream paper #FEFCF6, dark brown #3B3025 dominant, muted gold #D7AF52 highlight, tiny brick-red #AB5142 accent. Of chromatic graphic elements use brown/gold/red in roughly 60/30/10 proportions. Chinese main titles are very bold literary serif in the spirit of Noto Serif SC; smaller text clean sans serif. Extreme scale contrast; intentional asymmetrical magazine composition; handcrafted pencil and crayon touches, natural grain, precise spacing. Warm, clever, adult editorial design.\nConstraints: no QR code, no invented sales claims, no blue/purple/neon or multicolor gradients, no glass panels, no generic card grids, no unnecessary glow, no random filler text. Keep all essential type at least 60 px inside image edges. Render Chinese characters exactly without misspellings.\nComposition/framing: distinctive learning-map layout on cream paper. Very large headline in two balanced lines in upper left, an understated oversized pale gold “06” upper right. A broad winding hand-drawn gold path moves horizontally along the lower center with exactly five numbered stops, each a bold Chinese label with a restrained pencil icon; do not make identical cards. Use curved brown arrows clearly connecting 01 through 05. Place the original black-and-gold book upright at the far right, taking about 27% width, with enough room for fifth stop. A small crayon version of the source character is walking beside the start on the left. Avoid clutter and tangles.\nText (verbatim):\nMain title: “把知识，连成路线”\nSmall top label: “PYTHON · LEARNING MAP”\nPath stop labels in order: “01 变量” / “02 数据类型” / “03 条件” / “04 循环” / “05 函数”\nBook-name line: “《编程启蒙：思维与代码》”\nBottom author line: “AI悦创 · 黄家宝”\nBottom-right credit, readable small print: “设计系统：ESTHER不二 · CC BY-NC-SA 4.0”\nThe path is an editorial introduction route, do not add unrequested chapter numbers or make claims about official table of contents.",
+      "references": [
+        {
+          "path": "data/《编程启蒙：思维与代码》/白底-效果图.jpg",
+          "role": "book cover and product compositing reference"
+        },
+        {
+          "path": "data/我的 IP 角色相关/Brclio-IP.png",
+          "role": "character identity and crayon style reference; recolored brown and muted gold"
+        }
+      ],
+      "native_source": "/Users/bornforthis/.codex/generated_images/01a0a512-3953-7f13-bcf5-dec02014af21/exec-ccdacc11-2fce-4af6-b1e1-d0b5cd2a8cdb.png",
+      "width": 1672,
+      "height": 941,
+      "qa": {
+        "native_png_preserved": true,
+        "view_image_checked": true,
+        "headline_and_book_name": "pass",
+        "author_credit": "pass",
+        "esther_attribution": "pass",
+        "layout": "unique landscape composition",
+        "palette": "cream paper, dark brown, muted gold, brick red accents; black and gold source book retained",
+        "notes": "No obvious errors in main Chinese typography; tiny cover text may be softer than source.",
+        "independent_review": "source/visual-review.json"
+      }
+    },
+    {
+      "id": 7,
+      "series": "esther-series",
+      "title": "从生活中，发现算法",
+      "file": "esther-series/07-esther-everyday.png",
+      "generation_mode": "built-in image_gen",
+      "use_case": "ads-marketing",
+      "attempts": 1,
+      "prompt": "Use case: ads-marketing.\nAsset type: finished landscape book poster, exactly 16:9, 1536×864 px if supported. Generate the entire poster including ALL Chinese typography in the image, sharp enough to read.\nInput image 1: source photograph of the actual book, supporting compositing input. Retain the book's original black-and-gold cover design, golden beam, Chinese title “编程启蒙：思维与代码”, author 黄家宝, and publisher marking faithfully; the existing glow is only on the printed book cover.\nInput image 2: source of the Brclio personal-brand character, supporting identity input. Preserve the young male character's short spiky hair, headphones, friendly face and crayon line quality, but reinterpret blue strokes as dark brown and bright yellow as muted gold to harmonize with the book. Do not copy its square yellow background.\nArt direction adapted from the ESTHER不二 design system: warm cream paper #FEFCF6, dark brown #3B3025 dominant, muted gold #D7AF52 highlight, tiny brick-red #AB5142 accent. Of chromatic graphic elements use brown/gold/red in roughly 60/30/10 proportions. Chinese main titles are very bold literary serif in the spirit of Noto Serif SC; smaller text clean sans serif. Extreme scale contrast; intentional asymmetrical magazine composition; handcrafted pencil and crayon touches, natural grain, precise spacing. Warm, clever, adult editorial design.\nConstraints: no QR code, no invented sales claims, no blue/purple/neon or multicolor gradients, no glass panels, no generic card grids, no unnecessary glow, no random filler text. Keep all essential type at least 60 px inside image edges. Render Chinese characters exactly without misspellings.\nComposition/framing: a giant warm-paper open book dominates the central-right two-thirds of the poster, its pages depicted as generous simple blank paper planes. The actual supplied closed black-and-gold book stands smaller, layered over the right page, showing its cover faithfully. A large hand-drawn source character peeks playfully from the extreme lower-left edge of the giant page, only head, headphones and hands visible, keeping friendly identity. Huge dark-brown Chinese headline sits across the left and center, with the word “算法” highlighted by one rough gold crayon underline. The giant page has a sparse pencil grocery checklist icon and a tiny directional arrow as everyday sequence metaphors, no illegible page text. Upper-left tiny italic “Everyday thinking”; airy asymmetric literary-editorial feel, very fine paper grain. A restrained tiny brick-red bookmark makes the only bright accent. Do not draw multiple cards.\nText (verbatim):\nMain title line 1: “从生活中，”\nMain title line 2: “发现算法”\nSubline: “观察 · 拆解 · 表达”\nBook-name line: “《编程启蒙：思维与代码》”\nBottom author line: “AI悦创 · 黄家宝”\nBottom credit, readable small print: “设计系统：ESTHER不二 · CC BY-NC-SA 4.0”\nDecorative page number: “07”",
+      "references": [
+        {
+          "path": "data/《编程启蒙：思维与代码》/白底-效果图.jpg",
+          "role": "book cover and product compositing reference"
+        },
+        {
+          "path": "data/我的 IP 角色相关/Brclio-IP.png",
+          "role": "character identity and crayon style reference; recolored brown and muted gold"
+        }
+      ],
+      "native_source": "/Users/bornforthis/.codex/generated_images/01a0a512-3953-7f13-bcf5-dec02014af21/exec-8e7f0eb0-13a1-49df-8351-f500180dbb71.png",
+      "width": 1672,
+      "height": 941,
+      "qa": {
+        "native_png_preserved": true,
+        "view_image_checked": true,
+        "headline_and_book_name": "pass",
+        "author_credit": "pass",
+        "esther_attribution": "pass",
+        "layout": "unique landscape composition",
+        "palette": "cream paper, dark brown, muted gold, brick red accents; black and gold source book retained",
+        "notes": "Generator added a small everyday checklist and motivational handwriting; no unsupported sales or outcome claims.",
+        "independent_review": "source/visual-review.json"
+      }
+    },
+    {
+      "id": 8,
+      "series": "esther-series",
+      "title": "一步一步，读懂Python",
+      "file": "esther-series/08-esther-python.png",
+      "generation_mode": "built-in image_gen",
+      "use_case": "ads-marketing",
+      "attempts": 1,
+      "prompt": "Use case: ads-marketing.\nAsset type: finished landscape book poster, exactly 16:9, 1536×864 px if supported. Generate the entire poster including ALL Chinese typography in the image, sharp enough to read.\nInput image 1: source photograph of the actual book, supporting compositing input. Retain the book's original black-and-gold cover design, golden beam, Chinese title “编程启蒙：思维与代码”, author 黄家宝, and publisher marking faithfully; the existing glow is only on the printed book cover.\nInput image 2: source of the Brclio personal-brand character, supporting identity input. Preserve the young male character's short spiky hair, headphones, friendly face and crayon line quality, but reinterpret blue strokes as dark brown and bright yellow as muted gold to harmonize with the book. Do not copy its square yellow background.\nArt direction adapted from the ESTHER不二 design system: warm cream paper #FEFCF6, dark brown #3B3025 dominant, muted gold #D7AF52 highlight, tiny brick-red #AB5142 accent. Of chromatic graphic elements use brown/gold/red in roughly 60/30/10 proportions. Chinese main titles are very bold literary serif in the spirit of Noto Serif SC; smaller text clean sans serif. Extreme scale contrast; intentional asymmetrical magazine composition; handcrafted pencil and crayon touches, natural grain, precise spacing. Warm, clever, adult editorial design.\nConstraints: no QR code, no invented sales claims, no blue/purple/neon or multicolor gradients, no glass panels, no generic card grids, no unnecessary glow, no random filler text. Keep all essential type at least 60 px inside image edges. Render Chinese characters exactly without misspellings.\nComposition/framing: an inventive typographic staircase layout. The source book stands tall at the left (about one-third poster width), emphasizing the authentic spine alongside the readable front cover. Four broad warm-cream paper steps climb from lower center toward upper right, drawn with pencil-edge perspective and restrained gold surfaces. The main headline follows the ascending rhythm in three large typographic placements “一步一步，” then “读懂” then “Python”. Only three headline placements, all readable and composed as one statement; do not fragment Chinese words. The small source character, rendered in brown-gold crayon, sits on the upper-right stair with an open notebook, looking thoughtful and friendly. Tiny pencil arrows connect the steps. A pale oversized “08” partially bleeds behind the lower-left book as secondary design. Large ivory negative spaces and asymmetric print-design quality. No big floor cast shadows.\nText (verbatim):\nMain headline: “一步一步，读懂Python”\nSmall caption above staircase: “THINK · WRITE · UNDERSTAND”\nThree step labels in small clean sans: “理解概念” / “动手练习” / “反复思考”\nBook-name line: “《编程启蒙：思维与代码》”\nBottom author line: “AI悦创 · 黄家宝”\nBottom credit, readable small print: “设计系统：ESTHER不二 · CC BY-NC-SA 4.0”\nNo extra text beyond these and the existing text of the source book.",
+      "references": [
+        {
+          "path": "data/《编程启蒙：思维与代码》/白底-效果图.jpg",
+          "role": "book cover and product compositing reference"
+        },
+        {
+          "path": "data/我的 IP 角色相关/Brclio-IP.png",
+          "role": "character identity and crayon style reference; recolored brown and muted gold"
+        }
+      ],
+      "native_source": "/Users/bornforthis/.codex/generated_images/01a0a512-3953-7f13-bcf5-dec02014af21/exec-981de430-6104-4efb-9515-a6ef3feae9cb.png",
+      "width": 1672,
+      "height": 941,
+      "qa": {
+        "native_png_preserved": true,
+        "view_image_checked": true,
+        "headline_and_book_name": "pass",
+        "author_credit": "pass",
+        "esther_attribution": "pass",
+        "layout": "unique landscape composition",
+        "palette": "cream paper, dark brown, muted gold, brick red accents; black and gold source book retained",
+        "notes": "No obvious errors in main Chinese typography; tiny cover text may be softer than source.",
+        "independent_review": "source/visual-review.json"
+      }
+    },
+    {
+      "id": 9,
+      "series": "esther-series",
+      "title": "给好奇心，一个起点",
+      "file": "esther-series/09-esther-curiosity.png",
+      "generation_mode": "built-in image_gen",
+      "use_case": "ads-marketing",
+      "attempts": 1,
+      "prompt": "Use case: ads-marketing.\nAsset type: finished landscape book poster, exactly 16:9, 1536×864 px if supported. Generate the entire poster including ALL Chinese typography in the image, sharp enough to read.\nInput image 1: source photograph of the actual book, supporting compositing input. Retain the book's original black-and-gold cover design, golden beam, Chinese title “编程启蒙：思维与代码”, author 黄家宝, and publisher marking faithfully; the existing glow is only on the printed book cover.\nInput image 2: source of the Brclio personal-brand character, supporting identity input. Preserve the young male character's short spiky hair, headphones, friendly face and crayon line quality, but reinterpret blue strokes as dark brown and bright yellow as muted gold to harmonize with the book. Do not copy its square yellow background.\nArt direction adapted from the ESTHER不二 design system: warm cream paper #FEFCF6, dark brown #3B3025 dominant, muted gold #D7AF52 highlight, tiny brick-red #AB5142 accent. Of chromatic graphic elements use brown/gold/red in roughly 60/30/10 proportions. Chinese main titles are very bold literary serif in the spirit of Noto Serif SC; smaller text clean sans serif. Extreme scale contrast; intentional asymmetrical magazine composition; handcrafted pencil and crayon touches, natural grain, precise spacing. Warm, clever, adult editorial design.\nConstraints: no QR code, no invented sales claims, no blue/purple/neon or multicolor gradients, no glass panels, no generic card grids, no unnecessary glow, no random filler text. Keep all essential type at least 60 px inside image edges. Render Chinese characters exactly without misspellings.\nComposition/framing: the entire poster is a premium literary magazine spread with a large softly irregular oval reading window on the left, outlined by a broad muted-gold crayon band, warm paper inside the window. Inside this oval, a friendly brown-gold crayon version of the supplied character is reading the actual supplied black-and-gold book; show the authentic cover facing the viewer legibly, held naturally in both hands. The lower body can disappear below the oval's cropped lower edge; retain distinctive short hair and headphones. On the right, an enormous dark-brown serif Chinese headline occupies two carefully spaced lines “给好奇心，” and “一个起点”. Underline “起点” with a single rough gold pencil stroke. Place a tiny brick-red hand-drawn asterisk beside the heading. Sparse warm paper grain. The oval is an illustration window, never a rounded rectangular card. Small pale “09” near the upper margin.\nText (verbatim):\nHeadline line 1: “给好奇心，”\nHeadline line 2: “一个起点”\nSmall top label: “A PLACE TO BEGIN”\nSubline: “从一个问题，到一段代码”\nBook-name line: “《编程启蒙：思维与代码》”\nBottom author line: “AI悦创 · 黄家宝”\nBottom credit, readable small print: “设计系统：ESTHER不二 · CC BY-NC-SA 4.0”\nNo extra text beyond these and the existing text of the source book.",
+      "references": [
+        {
+          "path": "data/《编程启蒙：思维与代码》/白底-效果图.jpg",
+          "role": "book cover and product compositing reference"
+        },
+        {
+          "path": "data/我的 IP 角色相关/Brclio-IP.png",
+          "role": "character identity and crayon style reference; recolored brown and muted gold"
+        }
+      ],
+      "native_source": "/Users/bornforthis/.codex/generated_images/01a0a512-3953-7f13-bcf5-dec02014af21/exec-e58e8067-db19-4e91-bed9-39a879665772.png",
+      "width": 1672,
+      "height": 941,
+      "qa": {
+        "native_png_preserved": true,
+        "view_image_checked": true,
+        "headline_and_book_name": "pass",
+        "author_credit": "pass",
+        "esther_attribution": "pass",
+        "layout": "unique landscape composition",
+        "palette": "cream paper, dark brown, muted gold, brick red accents; black and gold source book retained",
+        "notes": "No obvious errors in main Chinese typography; tiny cover text may be softer than source.",
+        "independent_review": "source/visual-review.json"
+      }
+    },
+    {
+      "id": 10,
+      "series": "esther-series",
+      "title": "翻开书，让想法开始运行",
+      "file": "esther-series/10-esther-start.png",
+      "generation_mode": "built-in image_gen",
+      "use_case": "ads-marketing",
+      "attempts": 1,
+      "prompt": "Use case: ads-marketing.\nAsset type: finished landscape book poster, exactly 16:9, 1536×864 px if supported. Generate the entire poster including ALL Chinese typography in the image, sharp enough to read.\nInput image 1: source photograph of the actual book, supporting compositing input. Retain the book's original black-and-gold cover design, golden beam, Chinese title “编程启蒙：思维与代码”, author 黄家宝, and publisher marking faithfully; the existing glow is only on the printed book cover.\nInput image 2: source of the Brclio personal-brand character, supporting identity input. Preserve the young male character's short spiky hair, headphones, friendly face and crayon line quality, but reinterpret blue strokes as dark brown and bright yellow as muted gold to harmonize with the book. Do not copy its square yellow background.\nArt direction adapted from the ESTHER不二 design system: warm cream paper #FEFCF6, dark brown #3B3025 dominant, muted gold #D7AF52 highlight, tiny brick-red #AB5142 accent. Of chromatic graphic elements use brown/gold/red in roughly 60/30/10 proportions. Chinese main titles are very bold literary serif in the spirit of Noto Serif SC; smaller text clean sans serif. Extreme scale contrast; intentional asymmetrical magazine composition; handcrafted pencil and crayon touches, natural grain, precise spacing. Warm, clever, adult editorial design.\nConstraints: no QR code, no invented sales claims, no blue/purple/neon or multicolor gradients, no glass panels, no generic card grids, no unnecessary glow, no random filler text. Keep all essential type at least 60 px inside image edges. Render Chinese characters exactly without misspellings.\nComposition/framing: an emphatic closing poster built around extremely large literary serif Chinese type, set asymmetrically across the entire left two-thirds. Three semantic lines “翻开书，” / “让想法” / “开始运行”. First two lines deep warm brown; last line deep warm brown on a freehand rough gold broad highlight, never a gradient. The source actual black-and-gold book stands in three-quarter view at right, with cover title readable. A small source crayon character peeks from the lower-right of the book and gives a thumbs-up, adapted to warm brown and muted gold. A thin charcoal pencil line travels from the book toward the large typography as a metaphor for starting an idea. Very large pale italic “start” in the background at only 10% visibility, only upper center. Bottom edge has three separate solid color blocks brown/gold/brick-red in 6:3:1 widths, 40px tall, with the text credits ABOVE that strip, never on it. No border on other edges. Refined, punchy, warm with generous breathing room.\nText (verbatim):\nMain headline lines: “翻开书，” / “让想法” / “开始运行”\nSmall top label: “START WITH A PAGE”\nBook-name line: “《编程启蒙：思维与代码》”\nBottom author line: “AI悦创 · 黄家宝”\nWebsite: “bornforthis.cn”\nBottom credit, readable small print: “设计系统：ESTHER不二 · CC BY-NC-SA 4.0”\nNo extra text beyond these and the existing text of the source book.",
+      "references": [
+        {
+          "path": "data/《编程启蒙：思维与代码》/白底-效果图.jpg",
+          "role": "book cover and product compositing reference"
+        },
+        {
+          "path": "data/我的 IP 角色相关/Brclio-IP.png",
+          "role": "character identity and crayon style reference; recolored brown and muted gold"
+        }
+      ],
+      "native_source": "/Users/bornforthis/.codex/generated_images/01a0a512-3953-7f13-bcf5-dec02014af21/exec-7acfb123-6f35-45fc-92df-a5b212244858.png",
+      "width": 1672,
+      "height": 941,
+      "qa": {
+        "native_png_preserved": true,
+        "view_image_checked": true,
+        "headline_and_book_name": "pass",
+        "author_credit": "pass",
+        "esther_attribution": "pass",
+        "layout": "unique landscape composition",
+        "palette": "cream paper, dark brown, muted gold, brick red accents; black and gold source book retained",
+        "notes": "No obvious errors in main Chinese typography; tiny cover text may be softer than source.",
+        "independent_review": "source/visual-review.json"
+      }
+    }
+  ]
+}
