@@ -1,0 +1,195 @@
+[
+  {
+    "id": 10,
+    "file": "material-series/10-meet-python.png",
+    "title": "从这里认识 Python",
+    "text": [
+      "从这里认识 Python",
+      "让想法，成为可以运行的代码",
+      "编程启蒙：思维与代码",
+      "黄家宝 编著"
+    ],
+    "composition": "Typography-led spacious composition. Left 60% ivory with enormous tasteful espresso text: headline split into Chinese first line and Python large second line. Behind Python a subtle single curving gold thread shaped like an opening path. Right 40% holds the black-gold book standing upright on a low pale stone plinth. Directional warm light creates long refined shadows. Subtitle and full book title sit in calm horizontal lines under headline. Modern premium publishing campaign, clean photographic product and crisp typography.",
+    "prompt": "Use case: ads-marketing.\nAsset type: finished Chinese book promotional landscape poster, one single image, 16:9, target 1920x1080.\nInput image 1: book product reference. Accurately preserve the real book's black starfield, vertical luminous gold beam cover, correct Chinese title 编程启蒙：思维与代码 and author 黄家宝; integrate a realistic physical book, never replace with invented cover.\nColor palette: warm ivory #F8F1E3, ink-dark espresso #231B15, antique gold #C99A42, amber reflected light. Premium literary design; palette harmonizes with the book.\nAll text and all graphical elements must be rendered in the image itself. Generous typography, accurate legible Chinese, refined editorial hierarchy. Full standalone book title outside the book is mandatory. No prices, QR codes, invented endorsements, logos, or additional microcopy. Keep every required word inside generous safe margins.\nComposition: Typography-led spacious composition. Left 60% ivory with enormous tasteful espresso text: headline split into Chinese first line and Python large second line. Behind Python a subtle single curving gold thread shaped like an opening path. Right 40% holds the black-gold book standing upright on a low pale stone plinth. Directional warm light creates long refined shadows. Subtitle and full book title sit in calm horizontal lines under headline. Modern premium publishing campaign, clean photographic product and crisp typography.\nText (verbatim, only these strings besides the preserved book cover): \"从这里认识 Python\"; \"让想法，成为可以运行的代码\"; \"编程启蒙：思维与代码\"; \"黄家宝 编著\"",
+    "reference_images": [
+      "data/《编程启蒙：思维与代码》/白底-效果图.jpg"
+    ],
+    "status": "complete",
+    "generated_source": "/Users/bornforthis/.codex/generated_images/01a0ad3b-ab9f-7200-ae22-1e0294670101/exec-0a2a7e5a-a06d-4c47-9b77-ae23e01d8d57.png",
+    "review": "Visual review passed: landscape, correct headline/subtitle, full title and author, faithful black-gold book; no critical typography issues.",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": 11,
+    "file": "material-series/11-variables.png",
+    "title": "让数据有名字",
+    "text": [
+      "让数据有名字",
+      "变量，让信息清晰可用",
+      "score = 100",
+      "编程启蒙：思维与代码",
+      "黄家宝 编著"
+    ],
+    "composition": "Elegant paper-craft learning still life. Warm ivory folded paper tray centered left, containing one golden glass sphere; one large clean paper tag attached to tray reads score = 100 in correct monospace. Huge headline across upper left; subtitle directly below. Real referenced black-gold book standing at lower right with gold glow reflected on the surface, full standalone book title in neat lower-left footer. Conceptual, minimal, lots of breathable negative space. No extra labels.",
+    "prompt": "Use case: ads-marketing.\nAsset type: finished Chinese book promotional landscape poster, one single image, 16:9, target 1920x1080.\nInput image 1: book product reference. Accurately preserve the real book's black starfield, vertical luminous gold beam cover, correct Chinese title 编程启蒙：思维与代码 and author 黄家宝; integrate a realistic physical book, never replace with invented cover.\nColor palette: warm ivory #F8F1E3, ink-dark espresso #231B15, antique gold #C99A42, amber reflected light. Premium literary design; palette harmonizes with the book.\nAll text and all graphical elements must be rendered in the image itself. Generous typography, accurate legible Chinese, refined editorial hierarchy. Full standalone book title outside the book is mandatory. No prices, QR codes, invented endorsements, logos, or additional microcopy. Keep every required word inside generous safe margins.\nComposition: Elegant paper-craft learning still life. Warm ivory folded paper tray centered left, containing one golden glass sphere; one large clean paper tag attached to tray reads score = 100 in correct monospace. Huge headline across upper left; subtitle directly below. Real referenced black-gold book standing at lower right with gold glow reflected on the surface, full standalone book title in neat lower-left footer. Conceptual, minimal, lots of breathable negative space. No extra labels.\nText (verbatim, only these strings besides the preserved book cover): \"让数据有名字\"; \"变量，让信息清晰可用\"; \"score = 100\"; \"编程启蒙：思维与代码\"; \"黄家宝 编著\"",
+    "reference_images": [
+      "data/《编程启蒙：思维与代码》/白底-效果图.jpg"
+    ],
+    "status": "complete",
+    "generated_source": "/Users/bornforthis/.codex/generated_images/01a0ad3b-ab9f-7200-ae22-1e0294670101/exec-ca5ab3ab-86f3-43f9-80a7-7df36b8463c2.png",
+    "review": "Visual review passed: landscape, correct headline/subtitle, full title and author, faithful black-gold book; no critical typography issues.",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": 12,
+    "file": "material-series/12-data-types.png",
+    "title": "给数据合适的表达",
+    "text": [
+      "给数据合适的表达",
+      "数字 · 文本 · 布尔值",
+      "42",
+      "'Hello'",
+      "True",
+      "编程启蒙：思维与代码",
+      "黄家宝 编著"
+    ],
+    "composition": "Clean educational design, dark espresso background. Center shows three beautifully lit gold and ivory sculptural tiles, each clearly typeset with one exact value: 42, 'Hello', True. Behind the tiles thin precise gold vertical dividers lend structure, no arrows. Large ivory headline across top, subtitle gold below. Book featured vertically in far-right quarter on understated dark shelf. Full book title and author in calm ivory footer. Elegant spacious catalog art direction, no glowing neon.",
+    "prompt": "Use case: ads-marketing.\nAsset type: finished Chinese book promotional landscape poster, one single image, 16:9, target 1920x1080.\nInput image 1: book product reference. Accurately preserve the real book's black starfield, vertical luminous gold beam cover, correct Chinese title 编程启蒙：思维与代码 and author 黄家宝; integrate a realistic physical book, never replace with invented cover.\nColor palette: warm ivory #F8F1E3, ink-dark espresso #231B15, antique gold #C99A42, amber reflected light. Premium literary design; palette harmonizes with the book.\nAll text and all graphical elements must be rendered in the image itself. Generous typography, accurate legible Chinese, refined editorial hierarchy. Full standalone book title outside the book is mandatory. No prices, QR codes, invented endorsements, logos, or additional microcopy. Keep every required word inside generous safe margins.\nComposition: Clean educational design, dark espresso background. Center shows three beautifully lit gold and ivory sculptural tiles, each clearly typeset with one exact value: 42, 'Hello', True. Behind the tiles thin precise gold vertical dividers lend structure, no arrows. Large ivory headline across top, subtitle gold below. Book featured vertically in far-right quarter on understated dark shelf. Full book title and author in calm ivory footer. Elegant spacious catalog art direction, no glowing neon.\nText (verbatim, only these strings besides the preserved book cover): \"给数据合适的表达\"; \"数字 · 文本 · 布尔值\"; \"42\"; \"'Hello'\"; \"True\"; \"编程启蒙：思维与代码\"; \"黄家宝 编著\"",
+    "reference_images": [
+      "data/《编程启蒙：思维与代码》/白底-效果图.jpg"
+    ],
+    "status": "complete",
+    "generated_source": "/Users/bornforthis/.codex/generated_images/01a0ad3b-ab9f-7200-ae22-1e0294670101/exec-7b8c9e13-c2e9-4f1d-8505-4602d550ec35.png",
+    "review": "Visual review passed: correct Chinese headline, subtitle, title and author; data concepts clear and cover faithful.",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": 13,
+    "file": "material-series/13-conditionals.png",
+    "title": "条件，让选择有逻辑",
+    "text": [
+      "条件，让选择有逻辑",
+      "读懂条件，再决定下一步",
+      "if",
+      "else",
+      "编程启蒙：思维与代码",
+      "黄家宝 编著"
+    ],
+    "composition": "Refined infographic meets sculpture. Across lower-left and center a single golden path arrives at a flat diamond then divides cleanly into two gentle branches labeled only if and else, branch ends simple circles. Warm cream paper background and tactile shadows. Headline top-left, subtitle below, book reference at right standing tall, full title lower-left footer. All diagram connectors logical and unambiguous, only two branches, flat and precise. Plenty of whitespace.",
+    "prompt": "Use case: ads-marketing.\nAsset type: finished Chinese book promotional landscape poster, one single image, 16:9, target 1920x1080.\nInput image 1: book product reference. Accurately preserve the real book's black starfield, vertical luminous gold beam cover, correct Chinese title 编程启蒙：思维与代码 and author 黄家宝; integrate a realistic physical book, never replace with invented cover.\nColor palette: warm ivory #F8F1E3, ink-dark espresso #231B15, antique gold #C99A42, amber reflected light. Premium literary design; palette harmonizes with the book.\nAll text and all graphical elements must be rendered in the image itself. Generous typography, accurate legible Chinese, refined editorial hierarchy. Full standalone book title outside the book is mandatory. No prices, QR codes, invented endorsements, logos, or additional microcopy. Keep every required word inside generous safe margins.\nComposition: Refined infographic meets sculpture. Across lower-left and center a single golden path arrives at a flat diamond then divides cleanly into two gentle branches labeled only if and else, branch ends simple circles. Warm cream paper background and tactile shadows. Headline top-left, subtitle below, book reference at right standing tall, full title lower-left footer. All diagram connectors logical and unambiguous, only two branches, flat and precise. Plenty of whitespace.\nText (verbatim, only these strings besides the preserved book cover): \"条件，让选择有逻辑\"; \"读懂条件，再决定下一步\"; \"if\"; \"else\"; \"编程启蒙：思维与代码\"; \"黄家宝 编著\"",
+    "reference_images": [
+      "data/《编程启蒙：思维与代码》/白底-效果图.jpg"
+    ],
+    "status": "complete",
+    "generated_source": "/Users/bornforthis/.codex/generated_images/01a0ad3b-ab9f-7200-ae22-1e0294670101/exec-1d7da0a1-0ab2-4985-aa11-24891c5742e8.png",
+    "review": "Visual review passed: correct Chinese headline, subtitle, title and author; data concepts clear and cover faithful.",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": 14,
+    "file": "material-series/14-loops.png",
+    "title": "重复的事，交给循环",
+    "text": [
+      "重复的事，交给循环",
+      "理解规律，让步骤有序重复",
+      "for",
+      "编程启蒙：思维与代码",
+      "黄家宝 编著"
+    ],
+    "composition": "Sculptural overhead composition: an elegant circular loop of six equally spaced golden rectangular tiles across left two thirds on ivory paper, a small curved arrow at one point conveys iteration. In center of loop a delicate clean 'for'. Large headline upper left, subtitle on a line below. Product reference book standing in three-quarter view at right, long warm shadow angled towards loop. Footer full standalone book title. Editorial balanced typography and controlled gold.",
+    "prompt": "Use case: ads-marketing.\nAsset type: finished Chinese book promotional landscape poster, one single image, 16:9, target 1920x1080.\nInput image 1: book product reference. Accurately preserve the real book's black starfield, vertical luminous gold beam cover, correct Chinese title 编程启蒙：思维与代码 and author 黄家宝; integrate a realistic physical book, never replace with invented cover.\nColor palette: warm ivory #F8F1E3, ink-dark espresso #231B15, antique gold #C99A42, amber reflected light. Premium literary design; palette harmonizes with the book.\nAll text and all graphical elements must be rendered in the image itself. Generous typography, accurate legible Chinese, refined editorial hierarchy. Full standalone book title outside the book is mandatory. No prices, QR codes, invented endorsements, logos, or additional microcopy. Keep every required word inside generous safe margins.\nComposition: Sculptural overhead composition: an elegant circular loop of six equally spaced golden rectangular tiles across left two thirds on ivory paper, a small curved arrow at one point conveys iteration. In center of loop a delicate clean 'for'. Large headline upper left, subtitle on a line below. Product reference book standing in three-quarter view at right, long warm shadow angled towards loop. Footer full standalone book title. Editorial balanced typography and controlled gold.\nText (verbatim, only these strings besides the preserved book cover): \"重复的事，交给循环\"; \"理解规律，让步骤有序重复\"; \"for\"; \"编程启蒙：思维与代码\"; \"黄家宝 编著\"",
+    "reference_images": [
+      "data/《编程启蒙：思维与代码》/白底-效果图.jpg"
+    ],
+    "status": "complete",
+    "generated_source": "/Users/bornforthis/.codex/generated_images/01a0ad3b-ab9f-7200-ae22-1e0294670101/exec-eaf0c8cf-fbe1-4d1a-817f-9f78363e616c.png",
+    "review": "Visual review passed: headline/subtitle/book title/author correct; diagram clear and harmonious cover styling.",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": 15,
+    "file": "material-series/15-functions.png",
+    "title": "把方法装进函数",
+    "text": [
+      "把方法装进函数",
+      "一次定义，多次调用",
+      "输入",
+      "函数",
+      "输出",
+      "编程启蒙：思维与代码",
+      "黄家宝 编著"
+    ],
+    "composition": "Striking horizontal process visual. Deep espresso ground, upper half huge warm ivory headline and gold subtitle. Lower-left to center simple flat diagram: small ivory paper input block labeled 输入, thin gold arrow to large gold outlined block labeled 函数, thin gold arrow to ivory output block labeled 输出. Three blocks only; labels large and legible. Real black-gold reference book on a warm ivory pedestal at far right, full book title across bottom. Sophisticated publishing ad, no tech clutter.",
+    "prompt": "Use case: ads-marketing.\nAsset type: finished Chinese book promotional landscape poster, one single image, 16:9, target 1920x1080.\nInput image 1: book product reference. Accurately preserve the real book's black starfield, vertical luminous gold beam cover, correct Chinese title 编程启蒙：思维与代码 and author 黄家宝; integrate a realistic physical book, never replace with invented cover.\nColor palette: warm ivory #F8F1E3, ink-dark espresso #231B15, antique gold #C99A42, amber reflected light. Premium literary design; palette harmonizes with the book.\nAll text and all graphical elements must be rendered in the image itself. Generous typography, accurate legible Chinese, refined editorial hierarchy. Full standalone book title outside the book is mandatory. No prices, QR codes, invented endorsements, logos, or additional microcopy. Keep every required word inside generous safe margins.\nComposition: Striking horizontal process visual. Deep espresso ground, upper half huge warm ivory headline and gold subtitle. Lower-left to center simple flat diagram: small ivory paper input block labeled 输入, thin gold arrow to large gold outlined block labeled 函数, thin gold arrow to ivory output block labeled 输出. Three blocks only; labels large and legible. Real black-gold reference book on a warm ivory pedestal at far right, full book title across bottom. Sophisticated publishing ad, no tech clutter.\nText (verbatim, only these strings besides the preserved book cover): \"把方法装进函数\"; \"一次定义，多次调用\"; \"输入\"; \"函数\"; \"输出\"; \"编程启蒙：思维与代码\"; \"黄家宝 编著\"",
+    "reference_images": [
+      "data/《编程启蒙：思维与代码》/白底-效果图.jpg"
+    ],
+    "status": "complete",
+    "generated_source": "/Users/bornforthis/.codex/generated_images/01a0ad3b-ab9f-7200-ae22-1e0294670101/exec-aac697ca-6943-4cf3-8a16-1f0c0b022530.png",
+    "review": "Visual review passed: headline/subtitle/book title/author correct; diagram clear and harmonious cover styling.",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": 16,
+    "file": "material-series/16-read-the-problem.png",
+    "title": "先读懂问题，再写下答案",
+    "text": [
+      "先读懂问题",
+      "再写下答案",
+      "思考 · 拆解 · 表达",
+      "编程启蒙：思维与代码",
+      "黄家宝 编著"
+    ],
+    "composition": "Quiet photographic writer's desk still life, landscape. Left half blank warm ivory paper fills frame with giant dark editorial headline in two lines, small gold subtitle. Right half actual black-gold referenced book lies at a gentle angle beside one sharpened walnut pencil and a single blank notebook; warm late-afternoon window light creates diagonal shadows. No handwriting or invented book content. Full title footer on left. Premium real materials and literary reading atmosphere.",
+    "prompt": "Use case: ads-marketing.\nAsset type: finished Chinese book promotional landscape poster, one single image, 16:9, target 1920x1080.\nInput image 1: book product reference. Accurately preserve the real book's black starfield, vertical luminous gold beam cover, correct Chinese title 编程启蒙：思维与代码 and author 黄家宝; integrate a realistic physical book, never replace with invented cover.\nColor palette: warm ivory #F8F1E3, ink-dark espresso #231B15, antique gold #C99A42, amber reflected light. Premium literary design; palette harmonizes with the book.\nAll text and all graphical elements must be rendered in the image itself. Generous typography, accurate legible Chinese, refined editorial hierarchy. Full standalone book title outside the book is mandatory. No prices, QR codes, invented endorsements, logos, or additional microcopy. Keep every required word inside generous safe margins.\nComposition: Quiet photographic writer's desk still life, landscape. Left half blank warm ivory paper fills frame with giant dark editorial headline in two lines, small gold subtitle. Right half actual black-gold referenced book lies at a gentle angle beside one sharpened walnut pencil and a single blank notebook; warm late-afternoon window light creates diagonal shadows. No handwriting or invented book content. Full title footer on left. Premium real materials and literary reading atmosphere.\nText (verbatim, only these strings besides the preserved book cover): \"先读懂问题\"; \"再写下答案\"; \"思考 · 拆解 · 表达\"; \"编程启蒙：思维与代码\"; \"黄家宝 编著\"",
+    "reference_images": [
+      "data/《编程启蒙：思维与代码》/白底-效果图.jpg"
+    ],
+    "status": "complete",
+    "generated_source": "/Users/bornforthis/.codex/generated_images/01a0ad3b-ab9f-7200-ae22-1e0294670101/exec-427ca59c-5f8f-4159-9578-6fbe10eedfe9.png",
+    "review": "Visual review passed: correct headline, subtitle, title and author; refined desk still life preserves book artwork."
+  },
+  {
+    "id": 17,
+    "file": "material-series/17-curiosity-reading.png",
+    "title": "和好奇心坐一会儿",
+    "text": [
+      "和好奇心坐一会儿",
+      "从一页书开始，靠近代码世界",
+      "编程启蒙：思维与代码",
+      "黄家宝 编著"
+    ],
+    "composition": "Warm illustrative collage on ivory textured paper. Input image 2 is supporting character identity reference: preserve its exact cheerful short blue-haired young man, yellow cheeks, blue jacket, headphones, sitting cross-legged reading; use the blue only in this character, balancing with gold book palette. Place character lower-left occupying 40%, surrounded by just three tiny warm gold spark marks. Large headline top-right, subtitle below. At lower-right a separate realistic actual black-gold book upright at substantial size. Full book title bottom-right. Friendly yet sophisticated editorial, no extraneous characters.",
+    "prompt": "Use case: ads-marketing.\nAsset type: finished Chinese book promotional landscape poster, one single image, 16:9, target 1920x1080.\nInput image 1: book product reference. Accurately preserve the real book's black starfield, vertical luminous gold beam cover, correct Chinese title 编程启蒙：思维与代码 and author 黄家宝; integrate a realistic physical book, never replace with invented cover.\nColor palette: warm ivory #F8F1E3, ink-dark espresso #231B15, antique gold #C99A42, amber reflected light. Premium literary design; palette harmonizes with the book.\nAll text and all graphical elements must be rendered in the image itself. Generous typography, accurate legible Chinese, refined editorial hierarchy. Full standalone book title outside the book is mandatory. No prices, QR codes, invented endorsements, logos, or additional microcopy. Keep every required word inside generous safe margins.\nComposition: Warm illustrative collage on ivory textured paper. Input image 2 is supporting character identity reference: preserve its exact cheerful short blue-haired young man, yellow cheeks, blue jacket, headphones, sitting cross-legged reading; use the blue only in this character, balancing with gold book palette. Place character lower-left occupying 40%, surrounded by just three tiny warm gold spark marks. Large headline top-right, subtitle below. At lower-right a separate realistic actual black-gold book upright at substantial size. Full book title bottom-right. Friendly yet sophisticated editorial, no extraneous characters.\nText (verbatim, only these strings besides the preserved book cover): \"和好奇心坐一会儿\"; \"从一页书开始，靠近代码世界\"; \"编程启蒙：思维与代码\"; \"黄家宝 编著\"",
+    "reference_images": [
+      "data/《编程启蒙：思维与代码》/白底-效果图.jpg",
+      "data/我的 IP 角色相关/Other/ip-character-states-12-transparent-v2/05-reading-transparent.png"
+    ],
+    "status": "complete",
+    "generated_source": "/Users/bornforthis/.codex/generated_images/01a0ad3b-ab9f-7200-ae22-1e0294670101/exec-cd8010e5-4a95-4e78-aef0-19cdb9d3cf1f.png",
+    "review": "Visual review passed: supplied reading character retained, correct headline/subtitle/title/author, warm coordinated palette."
+  },
+  {
+    "id": 18,
+    "file": "material-series/18-new-possibilities.png",
+    "title": "翻开书，写下新可能",
+    "text": [
+      "翻开书，写下新可能",
+      "让思维与代码，一起向前",
+      "编程启蒙：思维与代码",
+      "黄家宝 编著"
+    ],
+    "composition": "Closing campaign hero with highly refined cinematic minimalism. Deep espresso background. Actual referenced black-gold book centered slightly right, standing on a low circular bronze plinth, gold vertical illumination continuing upward gently from its real cover. Left side enormous warm ivory headline in two short lines, gold subtitle. Faint warm ivory open doorway shape behind book suggests possibility, architectural and restrained. Full book title and author lower left. No other books, no excessive stars outside cover, no confetti. Strong contrast and comfortable whitespace.",
+    "prompt": "Use case: ads-marketing.\nAsset type: finished Chinese book promotional landscape poster, one single image, 16:9, target 1920x1080.\nInput image 1: book product reference. Accurately preserve the real book's black starfield, vertical luminous gold beam cover, correct Chinese title 编程启蒙：思维与代码 and author 黄家宝; integrate a realistic physical book, never replace with invented cover.\nColor palette: warm ivory #F8F1E3, ink-dark espresso #231B15, antique gold #C99A42, amber reflected light. Premium literary design; palette harmonizes with the book.\nAll text and all graphical elements must be rendered in the image itself. Generous typography, accurate legible Chinese, refined editorial hierarchy. Full standalone book title outside the book is mandatory. No prices, QR codes, invented endorsements, logos, or additional microcopy. Keep every required word inside generous safe margins.\nComposition: Closing campaign hero with highly refined cinematic minimalism. Deep espresso background. Actual referenced black-gold book centered slightly right, standing on a low circular bronze plinth, gold vertical illumination continuing upward gently from its real cover. Left side enormous warm ivory headline in two short lines, gold subtitle. Faint warm ivory open doorway shape behind book suggests possibility, architectural and restrained. Full book title and author lower left. No other books, no excessive stars outside cover, no confetti. Strong contrast and comfortable whitespace.\nText (verbatim, only these strings besides the preserved book cover): \"翻开书，写下新可能\"; \"让思维与代码，一起向前\"; \"编程启蒙：思维与代码\"; \"黄家宝 编著\"",
+    "reference_images": [
+      "data/《编程启蒙：思维与代码》/白底-效果图.jpg"
+    ],
+    "status": "planned"
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "id": "esther-01",
+    "file": "esther-series/01-think-first.png",
+    "title": "先思考，再编程",
+    "text": [
+      "先思考，再编程",
+      "编程启蒙：思维与代码",
+      "黄家宝 编著"
+    ],
+    "refs": [
+      "/Users/bornforthis/Github/WebSite/brand-studio/data/《编程启蒙：思维与代码》/白底-效果图.jpg",
+      "/Users/bornforthis/Github/WebSite/brand-studio/data/我的 IP 角色相关/Other/ip-character-states-12-transparent-v2/09-deep-thinking-transparent.png"
+    ],
+    "extra": "Composition: asymmetric oversized left headline in two lines, “先思考，” then “再编程”. A broad muted gold crayon underline under 思考. Large actual book standing at right with natural soft shadow, small thinking character at its lower-left, giving scale and friendliness. Reference image 2 is supporting character silhouette/style: preserve short spiky hair, headphones, pensive pose, friendly face, recolor every blue area to dark graphite brown; yellow details to muted gold, no blue. One loose graphite thought circle above character, no additional symbols. Exact visible poster text: “先思考，再编程” (largest), “编程启蒙：思维与代码” (small lower-left), “黄家宝 编著” (below book title).",
+    "prompt": "Use case: ads-marketing. Asset type: single finished Chinese horizontal landscape book poster, 16:9 aspect ratio, request 1920x1080. Generate exactly ONE standalone image, NOT a collage.\nSubject: the REAL black-and-gold physical book shown in reference image 1. It is a supporting insert/product reference, not an edit target. Preserve the actual distinctive black cover with gold vertical light and book title 编程启蒙：思维与代码 and author 黄家宝. Do not redesign its cover, do not put invented title on book.\nStyle: Esther-inspired warm editorial poster adapted to this book's brand: warm ivory paper #fefcf6 / #faf6eb, dark warm brown #3B3025 main color, muted gold #D7AF52 accent, tiny subdued vermilion #AB5142 accent; color usage approximately 6:3:1 among colorful elements. High-design independent publishing, tender crayon/graphite hand gestures, meaningful marks, precise spacious layout, bold Chinese Noto Serif SC-like typography paired with small Noto Sans SC-like type. Dramatic type scale contrast. Generous breathing space and 5% safety margin. All text generated directly within image.\nConstraints: book title and author must be legible, Chinese text exact. Add no claims, no price, no QR, no false endorsements, no English except explicitly requested. No blue or cyan, no neon, no gradients except the existing book cover itself, no glass, no generic heavy rounded cards, no decorative thin borders, no stock-photo look. Composition: asymmetric oversized left headline in two lines, “先思考，” then “再编程”. A broad muted gold crayon underline under 思考. Large actual book standing at right with natural soft shadow, small thinking character at its lower-left, giving scale and friendliness. Reference image 2 is supporting character silhouette/style: preserve short spiky hair, headphones, pensive pose, friendly face, recolor every blue area to dark graphite brown; yellow details to muted gold, no blue. One loose graphite thought circle above character, no additional symbols. Exact visible poster text: “先思考，再编程” (largest), “编程启蒙：思维与代码” (small lower-left), “黄家宝 编著” (below book title).",
+    "reference_images": [
+      "data/《编程启蒙：思维与代码》/白底-效果图.jpg",
+      "data/我的 IP 角色相关/Other/ip-character-states-12-transparent-v2/09-deep-thinking-transparent.png"
+    ],
+    "generated_source": "/Users/bornforthis/.codex/generated_images/01a0ad3c-15c3-7281-8312-94f5d70215ce/exec-b8c682a0-2d24-4c70-ab3a-3418da8b381c.png",
+    "status": "generated",
+    "review": "Visual check: readable Chinese headline, recognizable actual black-gold book; warm ivory paper and varied layout.",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": "esther-02",
+    "file": "esther-series/02-question-journey.png",
+    "title": "一个问题的旅行",
+    "text": [
+      "一个问题的旅行",
+      "发现",
+      "拆解",
+      "尝试",
+      "编程启蒙：思维与代码",
+      "黄家宝 编著"
+    ],
+    "refs": [
+      "/Users/bornforthis/Github/WebSite/brand-studio/data/《编程启蒙：思维与代码》/白底-效果图.jpg"
+    ],
+    "extra": "Composition: a lyrical diagonal journey on warm paper. Largest headline top-left “一个问题的旅行”. Hand-drawn gold walking path loops elegantly through three widely spaced type-only stations “发现”, “拆解”, “尝试”, ending at the actual book in lower right third. A very pale giant serif numeral 02 cropped in background left edge; natural pencil motion, careful spare visual. Book front large enough to recognize and read. Exact poster text: “一个问题的旅行”; “发现”; “拆解”; “尝试”; “编程启蒙：思维与代码”; “黄家宝 编著”. No arrows with extra labels. ",
+    "prompt": "Use case: ads-marketing. Asset type: single finished Chinese horizontal landscape book poster, 16:9 aspect ratio, request 1920x1080. Generate exactly ONE standalone image, NOT a collage.\nSubject: the REAL black-and-gold physical book shown in reference image 1. It is a supporting insert/product reference, not an edit target. Preserve the actual distinctive black cover with gold vertical light and book title 编程启蒙：思维与代码 and author 黄家宝. Do not redesign its cover, do not put invented title on book.\nStyle: Esther-inspired warm editorial poster adapted to this book's brand: warm ivory paper #fefcf6 / #faf6eb, dark warm brown #3B3025 main color, muted gold #D7AF52 accent, tiny subdued vermilion #AB5142 accent; color usage approximately 6:3:1 among colorful elements. High-design independent publishing, tender crayon/graphite hand gestures, meaningful marks, precise spacious layout, bold Chinese Noto Serif SC-like typography paired with small Noto Sans SC-like type. Dramatic type scale contrast. Generous breathing space and 5% safety margin. All text generated directly within image.\nConstraints: book title and author must be legible, Chinese text exact. Add no claims, no price, no QR, no false endorsements, no English except explicitly requested. No blue or cyan, no neon, no gradients except the existing book cover itself, no glass, no generic heavy rounded cards, no decorative thin borders, no stock-photo look. Composition: a lyrical diagonal journey on warm paper. Largest headline top-left “一个问题的旅行”. Hand-drawn gold walking path loops elegantly through three widely spaced type-only stations “发现”, “拆解”, “尝试”, ending at the actual book in lower right third. A very pale giant serif numeral 02 cropped in background left edge; natural pencil motion, careful spare visual. Book front large enough to recognize and read. Exact poster text: “一个问题的旅行”; “发现”; “拆解”; “尝试”; “编程启蒙：思维与代码”; “黄家宝 编著”. No arrows with extra labels. ",
+    "reference_images": [
+      "data/《编程启蒙：思维与代码》/白底-效果图.jpg"
+    ],
+    "generated_source": "/Users/bornforthis/.codex/generated_images/01a0ad3c-15c3-7281-8312-94f5d70215ce/exec-fee6e3e8-ae2d-41ce-9bac-bd827a2d7190.png",
+    "status": "generated",
+    "review": "Visual check: readable Chinese headline, recognizable actual black-gold book; warm ivory paper and varied layout.",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": "esther-03",
+    "file": "esther-series/03-break-it-down.png",
+    "title": "拆开问题，看见思路",
+    "text": [
+      "拆开问题，",
+      "看见思路",
+      "编程启蒙：思维与代码",
+      "黄家宝 编著"
+    ],
+    "refs": [
+      "/Users/bornforthis/Github/WebSite/brand-studio/data/《编程启蒙：思维与代码》/白底-效果图.jpg"
+    ],
+    "extra": "Composition: typographic deconstruction editorial spread. Left 45% a large upright actual book. Right 55% giant serif headline in staggered lines “拆开问题，” / “看见思路”. Under the headline three wooden or paper puzzle shapes softly separated, drawn with crayon/graphite, no text inside. Each shape has a single gold edge as though a difficult whole has become simpler pieces; one tiny vermilion notch. At bottom-right clean sans product credit: “编程启蒙：思维与代码” / “黄家宝 编著”. Lots of ivory breathing space, no frame. No question marks. Headline should dominate the right rather than a repeated book-on-right layout.",
+    "prompt": "Use case: ads-marketing. Asset type: single finished Chinese horizontal landscape book poster, 16:9 aspect ratio, request 1920x1080. Generate exactly ONE standalone image, NOT a collage.\nSubject: the REAL black-and-gold physical book shown in reference image 1. It is a supporting insert/product reference, not an edit target. Preserve the actual distinctive black cover with gold vertical light and book title 编程启蒙：思维与代码 and author 黄家宝. Do not redesign its cover, do not put invented title on book.\nStyle: Esther-inspired warm editorial poster adapted to this book's brand: warm ivory paper #fefcf6 / #faf6eb, dark warm brown #3B3025 main color, muted gold #D7AF52 accent, tiny subdued vermilion #AB5142 accent; color usage approximately 6:3:1 among colorful elements. High-design independent publishing, tender crayon/graphite hand gestures, meaningful marks, precise spacious layout, bold Chinese Noto Serif SC-like typography paired with small Noto Sans SC-like type. Dramatic type scale contrast. Generous breathing space and 5% safety margin. All text generated directly within image.\nConstraints: book title and author must be legible, Chinese text exact. Add no claims, no price, no QR, no false endorsements, no English except explicitly requested. No blue or cyan, no neon, no gradients except the existing book cover itself, no glass, no generic heavy rounded cards, no decorative thin borders, no stock-photo look. Composition: typographic deconstruction editorial spread. Left 45% a large upright actual book. Right 55% giant serif headline in staggered lines “拆开问题，” / “看见思路”. Under the headline three wooden or paper puzzle shapes softly separated, drawn with crayon/graphite, no text inside. Each shape has a single gold edge as though a difficult whole has become simpler pieces; one tiny vermilion notch. At bottom-right clean sans product credit: “编程启蒙：思维与代码” / “黄家宝 编著”. Lots of ivory breathing space, no frame. No question marks. Headline should dominate the right rather than a repeated book-on-right layout.",
+    "reference_images": [
+      "data/《编程启蒙：思维与代码》/白底-效果图.jpg"
+    ],
+    "generated_source": "/Users/bornforthis/.codex/generated_images/01a0ad3c-15c3-7281-8312-94f5d70215ce/exec-33cb3db3-5710-43cf-b5c4-69aa1ae985b4.png",
+    "status": "generated",
+    "review": "Visual check: readable Chinese headline, recognizable actual black-gold book; warm ivory paper and varied layout.",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": "esther-04",
+    "file": "esther-series/04-thinking-meets-code.png",
+    "title": "思维与代码，在这里相遇",
+    "text": [
+      "思维与代码，",
+      "在这里相遇",
+      "编程启蒙：思维与代码",
+      "黄家宝 编著"
+    ],
+    "refs": [
+      "/Users/bornforthis/Github/WebSite/brand-studio/data/《编程启蒙：思维与代码》/白底-效果图.jpg"
+    ],
+    "extra": "Composition: a wide editorial spread with the book standing at center 35% of poster width, offset below upper headline. Two large graphite sketch arcs arrive toward the book: on left a loose thought-scribble, on right perfectly organized tiny square marks. Large two-tier headline across upper left “思维与代码，” and right center “在这里相遇”. This is an airy conceptual print, NOT an infographic with cards. Warm cream paper, very pale oversized italic ampersand as background ornament behind the book. Gold crayon underline only under 相遇. Bottom left small sans “编程启蒙：思维与代码” and “黄家宝 编著”. No other text, no English. Retain actual photographic book cover with exceptionally accurate title.",
+    "prompt": "Use case: ads-marketing. Asset type: single finished Chinese horizontal landscape book poster, 16:9 aspect ratio, request 1920x1080. Generate exactly ONE standalone image, NOT a collage.\nSubject: the REAL black-and-gold physical book shown in reference image 1. It is a supporting insert/product reference, not an edit target. Preserve the actual distinctive black cover with gold vertical light and book title 编程启蒙：思维与代码 and author 黄家宝. Do not redesign its cover, do not put invented title on book.\nStyle: Esther-inspired warm editorial poster adapted to this book's brand: warm ivory paper #fefcf6 / #faf6eb, dark warm brown #3B3025 main color, muted gold #D7AF52 accent, tiny subdued vermilion #AB5142 accent; color usage approximately 6:3:1 among colorful elements. High-design independent publishing, tender crayon/graphite hand gestures, meaningful marks, precise spacious layout, bold Chinese Noto Serif SC-like typography paired with small Noto Sans SC-like type. Dramatic type scale contrast. Generous breathing space and 5% safety margin. All text generated directly within image.\nConstraints: book title and author must be legible, Chinese text exact. Add no claims, no price, no QR, no false endorsements, no English except explicitly requested. No blue or cyan, no neon, no gradients except the existing book cover itself, no glass, no generic heavy rounded cards, no decorative thin borders, no stock-photo look. Composition: a wide editorial spread with the book standing at center 35% of poster width, offset below upper headline. Two large graphite sketch arcs arrive toward the book: on left a loose thought-scribble, on right perfectly organized tiny square marks. Large two-tier headline across upper left “思维与代码，” and right center “在这里相遇”. This is an airy conceptual print, NOT an infographic with cards. Warm cream paper, very pale oversized italic ampersand as background ornament behind the book. Gold crayon underline only under 相遇. Bottom left small sans “编程启蒙：思维与代码” and “黄家宝 编著”. No other text, no English. Retain actual photographic book cover with exceptionally accurate title.",
+    "reference_images": [
+      "data/《编程启蒙：思维与代码》/白底-效果图.jpg"
+    ],
+    "generated_source": "/Users/bornforthis/.codex/generated_images/01a0ad3c-15c3-7281-8312-94f5d70215ce/exec-5d8c6816-7dc5-4043-8d96-0d4700708b56.png",
+    "status": "generated",
+    "review": "Needs removal of small gold vertical ornament next to product credit",
+    "width": 1672,
+    "height": 941
+  }
+]
